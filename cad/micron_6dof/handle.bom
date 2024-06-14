@@ -1,0 +1,60 @@
+P-CAD Bill of Materials                                     handle.pcb
+
+======================================================================
+
+Count  ComponentName   RefDes          Value           Description    
+------ --------------- --------------- --------------- ---------------
+
+     1 7407TSSOP       U10                             Hex BUFFERS/DRI
+     2 CAP0402         C10             470nF           Capacitor      
+                       C11                                            
+     1 CAP0603         C1              100nF                          
+     1 DIFF_RX4_TSSOP  U7              MAX3094                        
+     1 DIFF_TX4_TSSOP  U8              MAX3033                        
+     1 F_1PIN_1MM      J11             LED+                           
+     1 F_1PIN_1MM      J10             RET                            
+     1 F_1PIN_1MM      J9              V+                             
+     1 M_1PIN_1MM      P17             LED+                           
+     1 M_1PIN_1MM      P19             RET                            
+     1 M_1PIN_1MM      P18             V+                             
+     1 OM-DF12-20DP-05 J7              Motor drivers                  
+     1 OM-DF12-20DP-05 J8              To LEDs breakou                
+     1 OM-DF12-20DP-05 J2                                             
+     1 OM-DF12-20DS-05 J3              LED board                      
+     1 OM-DF12-20DS-05 J1                                             
+     1 OM-XF2L-0625-1  J13             Handle LEDs                    
+     1 OM-XF2L-0625-1  J12             Tip LEDs                       
+     1 PAD1M00D0M40    P11             IN_REF                         
+     1 PAD1M00D0M40    P1              LED0                           
+     1 PAD1M00D0M40    P2              LED1                           
+     1 PAD1M00D0M40    P3              LED2                           
+     1 PAD1M00D0M40    P4              LED3                           
+     1 PAD1M00D0M40    P5              LED4                           
+     1 PAD1M00D0M40    P6              LED5                           
+     1 PAD1M00D0M40    P16             OUT_REF                        
+     1 PAD1M00D0M40    P10             SCL_IN_D                       
+     1 PAD1M00D0M40    P15             SCL_OUT_D                      
+     1 PAD1M00D0M40    P7              SDA_IN0_D                      
+     1 PAD1M00D0M40    P8              SDA_IN1_D                      
+     1 PAD1M00D0M40    P9              SDA_IN2_D                      
+     1 PAD1M00D0M40    P12             SDA_OUT0_D                     
+     1 PAD1M00D0M40    P13             SDA_OUT1_D                     
+     1 PAD1M00D0M40    P14             SDA_OUT2_D                     
+     1 PAD7M00D3M00    P33             LED+                           
+     1 PAD16GA         P32             RET                            
+     1 PAD16GA         P31             V+                             
+     1 REGSOT223       U9              LT1117-3.3      3-Terminal Adju
+     1 RES0402         R8              137                            
+     1 RES0402         R10             196                            
+     4 RES0402         R13             300                            
+                       R14                                            
+                       R15                                            
+                       R16                                            
+     4 RES0805         R7              82                             
+                       R9                                             
+                       R11                                            
+                       R12                                            
+     1 SMAJ_TVS        D7              SMAJ5.0A                       
+     1 TANT_B          C9              22uF 10V                       
+     2 TANT_D          C7              220uF 10V                      
+                       C8                                             

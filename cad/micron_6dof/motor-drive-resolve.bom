@@ -1,0 +1,19 @@
+P-CAD Bill of Materials                        motor-drive-resolve.pcb
+
+======================================================================
+
+Count  ComponentName   RefDes          Value           Description    
+------ --------------- --------------- --------------- ---------------
+
+     3 CAP0402         C6              470nF           Capacitor      
+                       C8                                             
+                       C10                                            
+     2 CAP0603         C7              10uF            Capacitor      
+                       C9                                             
+     1 MCP9843         U2                                             
+     2 NSD2101         U1                                             
+                       U3                                             
+     1 OM-DF12-20DP-05 J3                                             
+     1 OM-DF12-20DS-05 J2                                             
+     1 OM-XF2L-0625-1  J1              Motor 0                        
+     1 OM-XF2L-0625-1  J4              Motor 1                        

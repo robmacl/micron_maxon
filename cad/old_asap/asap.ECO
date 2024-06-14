@@ -1,0 +1,13 @@
+; P-CAD 2000 Schematic Version 15.10.24 [C:\ram\controller\asap\asap.sch]--Wed Feb 22 10:00:54 2006
+;CompReplace "C4" "CAP300RP" "CAP100RP"
+;CompAttrModify "C4" "Value" "100uF 25V" "" "string" ""
+;CompReplace "C5" "CAP300RP" "CAP100RP"
+;CompAttrModify "C5" "Value" "100uF 25V" "" "string" ""
+; P-CAD 2000 Schematic Version 15.10.24 [C:\ram\controller\asap\asap.sch]--Thu Mar 02 21:07:54 2006
+CompAttrModify "R1" "Value" "100K" "" "string" ""
+CompAttrModify "R7" "Value" "100K" "" "string" ""
+; P-CAD 2000 Schematic Version 15.10.24 [C:\ram\controller\asap\asap.sch]--Fri Mar 03 22:28:46 2006
+CompAttrModify "C14" "Value" "1uF" "" "string" ""
+CompAttrModify "C1" "Value" "1uF" "" "string" ""
+CompAttrModify "R1" "Value" "16K" "" "string" ""
+CompAttrModify "R7" "Value" "16K" "" "string" ""

@@ -1,0 +1,59 @@
+These are connections specific to the Squiggle 6DOF handle build.  Others should be
+as in ../asap_micron/connections.txt
+
+
+Probe connector: (colors in 34 ga Gore cable)
+Hirose HR10A, socket jack, pins on cable
+1: Out 1, Driver P2:1 (ORN)
+2,4: +5 Driver P2:5 (shield)
+3: Out 2, Driver P2:2 (ORN)
+5: Out 3, Driver P2:3 (ORN)
+6: Out 4, Driver P2:4 (BRN)
+7: Out 5, Driver 2 P2:1 (BRN)
+8: Out 6, Driver 2 P2:2 (BRN)
+9: Out 7, Driver 2 P2:3 (N/C)
+10: Out 8, Driver 2 P2:4 (N/C)
+
+
+Pads on handle connector board:
+P1      LED0 (ORN)
+P2      LED1 (ORN)
+P3      LED2 (ORN)
+P4      LED3 (BRN)
+P5      LED4 (BRN)
+P6      LED5 (BRN)
+P7      SDA_IN0_D (GRY)
+P8      SDA_IN1_D (GRY)
+P9      SDA_IN2_D (GRY)
+P10     SCL_IN_D (BLK)
+P11     IN_REF (BLK)
+P12     SDA_OUT0_D (BLU)
+P13     SDA_OUT1_D (BLU)
+P14     SDA_OUT2_D (BLU)
+P15     SCL_OUT_D (BLK)
+P16     OUT_REF (BLK)
+-------------------
+P31     V+
+P32     RET
+P33     LED+ (shield)
+
+
+Front panel 6DOF out connector: Note: this connector is where the IN
+and OUT lines cross over (so that `IN goes to OUT and vice versa.)
+This is the wiring of the plug and names/colors are in the cable.
+
+A: SDA_OUT0_D (BLU)
+B: SDA_IN0_D (GRY)
+C: SDA_OUT1_D (BLU)
+D: SDA_IN1_D (GRY)
+E: SDA_OUT2_D (BLU)
+F: SDA_IN2_D (GRY)
+G: SCL_OUT_D (BLK)
+H: SCL_IN_D (BLK)
+J: OUT_REF (BLK)
+K: IN_REF (BLK)
+L,M: V+ (WHT 16ga)
+N: Shield AC ground
+P: RET (BLK 16ga)
+R: N/C
+

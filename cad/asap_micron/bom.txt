@@ -1,0 +1,292 @@
+P-CAD Bill of Materials                            asap-in-resolve.pcb
+
+======================================================================
+
+Count  ComponentName   RefDes          OrigRefDes      Value           Description    
+------ --------------- --------------- --------------- --------------- ---------------
+
+     2 CAP100RP        C4                              100uF 25V       Radial Polarize
+                       C5                                                             
+     8 CAP200          C3                              2.2nF           Capacitor      
+                       C16                                                            
+                       C19                                                            
+                       C23                                                            
+                       C27                                                            
+                       C31                                                            
+                       C35                                                            
+                       C39                                                            
+     8 CAP200          C2                              4.7nF           Capacitor      
+                       C15                                                            
+                       C17                                                            
+                       C20                                                            
+                       C25                                                            
+                       C28                                                            
+                       C33                                                            
+                       C36                                                            
+     8 CAP200BOX       C1                              1uF             Capacitor      
+                       C14                                                            
+                       C18                                                            
+                       C21                                                            
+                       C26                                                            
+                       C29                                                            
+                       C34                                                            
+                       C37                                                            
+     1 IDC2X8MRALATCH  P2                              Sensors         IDC Header     
+     1 IDC2X10M        P3                              DAQ             IDC Header     
+     4 LF412           U1                                                             
+                       U3                                                             
+                       U4                                                             
+                       U5                                                             
+     1 M_5PIN          P4                              Power in                       
+     8 RES400          R2                              3.83K           Resistor       
+                       R4                                                             
+                       R8                                                             
+                       R12                                                            
+                       R14                                                            
+                       R18                                                            
+                       R20                                                            
+                       R24                                                            
+     8 RES400          R3                              6.34K           Resistor       
+                       R6                                                             
+                       R10                                                            
+                       R11                                                            
+                       R16                                                            
+                       R17                                                            
+                       R22                                                            
+                       R23                                                            
+     8 RES400          R1                              16K             Resistor       
+                       R7                                                             
+                       R9                                                             
+                       R13                                                            
+                       R15                                                            
+                       R19                                                            
+                       R21                                                            
+                       R25                                                            
+     2 SMBJ_TVS        D1                              15V                            
+                       D3                                                             
+     8 TANT_C          C6                              10uF 25V                      
+                       C7                                                             
+                       C22                                                            
+                       C24                                                            
+                       C30                                                            
+                       C32                                                            
+                       C38                                                            
+                       C40                                                            
+     1 TESTPOINT       TP3                             +15V            Test Point     
+     1 TESTPOINT       TP4                             -15V            Test Point     
+     1 TESTPOINT       TP5                             GND             Test Point     
+     4 TESTPOINT       TP1                             IN1             Test Point     
+                       TP9                                                            
+                       TP13                                                           
+                       TP17                                                           
+     4 TESTPOINT       TP6                             IN2             Test Point     
+                       TP8                                                            
+                       TP12                                                           
+                       TP16                                                           
+     4 TESTPOINT       TP2                             OUT1            Test Point     
+                       TP11                                                           
+                       TP15                                                           
+                       TP19                                                           
+     4 TESTPOINT       TP7                             OUT2            Test Point     
+                       TP10                                                           
+                       TP14                                                           
+                       TP18                                                           
+
+P-CAD Bill of Materials                             driver-resolve.pcb
+
+======================================================================
+
+Count  ComponentName   RefDes          OrigRefDes      Value           Description    
+------ --------------- --------------- --------------- --------------- ---------------
+
+     1 74HC04          U1                                              Hex INVERTERS  
+     1 74HC05          U2                                              Hex INVERTERS w
+     2 CAP100RP        C3                              22uF 25V        Radial Polarize
+                       C4                                                             
+     4 CAP200          C1                              33 pF           Capacitor      
+                       C7                                                             
+                       C12                                                            
+                       C14                                                            
+     1 CAP200RP        C2                              100uF 10V       Radial Polarize
+     2 CAP0805         C5                              100 nF          Capacitor      
+                       C6                                                             
+     5 CAP1206         C8                              1 uF            Capacitor      
+                       C9                                                             
+                       C10                                                            
+                       C11                                                            
+                       C13                                                            
+     8 DIODE           D2                              STTH102         Diode          
+                       D3                                                             
+                       D4                                                             
+                       D5                                                             
+                       D6                                                             
+                       D7                                                             
+                       D8                                                             
+                       D9                                                             
+     1 IDC2X8M         P1                              Input           IDC Header     
+     4 IND600          L1                              15 uH           Inductor       
+                       L2                                                             
+                       L3                                                             
+                       L4                                                             
+     1 JUMPER_OPEN     JP1                             Ground link     Jumper         
+     1 M_5PIN          P4                              Power                          
+     1 M_7PIN          P2                              Output                         
+     5 NPN             Q1                              ZTX1047A        NPN Transistor 
+                       Q2                                                             
+                       Q3                                                             
+                       Q4                                                             
+                       Q5                                                             
+     5 OPA350P         U3                                                             
+                       U5                                                             
+                       U6                                                             
+                       U7                                                             
+                       U8                                                             
+     1 REGT092         U4                              LE33CZ          3-Terminal Adju
+     5 RES400          R9                              1K              Resistor       
+                       R10                                                            
+                       R11                                                            
+                       R13                                                            
+                       R15                                                            
+     4 RES400          R6                              2.2K            Resistor       
+                       R18                                                            
+                       R22                                                            
+                       R26                                                            
+     9 RES400          R2                              10K             Resistor       
+                       R3                                                             
+                       R4                                                             
+                       R12                                                            
+                       R14                                                            
+                       R16                                                            
+                       R17                                                            
+                       R21                                                            
+                       R25                                                            
+     4 RES400          R1                              22              Resistor       
+                       R19                                                            
+                       R23                                                            
+                       R27                                                            
+     1 RES400          R8                              330             Resistor       
+     4 RES600          R7                              6.2 ohm, 1 W    Resistor       
+                       R20                                                            
+                       R24                                                            
+                       R28                                                            
+     1 RESET_FUSE_200  F1                              200ma           Capacitor      
+     1 SMBJ_TVS        D1                              SMBJ5.0A                       
+     1 TESTPOINT       TP3                             Vref            Test Point     
+     1 TPOT375         R5                              20K             Potentiometer  
+
+P-CAD Bill of Materials                           breakout-resolve.pcb
+
+======================================================================
+
+Count  ComponentName   RefDes          OrigRefDes      Value           Description    
+------ --------------- --------------- --------------- --------------- ---------------
+
+     4 CAP200          C1                              100 nF          Capacitor      
+                       C2                                                             
+                       C3                                                             
+                       C4                                                             
+     2 HD68RA          U2                              NI E-series DAQ Receptacle Head
+                       U3                                                             
+     1 IDC2X8M         P2                              ASAP driver     IDC Header     
+     1 IDC2X10M        P1                              ASAP Input      IDC Header     
+     1 M_2PIN          P5                              AI1.0                          
+     1 M_2PIN          P9                              AI1.1                          
+     1 M_2PIN          P16                             AI1.2                          
+     1 M_2PIN          P22                             AI1.3                          
+     1 M_2PIN          P4                              AO3                            
+     1 M_2PIN          P28                             DIO0                           
+     1 M_2PIN          P29                             DIO1                           
+     1 M_2PIN          P31                             DIO2                           
+     1 M_2PIN          P33                             DIO3                           
+     1 M_6PIN          P3                              Power amp                      
+     8 RES400          R2                              1.58K           Resistor       
+                       R3                                                             
+                       R11                                                            
+                       R12                                                            
+                       R13                                                            
+                       R14                                                            
+                       R15                                                            
+                       R16                                                            
+*     4 RES400          R6                              10K             Resistor       
+                       R17                                                            
+                       R18                                                            
+                       R19                                                            
+*     8 RES400          R1                              100             Resistor       
+                       R4                                                             
+                       R5                                                             
+                       R7                                                             
+                       R8                                                             
+                       R9                                                             
+                       R10                                                            
+                       R66                                                            
+     4 RESET_FUSE_200  F1                              50ma            Capacitor      
+                       F2                                                             
+                       F3                                                             
+                       F4                                                             
+     4 SMAJ_TVS        D2                              5V                             
+                       D3                                                             
+                       D10                                                            
+                       D11                                                            
+     4 SMAJ_TVS_BIDIR  D4                              10V                            
+                       D7                                                             
+                       D8                                                             
+                       D9                                                             
+     8 SMAJ_TVS_BIDIR  D5                              SMAJ10CA                       
+                       D6                                                             
+                       D12                                                            
+                       D13                                                            
+                       D14                                                            
+                       D15                                                            
+                       D16                                                            
+                       D17                                                            
+
+P-CAD Bill of Materials                             sensor-resolve.pcb
+2 units needed
+
+======================================================================
+
+Count  ComponentName   RefDes          OrigRefDes      Value           Description    
+------ --------------- --------------- --------------- --------------- ---------------
+
+     4 CAP0805         C1                              39pF            Capacitor      
+                       C2                                                             
+                       C3                                                             
+                       C6                                                             
+     6 CAP1206         C10                             1uF 25V         Capacitor      
+                       C11                                                            
+                       C12                                                            
+                       C13                                                            
+                       C14                                                            
+                       C15                                                            
+     1 DL10            X1                                                             
+     2 LT1124          U1                                                             
+                       U2                                                             
+     2 RES0805         R6                              3.24K                          
+                       R7                                                             
+     4 RES0805         R2                              10                             
+                       R3                                                             
+                       R9                                                             
+                       R11                                                            
+     2 RES0805         R5                              15K                            
+                       R8                                                             
+     4 RES1210         R1                              200K                           
+                       R4                                                             
+                       R10                                                            
+                       R12                                                            
+     4 SMAJ_TVS_BIDIR  D2                              SMAJ10CA                       
+                       D4                                                             
+                       D5                                                             
+                       D6                                                             
+     2 SMBJ_TVS        D1                              15V                            
+                       D3                                                             
+     2 TANT_D          C4                              47uF 25V        Radial Polarize
+                       C5                                                             
+     1 TESTPOINT       TP1                             GND             Test Point     
+
+Other:
+
+select/order:
+    Toroid cores?
+    power indicator
+
+finder lasers

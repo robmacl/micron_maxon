@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Copy of just the basic labview code w/o SVN
+# %1 should be the root of the Micron working copy
+# Micron/utilities/bin/clean_copy Micron /cygdrive/c/temp/Micron
+
+mkdir -p $2/asap/labview $2/micron/labview $2/utilities/labview
+rsync -a $1/asap/labview/ $2/asap/labview/ --exclude '.svn' --exclude cal_data
+rsync -a $1/micron/labview/ $2/micron/labview/ --exclude '.svn' --exclude '*system_id*'
+rsync -a $1/utilities/labview/ $2/utilities/labview/ --exclude '.svn'
+du -s $2
+zip -r $2 $2
+ls -l $2.zip

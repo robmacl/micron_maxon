@@ -1,0 +1,208 @@
+P-CAD Bill of Materials                              piezo_resolve.pcb
+
+======================================================================
+
+Count  ComponentName   RefDes          Value           Description    
+------ --------------- --------------- --------------- ---------------
+
+     6 CAP200          C2              10pF 2KV        Capacitor      
+                       C4                                             
+                       C17                                            
+                       C20                                            
+                       C24                                            
+                       C27                                            
+     3 CAP200          C11             100pF 2KV       Capacitor      
+                       C15                                            
+                       C22                                            
+     1 CAP200RP        C10             470 uF 25V      Radial Polarize
+     2 CAP600BOX       C8              100 nF 1KV                     
+                       C9                                             
+     3 CAP0805         C1              1nF             Capacitor      
+                       C19                                            
+                       C26                                            
+     3 CAP0805         C3              10pF            Capacitor      
+                       C16                                            
+                       C23                                            
+     3 CAP0805         C14             82 pF           Capacitor      
+                       C114                                           
+                       C214                                           
+     6 CAP0805         C12             100 nF          Capacitor      
+                       C13                                            
+                       C18                                            
+                       C21                                            
+                       C25                                            
+                       C28                                            
+     3 CAP1206         C5              33 nF           Capacitor      
+                       C105                                           
+                       C205                                           
+     1 F_4PIN_250      P1              Output                         
+     1 HVP_DCDC        X2              HVP0.5N                        
+     1 HVP_DCDC        X1              HVP0.5P                        
+     1 M_2PIN          P5              12V IN                         
+     1 M_5PIN          P4              15V IN                         
+     1 M_6PIN          P2              Input                          
+     1 M_7PIN          P3              V monitor                      
+     2 OP2_SOIC        U1              LF412                          
+                       U3                                             
+    12 RES400          R17             1M              Resistor       
+                       R18                                            
+                       R22                                            
+                       R23                                            
+                       R27                                            
+                       R32                                            
+                       R33                                            
+                       R35                                            
+                       R44                                            
+                       R49                                            
+                       R50                                            
+                       R52                                            
+    12 RES400          R10             10K              0.33W fusible 
+                       R11                                            
+                       R12                                            
+                       R13                                            
+                       R26                                            
+                       R28                                            
+                       R29                                            
+                       R30                                            
+                       R43                                            
+                       R45                                            
+                       R46                                            
+                       R47                                            
+     6 RES400RAD       R7              10M             Resistor       
+                       R8                                             
+                       R39                                            
+                       R40                                            
+                       R57                                            
+                       R58                                            
+     3 RES400RAD       R14             100M            Resistor       
+                       R114                                           
+                       R214                                           
+     3 RES0805         R15             1K                             
+                       R115                                           
+                       R215                                           
+     3 RES0805         R16             1M                             
+                       R116                                           
+                       R216                                           
+    15 RES0805         R2              2K                             
+                       R4                                             
+                       R5                                             
+                       R6                                             
+                       R9                                             
+                       R31                                            
+                       R41                                            
+                       R42                                            
+                       R48                                            
+                       R54                                            
+                       R59                                            
+                       R60                                            
+                       R102                                           
+                       R104                                           
+                       R106                                           
+     6 RES0805         R20             10K                            
+                       R21                                            
+                       R34                                            
+                       R36                                            
+                       R51                                            
+                       R53                                            
+     6 RES0805         R3              200                            
+                       R37                                            
+                       R55                                            
+                       R103                                           
+                       R105                                           
+                       R107                                           
+     3 RES0805         R19             499K                           
+                       R38                                            
+                       R56                                            
+     2 SMBJ_TVS        D4              15V                            
+                       D5                                             
+     3 SOIC_OP_VS      U2              LT1077                         
+                       U4                                             
+                       U5                                             
+     6 SOT23_NPN       Q2              FMMT458                        
+                       Q22                                            
+                       Q40                                            
+                       Q102                                           
+                       Q105                                           
+                       Q108                                           
+     3 SOT23_PMOS      Q8              BSS-84                         
+                       Q28                                            
+                       Q46                                            
+     6 SOT23_PNP       Q4              MMBT5087                       
+                       Q5                                             
+                       Q24                                            
+                       Q25                                            
+                       Q42                                            
+                       Q43                                            
+     3 SOT23_ZENER     D3              4.3V                           
+                       D11                                            
+                       D16                                            
+     9 SOT23_ZENER     D1              6.2V                           
+                       D2                                             
+                       D8                                             
+                       D12                                            
+                       D13                                            
+                       D17                                            
+                       D101                                           
+                       D102                                           
+                       D103                                           
+     6 SOT23_ZENER     D6              16V                            
+                       D7                                             
+                       D9                                             
+                       D10                                            
+                       D14                                            
+                       D15                                            
+    12 SOT223_NPN      Q11             FZT658                         
+                       Q12                                            
+                       Q13                                            
+                       Q14                                            
+                       Q31                                            
+                       Q32                                            
+                       Q33                                            
+                       Q34                                            
+                       Q49                                            
+                       Q50                                            
+                       Q51                                            
+                       Q52                                            
+     6 SOT223_NPN      Q3              FZT690B                        
+                       Q23                                            
+                       Q41                                            
+                       Q103                                           
+                       Q106                                           
+                       Q109                                           
+    24 SOT223_PNP      Q6              FZT560                         
+                       Q7                                             
+                       Q9                                             
+                       Q10                                            
+                       Q15                                            
+                       Q16                                            
+                       Q17                                            
+                       Q18                                            
+                       Q19                                            
+                       Q20                                            
+                       Q26                                            
+                       Q27                                            
+                       Q29                                            
+                       Q30                                            
+                       Q35                                            
+                       Q36                                            
+                       Q37                                            
+                       Q38                                            
+                       Q44                                            
+                       Q45                                            
+                       Q47                                            
+                       Q48                                            
+                       Q53                                            
+                       Q54                                            
+     2 TANT_C          C6              4.7uF 25V                      
+                       C7                                             
+     1 TESTPOINT       TP1             GND             Test Point     
+     1 TESTPOINT       TP2             HV+             Test Point     
+     1 TESTPOINT       TP3             HV-             Test Point     
+     6 TO220HS_NMOS    Q1              STFV3N150                      
+                       Q21                                            
+                       Q39                                            
+                       Q101                                           
+                       Q104                                           
+                       Q107                                           
+     2 TPOT375         R24             10K             Potentiometer  
+                       R25                                            

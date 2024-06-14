@@ -1,0 +1,169 @@
+asap-resolve.drc:
+
+
+Design Clearances (in mils):
+-------------------------------
+Silk Screen Clearance:  1mil
+Hole-Hole Clearance:    13.0mil
+Board Edge Clearance:   Not Defined
+
+
+Layer Clearances (in mils):
+-------------------------------
+
+Layer Name          Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+Top                    12.0      10.0      10.0      12.0      10.0      12.0
+Bottom                 12.0      10.0      10.0      12.0      10.0      12.0
+
+
+Net Class Clearances (in mils):
+-------------------------------
+Net Class Name      Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+
+Net Clearances (In mils):
+-------------------------
+Net Name            Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+Net Class To Net Class Clearances (in mils):
+--------------------------------------------
+Net Class Names     Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+
+Area Checked:
+-------------
+
+DRC Extents:            Entire Workspace
+
+
+DRC Report Options:
+-------------------
+
+Net List Compare:       Off
+Clearance Violations:   On
+Text Violations:        On
+Net List Violations:    Off
+Unrouted Nets:          On
+Unconnected Pins:       Off
+Net Length Violations:  Off
+Silk Violations:        On
+Copper Pour Violations: On
+Plane Violations:       On
+Component Violations:   On
+Drill Violations:       On
+
+DRC Errors:
+-----------
+
+
+CLEARANCE VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+UNROUTED NETS:
+
+Error 1 -- Net GNDD not routed.
+   * Net GNDD partition 1 contains:
+   * Pad P39-1 at (9600.0,5900.0) mils
+   * Pad D2-2 at (11100.0,5411.4) mils
+   * Pad D4-2 at (10800.0,5411.4) mils
+   * Pad D5-2 at (10500.0,5411.4) mils
+   * Pad D6-2 at (10200.0,5411.4) mils
+   * Pad  at (11700.0,5900.0) mils
+   * Pad U2-69 at (11675.0,4115.4) mils
+   * Pad U2-53 at (11750.0,2900.0) mils
+   * Pad U2-50 at (11825.0,3050.0) mils
+   * Pad U2-44 at (11825.0,3350.0) mils
+   * Pad U2-39 at (11750.0,3600.0) mils
+   * Pad U2-36 at (11825.0,3750.0) mils
+   * Pad U2-35 at (11750.0,3800.0) mils
+   * Pad U2-18 at (11675.0,2950.0) mils
+   * Pad U2-15 at (11600.0,3100.0) mils
+   * Pad U2-13 at (11600.0,3200.0) mils
+   * Pad U2-12 at (11675.0,3250.0) mils
+   * Pad U2-9 at (11600.0,3400.0) mils
+   * Pad U2-7 at (11600.0,3500.0) mils
+   * Pad U2-4 at (11675.0,3650.0) mils
+   * Net GNDD partition 2 contains:
+   * Pad U2-70 at (11675.0,1834.6) mils
+
+0 warning(s) detected.
+1 error(s) detected.
+
+SILK SCREEN CLEARANCE VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+TEXT VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+COPPER POUR VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+PLANE VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+COMPONENT VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+DRILL VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+DRC Summary:
+------------
+
+Clearance:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Unrouted Nets:
+	Errors:         1
+	Warnings:       0
+	Ignored Errors: 0
+Silk Screen:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Text:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Copper Pour:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Plane:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Component:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Drilling:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0

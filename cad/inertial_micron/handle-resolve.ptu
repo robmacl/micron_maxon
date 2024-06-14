@@ -1,0 +1,48 @@
+P-CAD Parts Usage                                   handle-resolve.sch
+
+======================================================================
+
+Units used = mil
+RefDes               Type    Unused Parts      ComponentLibrary
+-------------------- ------- ----------------- ----------------
+
+C2                   CAP0805 (All Parts Used)  MY.LIB          
+C3                   CAP0805 (All Parts Used)  MY.LIB          
+C4                   CAP0805 (All Parts Used)  MY.LIB          
+C5                   CAP0805 (All Parts Used)  MY.LIB          
+C6                   CAP0805 (All Parts Used)  MY.LIB          
+C7                   CAP0805 (All Parts Used)  MY.LIB          
+C9                   CAP0805 (All Parts Used)  MY.LIB          
+C10                  TANT_A  (All Parts Used)  MY.LIB          
+C11                  CAP0805 (All Parts Used)  MY.LIB          
+C13                  CAP0805 (All Parts Used)  MY.LIB          
+C14                  CAP0805 (All Parts Used)  MY.LIB          
+C15                  CAP0805 (All Parts Used)  MY.LIB          
+C16                  CAP0805 (All Parts Used)  MY.LIB          
+C17                  CAP0805 (All Parts Used)  MY.LIB          
+C18                  CAP0805 (All Parts Used)  MY.LIB          
+D1                   SMAJ_TV (All Parts Used)  MY.LIB          
+D2                   SOT23_Z (All Parts Used)  MY.LIB          
+DA1                  SMS05T1 (All Parts Used)  MICRON.LIB      
+FB1                  BEAD080 (All Parts Used)  MY.LIB          
+FB2                  BEAD080 (All Parts Used)  MY.LIB          
+M1                   ACCEL_D (All Parts Used)  MICRON.LIB      
+M2                   ACCEL_D (All Parts Used)  MICRON.LIB      
+P2                   CONN_1. (All Parts Used)  MICRON.LIB      
+R1                   RES0805 (All Parts Used)  MY.LIB          
+R2                   RES0805 (All Parts Used)  MY.LIB          
+R3                   RES0805 (All Parts Used)  MY.LIB          
+R5                   RES0805 (All Parts Used)  MY.LIB          
+R6                   RES0805 (All Parts Used)  MY.LIB          
+R7                   RES0805 (All Parts Used)  MY.LIB          
+R8                   RES0805 (All Parts Used)  MY.LIB          
+TP1                  TESTPOI (All Parts Used)  MY.LIB          
+TP2                  TESTPOI (All Parts Used)  MY.LIB          
+U1                   SN74HC4 (All Parts Used)  MICRON.LIB      
+U2                   TC4S584 (All Parts Used)  MY.LIB          
+U3                   SN74CBT (All Parts Used)  MICRON.LIB      
+U4                   OPA2350 (All Parts Used)  MY.LIB          
+U5                   ADXRS40 (All Parts Used)  MY.LIB          
+U6                   LT1962  (All Parts Used)  MY.LIB          
+U7                   ADXL203 (All Parts Used)  MY.LIB          
+U8                   OPA2350 1                 MY.LIB          

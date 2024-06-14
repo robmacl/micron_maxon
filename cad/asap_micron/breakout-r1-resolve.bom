@@ -1,0 +1,132 @@
+P-CAD Bill of Materials                        breakout-r1-resolve.pcb
+
+======================================================================
+
+Count  ComponentName   RefDes          Value           Description    
+------ --------------- --------------- --------------- ---------------
+
+     4 CAP200          C1              47nF            Capacitor      
+                       C2                                             
+                       C3                                             
+                       C4                                             
+     2 HD68RA          P100            NI E-series DAQ Receptacle Head
+                       P101                                           
+     1 IDC2X8M         P2              ASAP driver     IDC Header     
+     1 IDC2X10M        P1              ASAP Input      IDC Header     
+     1 M_1PIN          P73             AI1.15                         
+     1 M_1PIN          P64             AI1.7                          
+     1 M_1PIN          P49             AIGND                          
+     1 M_1PIN          P51             AO_GND                         
+     1 M_1PIN          P50             DGND                           
+     1 M_1PIN          P6              P0.4                           
+     1 M_1PIN          P27             P0.5                           
+     1 M_1PIN          P8              P0.6                           
+     1 M_1PIN          P25             P0.7                           
+     2 M_1PIN          P12             PFI0                           
+                       P110                                           
+     2 M_1PIN          P11             PFI1                           
+                       P37                                            
+     2 M_1PIN          P21             PFI2                           
+                       P65                                            
+     2 M_1PIN          P20             PFI3                           
+                       P66                                            
+     2 M_1PIN          P19             PFI4                           
+                       P67                                            
+     2 M_1PIN          P13             PFI5                           
+                       P46                                            
+     2 M_1PIN          P14             PFI6                           
+                       P47                                            
+     2 M_1PIN          P18             PFI7                           
+                       P68                                            
+     2 M_1PIN          P17             PFI8                           
+                       P69                                            
+     2 M_1PIN          P15             PFI9                           
+                       P48                                            
+     1 M_2PIN          P5              AI1.0                          
+     1 M_2PIN          P9              AI1.1                          
+     1 M_2PIN          P16             AI1.2                          
+     1 M_2PIN          P22             AI1.3                          
+     1 M_2PIN          P4              AO3                            
+     1 M_2PIN          P63             Aux relay                      
+     1 M_2PIN          P42             HV Relay                       
+     1 M_2PIN          P28             P0.0                           
+     1 M_2PIN          P29             P0.1                           
+     1 M_2PIN          P31             P0.2                           
+     1 M_2PIN          P33             P0.3                           
+     1 M_2PIN          P39             P0.4                           
+     1 M_2PIN          P30             P0.5                           
+     1 M_2PIN          P34             P0.6                           
+     1 M_2PIN          P36             P0.7                           
+     2 M_5PIN          P40             Power                          
+                       P45                                            
+     6 M_5PIN          P35             Power in                       
+                       P41                                            
+                       P43                                            
+                       P44                                            
+                       P60                                            
+                       P61                                            
+     1 M_6PIN          P3              Power amp                      
+     1 M_7PIN          P23             V monitor                      
+     1 M_8PIN          P10             Front panel                    
+     2 OPTO_FET_RELAY  U1                                             
+                       U2                                             
+     8 RES400          R2              1.58K           Resistor       
+                       R3                                             
+                       R11                                            
+                       R12                                            
+                       R13                                            
+                       R14                                            
+                       R15                                            
+                       R16                                            
+     8 RES400          R6              4.99K           Resistor       
+                       R17                                            
+                       R18                                            
+                       R19                                            
+                       R22                                            
+                       R24                                            
+                       R26                                            
+                       R28                                            
+    12 RES400          R1              100             Resistor, carbo
+                       R4                                             
+                       R5                                             
+                       R23                                            
+                       R25                                            
+                       R27                                            
+                       R29                                            
+                       R66                                            
+                       R107                                           
+                       R108                                           
+                       R109                                           
+                       R110                                           
+     4 RES400          R8              249             Resistor       
+                       R9                                             
+                       R10                                            
+                       R21                                            
+     2 RES400          R7              499             Resistor       
+                       R20                                            
+     4 RESET_FUSE_200  F1              50ma            Capacitor      
+                       F2                                             
+                       F3                                             
+                       F4                                             
+     8 SMAJ_TVS        D2              5V                             
+                       D3                                             
+                       D10                                            
+                       D11                                            
+                       D19                                            
+                       D20                                            
+                       D21                                            
+                       D22                                            
+    12 SMAJ_TVS_BIDIR  D4              10V                            
+                       D5                                             
+                       D6                                             
+                       D7                                             
+                       D8                                             
+                       D9                                             
+                       D12                                            
+                       D13                                            
+                       D14                                            
+                       D15                                            
+                       D16                                            
+                       D17                                            
+     2 SMBJ_TVS        D1              SMBJ28A                        
+                       D18                                            

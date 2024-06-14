@@ -1,0 +1,107 @@
+[Wire colors for S/N >= 2]
+
+Amp output connector:
+1,2: N/C, possible amp enable
+3: AO GND, breakout P3 2,4,6
+4: AO0, breakout P3:1
+5: AO1, breakout P3:3
+6: AO2, breakout P3:5
+7: N/C
+
+Probe connector: (colors in 34 ga Gore cable)
+Hirose HR10A, socket jack, pins on cable
+1: Out 1, Driver P2:1 (2 ORN)
+2,4: +5 Driver P2:5 (4 BLK 1 GRY)
+3: Out 2, Driver P2:2 (2 BRN)
+5: Out 3, Driver P2:3 (2 GRY)
+6: Out 4, Driver P2:4 (2 BLU)
+7-10: N/C, possible channel expansion or probe sensor
+
+Camera head connector: (Hirose JR 14)
+1: Finder power, Driver P2:6 (WHT)
+2: Finder low side, Driver P2:7 (GRY)
+3: +15 Input P2:2
+4: GNDA, Input P2, pins 4,8,9,11,13,15
+5: -15 Input P2:6
+6: Camera XZ U+, Input P2:1
+7: Camera XZ U-, Input P2:3
+8: Camera XZ V+, Input P2:5
+9: Camera XZ V-, Input P2:7
+10: Camera YZ U+, Input P2:10
+11: Camera YZ U-, Input P2:12
+12: Camera YZ V+, Input P2:14
+13: Camera YZ V-, Input P2:16
+14: Chassis ground, to ground lug
+
+Camera cable:
+Hirose HR10A, socket on cable, pins on camera
+RED: +15 (1)  BLK: GNDA (2)
+WHT: -15 (3)  BLK: GNDA (4)
+GRN: U+	 (5)  BLK: U-	(6)
+BLU: V+	 (7)  BLK: V-	(8)
+sheild/drain: chassis ground (9,10)
+
+Laser:
+Hirose HR10A.  Both free-hanging, socket on e-box cable.
+1: +5 (coax shield)
+3: low side (coax center)
+
+Aux I/O connectors on breakout:
+1: +IN/OUT
+2: -IN/GND
+
+Accessory connectors:
+Hirose RM15.  Plug RM15TP-10PH(71), jack RM15TRH-10S(71)
+1: -15 (BLU)
+2: +15 (ORN)
+3: GND (+5 Return, BLK)
+4: +5 (RED)
+5: IO1+  These pins can be jumpered internally to any of the analog and 
+6: IO1-  digital IOs
+7: IO2+  ACC1 PUR/GRY, ACC2 WHT/GRY
+8: IO2-
+9: IO3+
+10: IO3-
+
+Internal power connector:
+1: +15V (ORN)
+2: 15V return (GRN)
+3: -15V (BLU)
+4: +5V return (BLK)
+5: +5V (RED)
+
+Front panel connector on breakout (P10):
+1: Panel LED cathodes (BLK)
+2: Aux Relay LED (ORN)
+3: HV On LED (RED)
+4: Ready LED (GRN)
+5: Power LED (YEL)
+6-8: N/C
+
+HV connector: [colors in Gore 34 ga cable]
+Military, 14-5 insert pattern
+A: GND, AMP P1:4 (BLK, bond to front panel and safety ground) [sheild]
+B: CHAN 2, AMP P1:3 (RED) [BLU]
+C: CHAN 1, AMP P1:2 (RED) [BRN]
+D: CHAN 0, AMP P1:1 (RED) [ORN]
+E: N/C
+
+Handle flex:
+Pads numbered clockwise as seen from top, starting with ground = 1 up to 9
+Actuators are numbered starting with 0 clockwise from ground screw.
+Wires pass thru holes 2, 3 and 9, and end at pads on top surface
+On the handle the strain relief tab is between holes 8 & 9 (opposite the 
+LEDs location.) 
+
+[In some tools one black wire is ground also, so there are only 3 BLK,
+1 GRY for +5]
+
+1: GND [shield]
+2: piezo 0 [ORN]
+3: piezo 1 [BRN]
+4: LED 4 cathode (fixed LED) [2 BLU]
+5: LED anodes (+5V) [4 BLK 1 GRY]
+6: LED 3 [2 GRY]
+7: LED 2 [2 BRN]
+8: LED 1 [2 ORN]
+9: piezo 2 [BLU]

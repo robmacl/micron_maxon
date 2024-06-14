@@ -1,0 +1,29 @@
+#!/bin/sh
+tmpdir=/tmp/$2
+rm -r $tmpdir
+mkdir $tmpdir
+echo "Job name: " $2 >$tmpdir/READ.ME
+cat >>$tmpdir/read.me <<EOF
+TSS Top silkscreen
+TSM Top solder mask
+TOP Top copper
+BOT Bottom copper
+BSM Bottom solder mask
+BSS Bottom silkscreen
+DRL NC drill
+FAB Fabrication drawing
+BRD Board outline only
+
+Rob MacLachlan
+email: ram@ri.cmu.edu
+phone: 412-445-8113
+EOF
+
+for foo in TSS TSM TOP BOT BSM BSS FAB BRD DRL;
+do
+  cp -p $1.$foo $tmpdir/$2.$foo
+done
+
+cd $tmpdir
+rm -f $2.ZIP
+zip $2.ZIP *

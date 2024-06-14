@@ -1,0 +1,1177 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>12.0</Version>
+<Cluster>
+<Name>Parameters</Name>
+<NumElts>10</NumElts>
+<Cluster>
+<Name>Stimulus</Name>
+<NumElts>9</NumElts>
+<EW>
+<Name>Type</Name>
+<Choice>Off</Choice>
+<Choice>Step</Choice>
+<Choice>Sine</Choice>
+<Choice>Triangle</Choice>
+<Choice>Arbitrary</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>Phase</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Array>
+<Name>Amplitude</Name>
+<Dimsize>3</Dimsize>
+<SGL>
+<Name>Amplitude</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Amplitude</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Amplitude</Name>
+<Val>0.00000</Val>
+</SGL>
+</Array>
+<EW>
+<Name>Injection point</Name>
+<Choice>Total pose</Choice>
+<Choice>V limiter</Choice>
+<Choice>Goal </Choice>
+<Choice>Link position</Choice>
+<Choice>KF link position</Choice>
+<Choice>Link goal</Choice>
+<Choice>Link error</Choice>
+<Choice>Controller</Choice>
+<Choice>Output</Choice>
+<Choice>Drive</Choice>
+<Choice>Light</Choice>
+<Val>0</Val>
+</EW>
+<Boolean>
+<Name>Closed loop</Name>
+<Val>1</Val>
+</Boolean>
+<Array>
+<Name>Offset</Name>
+<Dimsize>3</Dimsize>
+<SGL>
+<Name>Amplitude</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Amplitude</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Amplitude</Name>
+<Val>0.00000</Val>
+</SGL>
+</Array>
+<Boolean>
+<Name>Tip -&gt; world</Name>
+<Val>1</Val>
+</Boolean>
+<DBL>
+<Name>Frequency</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Length</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Goal Filter A</Name>
+<NumElts>4</NumElts>
+<SGL>
+<Name>Speedup max</Name>
+<Val>0.15000</Val>
+</SGL>
+<SGL>
+<Name>Speedup thresh</Name>
+<Val>0.70000</Val>
+</SGL>
+<SGL>
+<Name>Speedup nonlin</Name>
+<Val>2.00000</Val>
+</SGL>
+<Array>
+<Name>Filters</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Goal filter</Name>
+<NumElts>7</NumElts>
+<SGL>
+<Name>Lower Fc</Name>
+<Val></Val>
+</SGL>
+<SGL>
+<Name>Lower Q</Name>
+<Val></Val>
+</SGL>
+<SGL>
+<Name>Scale factor</Name>
+<Val></Val>
+</SGL>
+<SGL>
+<Name>Upper Fc</Name>
+<Val></Val>
+</SGL>
+<SGL>
+<Name>Upper Q</Name>
+<Val></Val>
+</SGL>
+<SGL>
+<Name>V limit</Name>
+<Val></Val>
+</SGL>
+<SGL>
+<Name>V limit range</Name>
+<Val></Val>
+</SGL>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Mode controls</Name>
+<NumElts>4</NumElts>
+<Boolean>
+<Name>Hold</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Cancellation</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Goal filter</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Trigger</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<EW>
+<Name>Manipulator type</Name>
+<Choice>Current piezo</Choice>
+<Choice>Voltage piezo</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Manipulator calibration</Name>
+<NumElts>12</NumElts>
+<Array>
+<Name>Tool offsets</Name>
+<Dimsize>1</Dimsize>
+<Dimsize>3</Dimsize>
+<SGL>
+<Name>Numeric</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Numeric</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Numeric</Name>
+<Val>36200.00000</Val>
+</SGL>
+</Array>
+<Array>
+<Name>Tip light calibration</Name>
+<Dimsize>0</Dimsize>
+<Dimsize>0</Dimsize>
+<SGL>
+<Name>Numeric</Name>
+<Val></Val>
+</SGL>
+</Array>
+<Array>
+<Name>Handle light calibration</Name>
+<Dimsize>0</Dimsize>
+<Dimsize>0</Dimsize>
+<SGL>
+<Name>Numeric</Name>
+<Val></Val>
+</SGL>
+</Array>
+<Array>
+<Name>Base pivots</Name>
+<Dimsize>0</Dimsize>
+<Dimsize>0</Dimsize>
+<SGL>
+<Name>Numeric</Name>
+<Val></Val>
+</SGL>
+</Array>
+<Array>
+<Name>Output pivots</Name>
+<Dimsize>0</Dimsize>
+<Dimsize>0</Dimsize>
+<SGL>
+<Name>Numeric</Name>
+<Val></Val>
+</SGL>
+</Array>
+<SGL>
+<Name>Length center</Name>
+<Val>0.00000</Val>
+</SGL>
+<Array>
+<Name>Workspace height</Name>
+<Dimsize>0</Dimsize>
+<SGL>
+<Name>Numeric</Name>
+<Val></Val>
+</SGL>
+</Array>
+<Array>
+<Name>Workspace diameter</Name>
+<Dimsize>3</Dimsize>
+<SGL>
+<Name>Numeric</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Numeric</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Numeric</Name>
+<Val>36200.00000</Val>
+</SGL>
+</Array>
+<Array>
+<Name>Linearization</Name>
+<Dimsize>1</Dimsize>
+<Dimsize>3</Dimsize>
+<SGL>
+<Name></Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name></Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name></Name>
+<Val>36200.00000</Val>
+</SGL>
+</Array>
+<SGL>
+<Name>Stack travel</Name>
+<Val>400.00000</Val>
+</SGL>
+<SGL>
+<Name>Saturation pos</Name>
+<Val>375.00000</Val>
+</SGL>
+<Array>
+<Name>Inverse filters</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Filter</Name>
+<NumElts>3</NumElts>
+<EL>
+<Name>filter structure</Name>
+<Choice>IIR 2nd Order</Choice>
+<Choice>IIR 4th Order</Choice>
+<Val></Val>
+</EL>
+<Array>
+<Name>Reverse Coefficients</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name></Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>Forward Coefficients</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name></Name>
+<Val></Val>
+</DBL>
+</Array>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Network</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Remote Host</Name>
+<Val>192.168.1.3</Val>
+</String>
+<Boolean>
+<Name>Send Status</Name>
+<Val>1</Val>
+</Boolean>
+<U16>
+<Name>Send Port</Name>
+<Val>61557</Val>
+</U16>
+<Boolean>
+<Name>Recv Commands</Name>
+<Val>0</Val>
+</Boolean>
+<U16>
+<Name>Recv Port</Name>
+<Val>61557</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Goal Filter B</Name>
+<NumElts>4</NumElts>
+<SGL>
+<Name>Speedup max</Name>
+<Val>1.50000</Val>
+</SGL>
+<SGL>
+<Name>Speedup thresh</Name>
+<Val>0.70000</Val>
+</SGL>
+<SGL>
+<Name>Speedup nonlin</Name>
+<Val>1.00000</Val>
+</SGL>
+<Array>
+<Name>Filters</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Goal filter</Name>
+<NumElts>7</NumElts>
+<SGL>
+<Name>Lower Fc</Name>
+<Val></Val>
+</SGL>
+<SGL>
+<Name>Lower Q</Name>
+<Val></Val>
+</SGL>
+<SGL>
+<Name>Scale factor</Name>
+<Val></Val>
+</SGL>
+<SGL>
+<Name>Upper Fc</Name>
+<Val></Val>
+</SGL>
+<SGL>
+<Name>Upper Q</Name>
+<Val></Val>
+</SGL>
+<SGL>
+<Name>V limit</Name>
+<Val></Val>
+</SGL>
+<SGL>
+<Name>V limit range</Name>
+<Val></Val>
+</SGL>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Cancellation</Name>
+<NumElts>9</NumElts>
+<Cluster>
+<Name>KP</Name>
+<NumElts>4</NumElts>
+<SGL>
+<Name>XY</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Rxy</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Z</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Rz</Name>
+<Val>0.00000</Val>
+</SGL>
+</Cluster>
+<SGL>
+<Name>KI</Name>
+<Val>0.00000</Val>
+</SGL>
+<Cluster>
+<Name>KD</Name>
+<NumElts>4</NumElts>
+<SGL>
+<Name>XY</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Rxy</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Z</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Rz</Name>
+<Val>0.00000</Val>
+</SGL>
+</Cluster>
+<SGL>
+<Name>Max vel</Name>
+<Val>20.00000</Val>
+</SGL>
+<SGL>
+<Name>Max acc</Name>
+<Val>1.00000E-3</Val>
+</SGL>
+<SGL>
+<Name>Int error limit</Name>
+<Val>3.00000</Val>
+</SGL>
+<SGL>
+<Name>RCM gain</Name>
+<Val>0.00000</Val>
+</SGL>
+<Boolean>
+<Name>Bypass</Name>
+<Val>0</Val>
+</Boolean>
+<SGL>
+<Name>Degraded gain</Name>
+<Val>0.00000</Val>
+</SGL>
+</Cluster>
+<SGL>
+<Name>Transition time</Name>
+<Val>0.00000</Val>
+</SGL>
+<Cluster>
+<Name>Estimation</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Link</Name>
+<NumElts>6</NumElts>
+<Array>
+<Name>Measure noise</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Measure noise (pos)</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>Process noise</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Process noise</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>Alt process noise</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Process noise</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>Innovation limit</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Measure noise (pos)</Name>
+<Val></Val>
+</DBL>
+</Array>
+<DBL>
+<Name>Residue threshold</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Enable</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Handle</Name>
+<NumElts>6</NumElts>
+<Array>
+<Name>Measure noise</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Measure noise (pos)</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>Process noise</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Process noise</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>State limits</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Process noise</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>Innovation limit</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Measure noise (pos)</Name>
+<Val></Val>
+</DBL>
+</Array>
+<SGL>
+<Name>Prediction Lookahead</Name>
+<Val>0.00000</Val>
+</SGL>
+<Boolean>
+<Name>Enable</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>7</NumElts>
+<Boolean>
+<Name>Finder</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Trigger mode</Name>
+<Val>0</Val>
+</Boolean>
+<Array>
+<Name>Pedal selector</Name>
+<Dimsize>4</Dimsize>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Selection</Name>
+<Choice>No Selection</Choice>
+<Choice>Radio Selection 1</Choice>
+<Choice>Radio Selection 2</Choice>
+<Choice>Radio Selection 3</Choice>
+<Val>3</Val>
+</EL>
+<EW>
+<Name>Mode</Name>
+<Choice>Up</Choice>
+<Choice>Down</Choice>
+<Choice>Toggle</Choice>
+<Choice>Pulse</Choice>
+<Choice>Always</Choice>
+<Choice>Never</Choice>
+<Val>5</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Selection</Name>
+<Choice>No Selection</Choice>
+<Choice>Radio Selection 1</Choice>
+<Choice>Radio Selection 2</Choice>
+<Choice>Radio Selection 3</Choice>
+<Val>1</Val>
+</EL>
+<EW>
+<Name>Mode</Name>
+<Choice>Up</Choice>
+<Choice>Down</Choice>
+<Choice>Toggle</Choice>
+<Choice>Pulse</Choice>
+<Choice>Always</Choice>
+<Choice>Never</Choice>
+<Val>2</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Selection</Name>
+<Choice>No Selection</Choice>
+<Choice>Radio Selection 1</Choice>
+<Choice>Radio Selection 2</Choice>
+<Choice>Radio Selection 3</Choice>
+<Val>3</Val>
+</EL>
+<EW>
+<Name>Mode</Name>
+<Choice>Up</Choice>
+<Choice>Down</Choice>
+<Choice>Toggle</Choice>
+<Choice>Pulse</Choice>
+<Choice>Always</Choice>
+<Choice>Never</Choice>
+<Val>2</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Selection</Name>
+<Choice>No Selection</Choice>
+<Choice>Radio Selection 1</Choice>
+<Choice>Radio Selection 2</Choice>
+<Choice>Radio Selection 3</Choice>
+<Val>2</Val>
+</EL>
+<EW>
+<Name>Mode</Name>
+<Choice>Up</Choice>
+<Choice>Down</Choice>
+<Choice>Toggle</Choice>
+<Choice>Pulse</Choice>
+<Choice>Always</Choice>
+<Choice>Never</Choice>
+<Val>3</Val>
+</EW>
+</Cluster>
+</Array>
+<I32>
+<Name>Decimate</Name>
+<Val>20</Val>
+</I32>
+<Array>
+<Name>Trace controls</Name>
+<Dimsize>4</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>6</NumElts>
+<Boolean>
+<Name>+ stim</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Relative</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>Scale</Name>
+<Choice>1X</Choice>
+<Choice>10X</Choice>
+<Choice>100X</Choice>
+<Choice>1KX</Choice>
+<Choice>10KX</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Probe point</Name>
+<Choice>Position (tip)</Choice>
+<Choice>Position (RCM)</Choice>
+<Choice>Null pos (tip)</Choice>
+<Choice>Null pos (RCM)</Choice>
+<Choice>V limiter (tip)</Choice>
+<Choice>V Limiter (RCM)</Choice>
+<Choice>Goal (tip)</Choice>
+<Choice>Goal (RCM)</Choice>
+<Choice>Link pos 0</Choice>
+<Choice>Link pos 1</Choice>
+<Choice>KF link pos 0</Choice>
+<Choice>KF link pos 1</Choice>
+<Choice>Link rate 0</Choice>
+<Choice>Link rate 1</Choice>
+<Choice>Link residue 0</Choice>
+<Choice>Link residue 1</Choice>
+<Choice>Link goal 0</Choice>
+<Choice>Link goal 1</Choice>
+<Choice>Link error 0</Choice>
+<Choice>Link error 1</Choice>
+<Choice>Controller 0</Choice>
+<Choice>Controller 1</Choice>
+<Choice>Output 0</Choice>
+<Choice>Output 1</Choice>
+<Choice>Drive 0</Choice>
+<Choice>Drive 1</Choice>
+<Choice>Stimulus 0</Choice>
+<Choice>Stimulus 1</Choice>
+<Choice>Trace data 0</Choice>
+<Choice>Trace data 1</Choice>
+<Choice>Status flags</Choice>
+<Choice>Analog data</Choice>
+<Choice>Light 0</Choice>
+<Choice>Light 1</Choice>
+<Choice>Light 2</Choice>
+<Choice>Light 3</Choice>
+<Choice>Light 4</Choice>
+<Choice>Light 5</Choice>
+<Choice>Goal origin</Choice>
+<Choice>Goal rotation 0</Choice>
+<Choice>Goal rotation 1</Choice>
+<Choice>Goal rotation 2</Choice>
+<Choice>Output origin</Choice>
+<Choice>Output rotation 0</Choice>
+<Choice>Output rotation 1</Choice>
+<Choice>Output rotation 2</Choice>
+<Choice>Handle origin</Choice>
+<Choice>Handle rotation 0</Choice>
+<Choice>Handle rotation 1</Choice>
+<Choice>Handle rotation 2</Choice>
+<Choice>Handle position</Choice>
+<Choice>Handle velocity</Choice>
+<Choice>Handle acceleration</Choice>
+<Choice>Handle angles</Choice>
+<Choice>Handle angle rates</Choice>
+<Choice>Trace length</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>XYZ selector</Name>
+<NumElts>3</NumElts>
+<Boolean>
+<Name>Boolean</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Boolean 2</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Boolean 3</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Boolean>
+<Name>To tip</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>6</NumElts>
+<Boolean>
+<Name>+ stim</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Relative</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>Scale</Name>
+<Choice>1X</Choice>
+<Choice>10X</Choice>
+<Choice>100X</Choice>
+<Choice>1KX</Choice>
+<Choice>10KX</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Probe point</Name>
+<Choice>Position (tip)</Choice>
+<Choice>Position (RCM)</Choice>
+<Choice>Null pos (tip)</Choice>
+<Choice>Null pos (RCM)</Choice>
+<Choice>V limiter (tip)</Choice>
+<Choice>V Limiter (RCM)</Choice>
+<Choice>Goal (tip)</Choice>
+<Choice>Goal (RCM)</Choice>
+<Choice>Link pos 0</Choice>
+<Choice>Link pos 1</Choice>
+<Choice>KF link pos 0</Choice>
+<Choice>KF link pos 1</Choice>
+<Choice>Link rate 0</Choice>
+<Choice>Link rate 1</Choice>
+<Choice>Link residue 0</Choice>
+<Choice>Link residue 1</Choice>
+<Choice>Link goal 0</Choice>
+<Choice>Link goal 1</Choice>
+<Choice>Link error 0</Choice>
+<Choice>Link error 1</Choice>
+<Choice>Controller 0</Choice>
+<Choice>Controller 1</Choice>
+<Choice>Output 0</Choice>
+<Choice>Output 1</Choice>
+<Choice>Drive 0</Choice>
+<Choice>Drive 1</Choice>
+<Choice>Stimulus 0</Choice>
+<Choice>Stimulus 1</Choice>
+<Choice>Trace data 0</Choice>
+<Choice>Trace data 1</Choice>
+<Choice>Status flags</Choice>
+<Choice>Analog data</Choice>
+<Choice>Light 0</Choice>
+<Choice>Light 1</Choice>
+<Choice>Light 2</Choice>
+<Choice>Light 3</Choice>
+<Choice>Light 4</Choice>
+<Choice>Light 5</Choice>
+<Choice>Goal origin</Choice>
+<Choice>Goal rotation 0</Choice>
+<Choice>Goal rotation 1</Choice>
+<Choice>Goal rotation 2</Choice>
+<Choice>Output origin</Choice>
+<Choice>Output rotation 0</Choice>
+<Choice>Output rotation 1</Choice>
+<Choice>Output rotation 2</Choice>
+<Choice>Handle origin</Choice>
+<Choice>Handle rotation 0</Choice>
+<Choice>Handle rotation 1</Choice>
+<Choice>Handle rotation 2</Choice>
+<Choice>Handle position</Choice>
+<Choice>Handle velocity</Choice>
+<Choice>Handle acceleration</Choice>
+<Choice>Handle angles</Choice>
+<Choice>Handle angle rates</Choice>
+<Choice>Trace length</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>XYZ selector</Name>
+<NumElts>3</NumElts>
+<Boolean>
+<Name>Boolean</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Boolean 2</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Boolean 3</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Boolean>
+<Name>To tip</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>6</NumElts>
+<Boolean>
+<Name>+ stim</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Relative</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>Scale</Name>
+<Choice>1X</Choice>
+<Choice>10X</Choice>
+<Choice>100X</Choice>
+<Choice>1KX</Choice>
+<Choice>10KX</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Probe point</Name>
+<Choice>Position (tip)</Choice>
+<Choice>Position (RCM)</Choice>
+<Choice>Null pos (tip)</Choice>
+<Choice>Null pos (RCM)</Choice>
+<Choice>V limiter (tip)</Choice>
+<Choice>V Limiter (RCM)</Choice>
+<Choice>Goal (tip)</Choice>
+<Choice>Goal (RCM)</Choice>
+<Choice>Link pos 0</Choice>
+<Choice>Link pos 1</Choice>
+<Choice>KF link pos 0</Choice>
+<Choice>KF link pos 1</Choice>
+<Choice>Link rate 0</Choice>
+<Choice>Link rate 1</Choice>
+<Choice>Link residue 0</Choice>
+<Choice>Link residue 1</Choice>
+<Choice>Link goal 0</Choice>
+<Choice>Link goal 1</Choice>
+<Choice>Link error 0</Choice>
+<Choice>Link error 1</Choice>
+<Choice>Controller 0</Choice>
+<Choice>Controller 1</Choice>
+<Choice>Output 0</Choice>
+<Choice>Output 1</Choice>
+<Choice>Drive 0</Choice>
+<Choice>Drive 1</Choice>
+<Choice>Stimulus 0</Choice>
+<Choice>Stimulus 1</Choice>
+<Choice>Trace data 0</Choice>
+<Choice>Trace data 1</Choice>
+<Choice>Status flags</Choice>
+<Choice>Analog data</Choice>
+<Choice>Light 0</Choice>
+<Choice>Light 1</Choice>
+<Choice>Light 2</Choice>
+<Choice>Light 3</Choice>
+<Choice>Light 4</Choice>
+<Choice>Light 5</Choice>
+<Choice>Goal origin</Choice>
+<Choice>Goal rotation 0</Choice>
+<Choice>Goal rotation 1</Choice>
+<Choice>Goal rotation 2</Choice>
+<Choice>Output origin</Choice>
+<Choice>Output rotation 0</Choice>
+<Choice>Output rotation 1</Choice>
+<Choice>Output rotation 2</Choice>
+<Choice>Handle origin</Choice>
+<Choice>Handle rotation 0</Choice>
+<Choice>Handle rotation 1</Choice>
+<Choice>Handle rotation 2</Choice>
+<Choice>Handle position</Choice>
+<Choice>Handle velocity</Choice>
+<Choice>Handle acceleration</Choice>
+<Choice>Handle angles</Choice>
+<Choice>Handle angle rates</Choice>
+<Choice>Trace length</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>XYZ selector</Name>
+<NumElts>3</NumElts>
+<Boolean>
+<Name>Boolean</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Boolean 2</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Boolean 3</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Boolean>
+<Name>To tip</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>6</NumElts>
+<Boolean>
+<Name>+ stim</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Relative</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>Scale</Name>
+<Choice>1X</Choice>
+<Choice>10X</Choice>
+<Choice>100X</Choice>
+<Choice>1KX</Choice>
+<Choice>10KX</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Probe point</Name>
+<Choice>Position (tip)</Choice>
+<Choice>Position (RCM)</Choice>
+<Choice>Null pos (tip)</Choice>
+<Choice>Null pos (RCM)</Choice>
+<Choice>V limiter (tip)</Choice>
+<Choice>V Limiter (RCM)</Choice>
+<Choice>Goal (tip)</Choice>
+<Choice>Goal (RCM)</Choice>
+<Choice>Link pos 0</Choice>
+<Choice>Link pos 1</Choice>
+<Choice>KF link pos 0</Choice>
+<Choice>KF link pos 1</Choice>
+<Choice>Link rate 0</Choice>
+<Choice>Link rate 1</Choice>
+<Choice>Link residue 0</Choice>
+<Choice>Link residue 1</Choice>
+<Choice>Link goal 0</Choice>
+<Choice>Link goal 1</Choice>
+<Choice>Link error 0</Choice>
+<Choice>Link error 1</Choice>
+<Choice>Controller 0</Choice>
+<Choice>Controller 1</Choice>
+<Choice>Output 0</Choice>
+<Choice>Output 1</Choice>
+<Choice>Drive 0</Choice>
+<Choice>Drive 1</Choice>
+<Choice>Stimulus 0</Choice>
+<Choice>Stimulus 1</Choice>
+<Choice>Trace data 0</Choice>
+<Choice>Trace data 1</Choice>
+<Choice>Status flags</Choice>
+<Choice>Analog data</Choice>
+<Choice>Light 0</Choice>
+<Choice>Light 1</Choice>
+<Choice>Light 2</Choice>
+<Choice>Light 3</Choice>
+<Choice>Light 4</Choice>
+<Choice>Light 5</Choice>
+<Choice>Goal origin</Choice>
+<Choice>Goal rotation 0</Choice>
+<Choice>Goal rotation 1</Choice>
+<Choice>Goal rotation 2</Choice>
+<Choice>Output origin</Choice>
+<Choice>Output rotation 0</Choice>
+<Choice>Output rotation 1</Choice>
+<Choice>Output rotation 2</Choice>
+<Choice>Handle origin</Choice>
+<Choice>Handle rotation 0</Choice>
+<Choice>Handle rotation 1</Choice>
+<Choice>Handle rotation 2</Choice>
+<Choice>Handle position</Choice>
+<Choice>Handle velocity</Choice>
+<Choice>Handle acceleration</Choice>
+<Choice>Handle angles</Choice>
+<Choice>Handle angle rates</Choice>
+<Choice>Trace length</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>XYZ selector</Name>
+<NumElts>3</NumElts>
+<Boolean>
+<Name>Boolean</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Boolean 2</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Boolean 3</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Boolean>
+<Name>To tip</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Array>
+<Array>
+<Name>Flag selectors</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>Flag</Name>
+<Choice>Cancellation</Choice>
+<Choice>Goal filter</Choice>
+<Choice>Valid position</Choice>
+<Choice>Goal saturation tip</Choice>
+<Choice>Goal saturation RCM</Choice>
+<Choice>Goal circle saturation</Choice>
+<Choice>Position saturation</Choice>
+<Choice>Output saturation</Choice>
+<Choice>Acceleration limiting</Choice>
+<Choice>Finished late</Choice>
+<Choice>Stimulus increasing</Choice>
+<Choice>Integral error saturation</Choice>
+<Choice>Velocity limiting</Choice>
+<Choice>Log warning</Choice>
+<Choice>Log error</Choice>
+<Val></Val>
+</EW>
+<Boolean>
+<Name>Select</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+<Array>
+<Name>Pose selectors</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>7</NumElts>
+<EW>
+<Name>Scale</Name>
+<Choice>1X</Choice>
+<Choice>10X</Choice>
+<Choice>100X</Choice>
+<Choice>1KX</Choice>
+<Choice>10KX</Choice>
+<Val></Val>
+</EW>
+<EW>
+<Name>Source</Name>
+<Choice>Output</Choice>
+<Choice>Handle</Choice>
+<Choice>Handle KF</Choice>
+<Choice>Goal</Choice>
+<Choice>Absolute</Choice>
+<Val></Val>
+</EW>
+<Cluster>
+<Name>XYZ selector</Name>
+<NumElts>3</NumElts>
+<Boolean>
+<Name>Boolean</Name>
+<Val></Val>
+</Boolean>
+<Boolean>
+<Name>Boolean 2</Name>
+<Val></Val>
+</Boolean>
+<Boolean>
+<Name>Boolean 3</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>RPY selector</Name>
+<NumElts>3</NumElts>
+<Boolean>
+<Name>Boolean</Name>
+<Val></Val>
+</Boolean>
+<Boolean>
+<Name>Boolean 2</Name>
+<Val></Val>
+</Boolean>
+<Boolean>
+<Name>Boolean 3</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+<EW>
+<Name>Relative to</Name>
+<Choice>Output</Choice>
+<Choice>Handle</Choice>
+<Choice>Handle KF</Choice>
+<Choice>Goal</Choice>
+<Choice>Absolute</Choice>
+<Choice>Trace start</Choice>
+<Val></Val>
+</EW>
+<Boolean>
+<Name>Relative</Name>
+<Val></Val>
+</Boolean>
+<EW>
+<Name>Translate</Name>
+<Choice>At tip</Choice>
+<Choice>At RCM</Choice>
+<Choice>At KC</Choice>
+<Choice>At origin</Choice>
+<Val></Val>
+</EW>
+</Cluster>
+</Array>
+</Cluster>
+</LVData>

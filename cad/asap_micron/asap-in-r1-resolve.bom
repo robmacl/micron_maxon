@@ -1,0 +1,104 @@
+P-CAD Bill of Materials                         asap-in-r1-resolve.pcb
+
+======================================================================
+
+Count  ComponentName   RefDes          Value          
+------ --------------- --------------- ---------------
+
+     2 CAP100RP        C4              100uF 25V      
+                       C5                             
+     8 CAP200          C19             1nF            
+                       C23                            
+                       C27                            
+                       C31                            
+                       C35                            
+                       C39                            
+                       C3                             
+                       C16                            
+     8 CAP200          C17             3.9nF          
+                       C20                            
+                       C25                            
+                       C28                            
+                       C33                            
+                       C36                            
+                       C2                             
+                       C15                            
+     9 CAP200BOX       C18             100nF          
+                       C21                            
+                       C26                            
+                       C29                            
+                       C34                            
+                       C37                            
+                       C1                             
+                       C14                            
+                       C101                           
+     1 CAP1206         C103            1uF 25V        
+     1 IDC2X8M         P2              Sensors        
+     1 IDC2X10M        P3              To DAQ         
+     1 M_5PIN          P4              Power in       
+     5 OPAMP_DUAL      U1              OPA2134P       
+                       U3                             
+                       U4                             
+                       U5                             
+                       U101                           
+     8 RES400          R2              2.8K           
+                       R4                             
+                       R8                             
+                       R12                            
+                       R14                            
+                       R18                            
+                       R20                            
+                       R24                            
+     8 RES400          R3              4.75K          
+                       R6                             
+                       R10                            
+                       R11                            
+                       R16                            
+                       R17                            
+                       R22                            
+                       R23                            
+     1 RES400          R102            8.66K          
+     2 RES400          R101            10             
+                       R104                           
+     8 RES400          R1              634            
+                       R7                             
+                       R9                             
+                       R13                            
+                       R15                            
+                       R19                            
+                       R21                            
+                       R25                            
+     3 SMBJ_TVS        D1              15V            
+                       D3                             
+                       D101                           
+    11 TANT_C          C6              10uF 25V       
+                       C7                             
+                       C22                            
+                       C24                            
+                       C30                            
+                       C32                            
+                       C38                            
+                       C40                            
+                       C102                           
+                       C104                           
+                       C105                           
+     1 TESTPOINT       TP3             +15V           
+     1 TESTPOINT       TP4             -15V           
+     1 TESTPOINT       TP5             GND            
+     4 TESTPOINT       TP1             IN1            
+                       TP9                            
+                       TP13                           
+                       TP17                           
+     4 TESTPOINT       TP6             IN2            
+                       TP8                            
+                       TP12                           
+                       TP16                           
+     4 TESTPOINT       TP2             OUT1           
+                       TP11                           
+                       TP15                           
+                       TP19                           
+     4 TESTPOINT       TP7             OUT2           
+                       TP10                           
+                       TP14                           
+                       TP18                           
+     1 TPOT375         R103            10K            

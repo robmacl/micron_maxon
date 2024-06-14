@@ -1,0 +1,89 @@
+P-CAD Bill of Materials                             handle-resolve.pcb
+
+======================================================================
+
+Count  ComponentName   RefDes          PatternName     Value           Description     Part Number    
+------ --------------- --------------- --------------- --------------- --------------- ---------------
+
+X     5 ADXL203         U7              LCC-8                                                          
+                       U9                                                                             
+                       U10                                                                            
+                       U13                                                                            
+                       U14                                                                            
+X     1 ADXRS401        U5              CSPBGA32                                                       
+     2 BEAD0805        FB1             CC0805                          Resistor                       
+                       FB2                                                                            
+X     1 CAP0402         C7              CC0402          1nF             Capacitor                      
+X     1 CAP0402         C4              CC0402          7.1nF           Capacitor                      
+X     2 CAP0402         C9              CC0402          10nF            Capacitor                      
+                       C12                                                                            
+X     6 CAP0402         C14             CC0402          18nf            Capacitor                      
+                       C17                                                                            
+                       C27                                                                            
+                       C30                                                                            
+                       C32                                                                            
+                       C33                                                                            
+X     5 CAP0402         C13             CC0402          27nF            Capacitor                      
+                       C16                                                                            
+                       C26                                                                            
+                       C28                                                                            
+                       C34                                                                            
+X     1 CAP0402         C3              CC0402          51nF            Capacitor                      
+X    14 CAP0402         C2              CC0402          100nF           Capacitor                      
+                       C5                                                                             
+                       C15                                                                            
+                       C18                                                                            
+                       C19                                                                            
+                       C20                                                                            
+                       C21                                                                            
+                       C23                                                                            
+                       C24                                                                            
+                       C25                                                                            
+                       C29                                                                            
+                       C31                                                                            
+                       C35                                                                            
+                       C36                                                                            
+X     1 CAP0402         C1              CC0402          100pF           Capacitor                      
+X     2 CAP0805         C11             CC0805          1uF             25V X5R         PCC2319CT      
+                       C22                                                                            
+X     1 CONN_1.25MM_4M  P1              CONN4PIN1.25                                                   
+X     1 CONN_1.25MM_9M  P2              CONN9PIN1.25MM                                                 
+X     1 LT1962          U6              MSOP8                                                          
+X     2 OM-XF2L-0625-1  J1              OM-XF2L-0625-1  {Value}                                        
+                       J8                                                                             
+X     1 OM-XF27-0624-11 J2              OM-XF27-0624-11 ACC1                                           
+     1 OM-XF27-0624-11 J3              OM-XF27-0624-11 ACC2                                           
+     2 OM-XF27-0624-11 J4              OM-XF27-0624-11 GYRO                                           
+                       J5                                                                             
+     2 OM-XF27-0624-11 J6              OM-XF27-0624-11                                                
+                       J7                                                                             
+################# 1 OPA350E         U8              MSOP8
+X     3 OPA2336E        U4              MSOP8                                                          
+                       U11                                                                            
+                       U12                                                                            
+X     1 RES0402         R1              CC0402          1K                                             
+X     1 RES0402         R2              CC0402          22                                             
+X     6 RES0402         R7              CC0402          63.4K                                          
+                       R8                                                                             
+                       R9                                                                             
+                       R10                                                                            
+                       R11                                                                            
+                       R12                                                                            
+X     1 RES0805         R5              RC0805          10              anti surge thic                
+X     1 RES0805         R3              RC0805          100             anti surge thic                
+X     1 RES0805         R6              RC0805          330             anti surge thic                
+X     1 RESET_FUSE_1206 F1              CC1206          200ma           Capacitor                      
+X     1 SMAJ_TVS        D1              SMA             15V                                            
+X     1 SMS05T10        DA1             SO-G6/P.95                                                     
+X     1 SN74CBT3251     U3              SSO-G16/D5                      Analog Multiple                
+X     1 SN74HC4040PWR   U1              SSO-G16/D5                      Asynchronous 12                
+X     1 SOT23_ZENER     D2              SOT23           15V                                            
+X     1 TANT_A          C10             CASEA3216       10uF 10V        Capacitor                      
+X     1 TC4S584F        U2              SO-G5/P.95_BB                                                  
+
+X flat flex cables
+VGA cable wire
+X 1.25mm connector, contacts, 
+crimper
+X C4 7.1nf -> 6.8nf
+X C3 51nf -> 47nf

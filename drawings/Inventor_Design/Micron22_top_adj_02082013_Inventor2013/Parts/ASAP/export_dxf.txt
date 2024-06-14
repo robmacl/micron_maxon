@@ -1,0 +1,42 @@
+export dxf file.
+
+http://forums.autodesk.com/t5/Autodesk-Inventor/Inventor-2013-export-to-dxf/td-p/3554956
+
+right clink on Flat Pattern on part file, Save copy as...
+
+
+BPOLY / PLJOIN, 
+You can alos check options while generating dxf files in invector..
+
+
+
+
+
+DXF
+
+AutoCAD DXF (Drawing Interchange Format, or Drawing Exchange Format) is a CAD data file format, developed by Autodesk as their solution for enabling data interoperability between AutoCAD and other programs. DXF is a two-dimensional graphics file format supported by virtually all PC -based CAD products. DXF files can be either ASCII (DXF) or binary format (DXB).
+
+If you export our Solidworks file into DXF file, please use 2D polyline as option. Do not use SPLINE. All curves will be cut as faceted lines.
+
+Depending on your Solidworks version, compatibility may be an issue.
+
+It is best if you can draw a 1" x 1" square in the drawing for scale reference and verification.
+
+AutoCAD Guidelines:
+
+Polylines - using polylines will save you money because they cut more efficiently. You can create polylines (plines) by joining lines and arcs. Please also make sure that closed shapes become polylines.
+
+2D Drawings - since our laser systems cut in 2 axes, all drawings must in X,Y plane. 3D effect is achieved by laminating parts together.
+Clean Drawings - please make sure that all lines are continuous and non-overlapping because every line drawn will be cut. Use ZOOM EXTENTS, check for off-screen objects and remove them. Remove any blocks with EXPLODE command. SPLINES should never be used since they do not produce smooth curves and arcs when cut.
+Layers - use layer controls to differentiate types of cut such as etching and cutting and types of materials.
+Layer Names - use descriptive layer names such as cut030acrylic (meaning cut layer using 1/32 inch thick acrylic) or etch030 (meaning etch layer using 1/32 thick acrylic).
+Lettering - most CAD programs do not create letters as line information. Laser Alliance LLC uses a special software that generate high resolution output for more than 70 outlined fonts. We can also import fonts from other graphics programs into AutoCAD files.
+1:1 Drawings - change the scale of your drawings to finished part size. This will ensure that your project will proceed quickly and accurately.
+Offset for laser beam width - the width of our laser varied from .008" to .010" depending on materials. For high tolerance work, compensate using OFFSET command. To compensate for the laser beam width, offset you cut line half the beam width away from the part you want to keep. On inside cut-outs, offset toward the inside and on outside cutouts, offset toward the outside. For most materials, use offset of .004" is sufficient. For 1/2 thick or thicker materials, use an offset of .005". Be sure to remove the original objects.
+Group Parts - parts that required same material and thickness should be grouped together.
+Purge all unused layers and blocks.
+Scale drawing to desired size.
+Space between cut lines should be 1:1 to material thickness.
+Label each sheet with the material and thickness desired.
+Make sure there are no duplicate or overlapping lines (this will cause the laser to cut in the same place multiple times and will yield an undesirable result and may increase cutting time)
+Do not use SPLINE command. This will make the curves become faceted.

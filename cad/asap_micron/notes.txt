@@ -1,0 +1,19 @@
+design:
+    finalize optical design: sensor config, front and back focus.
+        We should be able to increase distance/workspace somewhat with
+        same SNR, more if we allow degradation.
+    
+    sensor mech design
+        housing
+	bar
+	grip
+    (later: piezo driver PCB)
+
+assembly:
+    sensors pcb
+    sensors mechanical
+    main pcb
+    probe
+
+mechanical issues:
+anti-rotation slot for tripod socket on bar

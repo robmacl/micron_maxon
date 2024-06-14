@@ -1,0 +1,3224 @@
+ACCEL_ASCII "C:\Documents and Settings\ram\My Documents\work\micron\handle\jig.pcb"
+
+(asciiHeader 
+  (asciiVersion 3 0)
+  (timeStamp 2009 2 19 15 50 33)
+  (program "P-CAD 2000 PCB" "15.10.24")
+  (copyright "Copyright © 1991-2000 ACCEL Technologies, Inc.")
+  (fileAuthor "")
+  (headerString "")
+  (fileUnits Mil)
+  (guidString "{C07C29FC-85C8-4939-8381-BA4382BB9DF3}")
+)
+
+(library "Library_1"
+  (padStyleDef "(Default)"
+    (holeDiam 38.0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 60.0) (shapeHeight 60.0) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 60.0) (shapeHeight 60.0) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 60.0) (shapeHeight 60.0) )
+    (padShape (layerType Plane) (padShapeType Thrm4_45) (outsideDiam 84.0) (insideDiam 60.0) (spokeWidth 15.0) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+  )
+  (padStyleDef "bare057"
+    (holeDiam 57.0)
+    (isHolePlated False)
+    (useGlobalSwell False)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType MtHole) (shapeWidth 0.0) (shapeHeight 0.0) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 67.0) (shapeHeight 67.0) )
+    (padShape (layerType Plane) (padShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+  )
+  (padStyleDef "pad022"
+    (holeDiam 22.0)
+    (isHolePlated False)
+    (useGlobalSwell False)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 65.0) (shapeHeight 65.0) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 55.0) (shapeHeight 55.0) )
+    (padShape (layerType Plane) (padShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+  )
+  (padStyleDef "hole094"
+    (holeDiam 94.0)
+    (isHolePlated False)
+    (useGlobalSwell False)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 200.0) (shapeHeight 200.0) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 200.0) (shapeHeight 200.0) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 180.0) (shapeHeight 180.0) )
+    (padShape (layerType Plane) (padShapeType Ellipse) (shapeWidth 180.0) (shapeHeight 180.0) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+  )
+  (padStyleDef "P:SX10Y10D0T [1]"
+    (holeDiam 0.0)
+    (isHolePlated False)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Rect) (shapeWidth 51.5) (shapeHeight 1.0 mm) )
+    (padShape (layerNumRef 2) (padShapeType Rect) (shapeWidth 0.0) (shapeHeight 0.0) )
+    (padShape (layerType Signal) (padShapeType Rect) (shapeWidth 0.0) (shapeHeight 0.0) )
+    (padShape (layerType Plane) (padShapeType Thrm4_45) (outsideDiam 0.0) (insideDiam 0.0) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+  )
+  (padStyleDef "piezo_pad [1]"
+    (holeDiam 0.0)
+    (isHolePlated False)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Rect) (shapeWidth 200.0) (shapeHeight 70.0) )
+    (padShape (layerNumRef 2) (padShapeType Rect) (shapeWidth 0.0) (shapeHeight 0.0) )
+    (padShape (layerType Signal) (padShapeType Rect) (shapeWidth 0.0) (shapeHeight 0.0) )
+    (padShape (layerType Plane) (padShapeType Thrm4_45) (outsideDiam 0.0) (insideDiam 0.0) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+  )
+  (padStyleDef "piezo_pad2"
+    (holeDiam 0.0)
+    (isHolePlated False)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 75.0) (shapeHeight 75.0) )
+    (padShape (layerNumRef 2) (padShapeType Rect) (shapeWidth 0.0) (shapeHeight 0.0) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 65.0) (shapeHeight 65.0) )
+    (padShape (layerType Plane) (padShapeType Thrm4_45) (outsideDiam 0.0) (insideDiam 0.0) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+  )
+  (padStyleDef "piezo_pad2 [1]"
+    (holeDiam 0.0)
+    (isHolePlated False)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 80.0) (shapeHeight 80.0) )
+    (padShape (layerNumRef 2) (padShapeType Rect) (shapeWidth 0.0) (shapeHeight 0.0) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 70.0) (shapeHeight 70.0) )
+    (padShape (layerType Plane) (padShapeType Thrm4_45) (outsideDiam 0.0) (insideDiam 0.0) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+  )
+  (padStyleDef "P:SX10Y10D0T"
+    (holeDiam 0.0)
+    (isHolePlated False)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Rect) (shapeWidth 51.5) (shapeHeight 1.5 mm) )
+    (padShape (layerNumRef 2) (padShapeType Rect) (shapeWidth 0.0) (shapeHeight 0.0) )
+    (padShape (layerType Signal) (padShapeType Rect) (shapeWidth 0.0) (shapeHeight 0.0) )
+    (padShape (layerType Plane) (padShapeType Thrm4_45) (outsideDiam 0.0) (insideDiam 0.0) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+  )
+  (padStyleDef "bare280"
+    (holeDiam 280.0)
+    (isHolePlated False)
+    (useGlobalSwell False)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 290.0) (shapeHeight 290.0) )
+    (padShape (layerType Plane) (padShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+  )
+  (viaStyleDef "(Default)"
+    (holeDiam 18.0)
+    (StartRange 1)
+    (EndRange 2)
+    (viaShape (layerNumRef 1) (viaShapeType Ellipse) (shapeWidth 40.0) (shapeHeight 40.0) )
+    (viaShape (layerNumRef 2) (viaShapeType Ellipse) (shapeWidth 40.0) (shapeHeight 40.0) )
+    (viaShape (layerType Signal) (viaShapeType Ellipse) (shapeWidth 40.0) (shapeHeight 40.0) )
+    (viaShape (layerType Plane) (viaShapeType Thrm4_45) (outsideDiam 64.0) (insideDiam 40.0) (spokeWidth 15.0) )
+    (viaShape (layerType NonSignal) (viaShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+  )
+  (viaStyleDef "22mil"
+    (holeDiam 22.0)
+    (StartRange 1)
+    (EndRange 2)
+    (viaShape (layerNumRef 1) (viaShapeType Ellipse) (shapeWidth 44.0) (shapeHeight 44.0) )
+    (viaShape (layerNumRef 2) (viaShapeType Ellipse) (shapeWidth 44.0) (shapeHeight 44.0) )
+    (viaShape (layerType Signal) (viaShapeType Ellipse) (shapeWidth 44.0) (shapeHeight 44.0) )
+    (viaShape (layerType Plane) (viaShapeType Thrm4_45) (outsideDiam 44.0) (insideDiam 33.0) (spokeWidth 0.18626 mm) )
+    (viaShape (layerType NonSignal) (viaShapeType Ellipse) (shapeWidth 0.0) (shapeHeight 0.0) )
+  )
+  (textStyleDef "(Default)"
+    (font 
+      (fontType Stroke)
+      (fontFamily SanSerif)
+      (fontFace "QUALITY")
+      (fontHeight 100.0)
+      (strokeWidth 10.0)
+    )
+    (textStyleAllowTType False)
+    (textStyleDisplayTType False)
+  )
+  (textStyleDef "(DefaultTTF)"
+    (font 
+      (fontType Stroke)
+      (fontFamily SanSerif)
+      (fontFace "QUALITY")
+      (fontHeight 100.0)
+      (strokeWidth 10.0)
+    )
+    (font 
+      (fontType TrueType)
+      (fontFamily Modern)
+      (fontFace "Arial")
+      (fontHeight 125.0)
+      (strokeWidth 0.19843 mm)
+      (fontWeight 400)
+      (fontCharSet 0)
+      (fontOutPrecision 7)
+      (fontClipPrecision 32)
+      (fontQuality 1)
+      (fontPitchAndFamily 6)
+    )
+    (textStyleAllowTType True)
+    (textStyleDisplayTType True)
+  )
+  (textStyleDef "T:H59W8"
+    (font 
+      (fontType Stroke)
+      (fontFamily Modern)
+      (fontFace "Quality")
+      (fontHeight 59.0)
+      (strokeWidth 8.0)
+    )
+    (textStyleAllowTType False)
+    (textStyleDisplayTType False)
+  )
+  (textStyleDef "T:H80W8"
+    (font 
+      (fontType Stroke)
+      (fontFamily SanSerif)
+      (fontFace "Quality")
+      (fontHeight 80.0)
+      (strokeWidth 8.0)
+    )
+    (textStyleAllowTType False)
+    (textStyleDisplayTType False)
+  )
+  (textStyleDef "T:H91W10"
+    (font 
+      (fontType Stroke)
+      (fontFamily SanSerif)
+      (fontFace "QUALITY")
+      (fontHeight 91.0)
+      (strokeWidth 10.0)
+    )
+    (textStyleAllowTType False)
+    (textStyleDisplayTType False)
+  )
+  (textStyleDef "T:H59W10"
+    (font 
+      (fontType Stroke)
+      (fontFamily Modern)
+      (fontFace "Quality")
+      (fontHeight 2.0 mm)
+      (strokeWidth 0.24999 mm)
+    )
+    (textStyleAllowTType False)
+    (textStyleDisplayTType False)
+  )
+  (textStyleDef "T:H3.00W0.25"
+    (font 
+      (fontType Stroke)
+      (fontFamily SanSerif)
+      (fontFace "QUALITY")
+      (fontHeight 3.0 mm)
+      (strokeWidth 0.25 mm)
+    )
+    (textStyleAllowTType False)
+    (textStyleDisplayTType False)
+  )
+  (textStyleDef "T:H5.00W0.25"
+    (font 
+      (fontType Stroke)
+      (fontFamily SanSerif)
+      (fontFace "QUALITY")
+      (fontHeight 5.0 mm)
+      (strokeWidth 0.25 mm)
+    )
+    (textStyleAllowTType False)
+    (textStyleDisplayTType False)
+  )
+  (textStyleDef "T:H59W8 [1]"
+    (font 
+      (fontType Stroke)
+      (fontFamily SanSerif)
+      (fontFace "Quality")
+      (fontHeight 59.0)
+      (strokeWidth 8.0)
+    )
+    (textStyleAllowTType False)
+    (textStyleDisplayTType False)
+  )
+  (patternDef "PIEZO_PAD2_1"
+    (originalName "PIEZO_PAD2")
+    (multiLayer 
+      (pad (padNum 1) (padStyleRef "piezo_pad2 [1]")(pt 0.0 0.0) )
+    )
+    (layerContents  (layerNumRef  1)
+      (line (pt 0.0 0.0) (pt 122.0 0.0) (width 10.0) )
+      (arc (pt 2.0917 mm 2.01393 mm) (radius 2.01152 mm) (startAngle 222.4) (sweepAngle 48.1) (width 10.0) )
+      (arc (pt 2.0663 mm -2.01393 mm) (radius 2.01152 mm) (startAngle 89.5) (sweepAngle 48.1) (width 10.0) )
+      (line (pt -1.0 2.0) (pt 33.0 2.0) (width 30.0) )
+      (line (pt 33.0 2.0) (pt 33.0 1.0) (width 30.0) )
+    )
+    (layerContents  (layerNumRef  6)
+      (attr "Type" "" (pt 290.0 -90.0) (textStyleRef "(Default)") )
+      (attr "RefDes" "" (pt -60.0 70.0) (isVisible True) (textStyleRef "T:H59W8") )
+    )
+  )
+  (patternDef "PIEZO_PAD2_2"
+    (originalName "PIEZO_PAD2")
+    (multiLayer 
+      (pad (padNum 1) (padStyleRef "piezo_pad2 [1]")(pt 0.0 0.0) )
+    )
+    (layerContents  (layerNumRef  1)
+      (line (pt 0.0 0.0) (pt 122.0 0.0) (width 10.0) )
+      (arc (pt 2.0917 mm 2.01393 mm) (radius 2.01152 mm) (startAngle 222.4) (sweepAngle 48.1) (width 10.0) )
+      (arc (pt 2.06629 mm -2.01393 mm) (radius 2.01152 mm) (startAngle 89.5) (sweepAngle 48.1) (width 10.0) )
+      (line (pt -0.02541 mm 2.0) (pt 0.83819 mm 2.0) (width 30.0) )
+      (line (pt 0.83819 mm 2.0) (pt 33.0 1.0) (width 30.0) )
+    )
+    (layerContents  (layerNumRef  6)
+      (attr "Type" "" (pt 290.0 -90.0) (textStyleRef "(Default)") )
+      (attr "RefDes" "" (pt -30.0 -3.30199 mm) (isVisible True) (textStyleRef "T:H59W8") )
+    )
+  )
+  (patternDef "PIEZO_PAD2_3"
+    (originalName "PIEZO_PAD2")
+    (multiLayer 
+      (pad (padNum 1) (padStyleRef "piezo_pad2 [1]")(pt 0.0 0.0) )
+    )
+    (layerContents  (layerNumRef  1)
+      (line (pt 0.0 0.0) (pt 122.0 0.0) (width 10.0) )
+      (arc (pt 2.0917 mm 2.01393 mm) (radius 2.01152 mm) (startAngle 222.4) (sweepAngle 48.1) (width 10.0) )
+      (arc (pt 2.06629 mm -2.01393 mm) (radius 2.01152 mm) (startAngle 89.5) (sweepAngle 48.1) (width 10.0) )
+      (line (pt -1.0 0.05079 mm) (pt 33.0 2.0) (width 30.0) )
+      (line (pt 33.0 2.0) (pt 33.0 1.0) (width 30.0) )
+    )
+    (layerContents  (layerNumRef  6)
+      (attr "Type" "" (pt 290.0 -90.0) (textStyleRef "(Default)") )
+      (attr "RefDes" "" (pt -60.0 1.77798 mm) (isVisible True) (textStyleRef "T:H59W8") )
+    )
+  )
+  (patternDef "PIEZO_PAD2_4"
+    (originalName "PIEZO_PAD2")
+    (multiLayer 
+      (pad (padNum 1) (padStyleRef "piezo_pad2 [1]")(pt 0.0 0.0) )
+    )
+    (layerContents  (layerNumRef  1)
+      (line (pt 0.0 0.0) (pt 122.0 0.0) (width 10.0) )
+      (arc (pt 2.0917 mm 2.01393 mm) (radius 2.01152 mm) (startAngle 222.4) (sweepAngle 48.1) (width 10.0) )
+      (arc (pt 2.0663 mm -2.01392 mm) (radius 2.01152 mm) (startAngle 89.5) (sweepAngle 48.1) (width 10.0) )
+      (line (pt -1.0 0.05079 mm) (pt 33.0 0.05079 mm) (width 30.0) )
+      (line (pt 33.0 0.05079 mm) (pt 33.0 1.0) (width 30.0) )
+    )
+    (layerContents  (layerNumRef  6)
+      (attr "Type" "" (pt 290.0 -2.28599 mm) (textStyleRef "(Default)") )
+      (attr "RefDes" "" (pt -60.0 70.0) (isVisible True) (textStyleRef "T:H59W8") )
+    )
+  )
+  (patternDef "PIEZO_PAD2_5"
+    (originalName "PIEZO_PAD2")
+    (multiLayer 
+      (pad (padNum 1) (padStyleRef "piezo_pad2 [1]")(pt 0.0 0.0) )
+    )
+    (layerContents  (layerNumRef  1)
+      (line (pt 0.0 0.0) (pt 122.0 0.0) (width 10.0) )
+      (arc (pt 2.0917 mm 2.01393 mm) (radius 2.01152 mm) (startAngle 222.4) (sweepAngle 48.1) (width 10.0) )
+      (arc (pt 2.0663 mm -2.01392 mm) (radius 2.01152 mm) (startAngle 89.5) (sweepAngle 48.1) (width 10.0) )
+      (line (pt -1.0 0.05081 mm) (pt 33.0 0.05081 mm) (width 30.0) )
+      (line (pt 33.0 0.05081 mm) (pt 33.0 1.0) (width 30.0) )
+    )
+    (layerContents  (layerNumRef  6)
+      (attr "Type" "" (pt 290.0 -2.28599 mm) (textStyleRef "(Default)") )
+      (attr "RefDes" "" (pt -30.0 -130.0) (isVisible True) (textStyleRef "T:H59W8") )
+    )
+  )
+  (compDef "PIEZO_PAD2_1"
+    (originalName "PIEZO_PAD2")
+    (compHeader 
+      (sourceLibrary "PIEZO.LIB")
+      (numPins 1)
+      (numParts 1)
+      (alts (ieeeAlt False) (deMorganAlt False))
+      (refDesPrefix "P")
+    )
+    (compPin "1" (pinName "+") (partNum 1) (symPinNum 1) (gateEq 1) (pinEq 0) (pinType Passive) )
+    (attachedSymbol (partNum 1) (altType Normal) (symbolName "LINK_PIN") )
+    (attachedPattern (patternNum 1) (patternName "PIEZO_PAD2")
+      (numPads 1)
+      (padPinMap 
+        (padNum  1) (compPinRef "1")
+      )
+    )
+  )
+)
+
+(netlist "Netlist_1"
+  (globalAttrs 
+    (attr "SilkscreenClearance" "1mil" (textStyleRef "T:H59W8") (constraintUnits mil) )
+    (attr "HoleToHoleClearance" "13.0mil" (textStyleRef "T:H59W8") (constraintUnits mil) )
+    (attr "BoardEdgeClearance" "19" (textStyleRef "(Default)") (constraintUnits mil) )
+  )
+  (compInst "P1"
+    (compRef "PIEZO_PAD2_1")
+    (originalName "PIEZO_PAD2")
+  )
+  (compInst "P2"
+    (compRef "PIEZO_PAD2_1")
+    (originalName "PIEZO_PAD2")
+  )
+  (compInst "P4"
+    (compRef "PIEZO_PAD2_1")
+    (originalName "PIEZO_PAD2")
+  )
+  (compInst "P5"
+    (compRef "PIEZO_PAD2_1")
+    (originalName "PIEZO_PAD2")
+  )
+  (compInst "P11"
+    (compRef "PIEZO_PAD2_1")
+    (originalName "PIEZO_PAD2")
+  )
+  (compInst "P10"
+    (compRef "PIEZO_PAD2_1")
+    (originalName "PIEZO_PAD2")
+  )
+  (net "NET00000" (isVisible False) 
+    (node "P2" "1")
+    (node "P1" "1")
+  )
+  (net "NET00001" (isVisible False) 
+    (node "P4" "1")
+    (node "P5" "1")
+  )
+  (net "NET00002" (isVisible False) 
+    (node "P10" "1")
+    (node "P11" "1")
+  )
+)
+
+(pcbDesign "PcbDesign_1"
+  (pcbDesignHeader 
+    (workspaceSize 10000.0 7874.0)
+    (gridDfns 
+      (grid "50.0mil")
+      (grid "10.0mil")
+      (grid "5.0mil")
+      (grid "1.0mil")
+      (grid "0.1mil")
+      (grid "100.0mil")
+    )
+    (designInfo 
+      (fieldSet "(Default)"
+        (fieldDef "Date" "")
+        (fieldDef "Time" "")
+        (fieldDef "Author" "")
+        (fieldDef "Revision" "")
+        (fieldDef "Title" "")
+        (fieldDef "Approved By" "")
+        (fieldDef "Checked By" "")
+        (fieldDef "Company Name" "")
+        (fieldDef "Drawing Number" "")
+        (fieldDef "Drawn By" "")
+        (fieldDef "Engineer" "")
+      )
+    )
+    (solderSwell 7.5)
+    (pasteSwell 0.0)
+    (planeSwell 10.0)
+  )
+  (layerDef "Top Assy"
+    (layerNum 10)
+    (layerType NonSignal)
+    (titleSheet 
+       ""
+      1.0000 
+      (isVisible True)
+      (offset 0.0 0.0)
+      (border
+        (isVisible False)
+        (height 23000.0)
+        (width 23000.0)
+        (offset 500.0 500.0)
+      )
+      (zones
+        (isVisible False) 
+        (textStyleRef "(Default)") 
+        (horizontalZones 1
+          (numDirection ascending)
+          (numType Alphabetic)
+        )
+        (verticalZones 1 
+          (numDirection ascending)
+          (numType Numeric)
+        ) 
+      ) 
+    )
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Top Silk"
+    (layerNum 6)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Top Paste"
+    (layerNum 8)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Top Mask"
+    (layerNum 4)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Top"
+    (layerNum 1)
+    (layerType Signal)
+    (attr "PadToLineClearance" "10.0mil" (textStyleRef "T:H59W8") (constraintUnits mil) )
+    (attr "LineToLineClearance" "10.0mil" (textStyleRef "T:H59W8") (constraintUnits mil) )
+    (attr "ViaToLineClearance" "10.0mil" (textStyleRef "T:H59W8") (constraintUnits mil) )
+    (attr "ViaToPadClearance" "22.0mil" (textStyleRef "T:H59W8") (constraintUnits mil) )
+    (attr "ViaToViaClearance" "22.0mil" (textStyleRef "T:H59W8") (constraintUnits mil) )
+    (attr "PadToPadClearance" "0.254mm" (textStyleRef "T:H59W8") (constraintUnits mil) )
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Coverlay"
+    (layerNum 12)
+    (layerType Signal)
+    (attr "PadToPadClearance" "10.0mil" (textStyleRef "(Default)") (constraintUnits mil) )
+    (attr "PadToLineClearance" "10.0mil" (textStyleRef "(Default)") (constraintUnits mil) )
+    (attr "LineToLineClearance" "10.0mil" (textStyleRef "(Default)") (constraintUnits mil) )
+    (attr "ViaToPadClearance" "10.0mil" (textStyleRef "(Default)") (constraintUnits mil) )
+    (attr "ViaToLineClearance" "10.0mil" (textStyleRef "(Default)") (constraintUnits mil) )
+    (attr "ViaToViaClearance" "10.0mil" (textStyleRef "(Default)") (constraintUnits mil) )
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Bottom"
+    (layerNum 2)
+    (layerType Signal)
+    (attr "PadToLineClearance" "10.0mil" (textStyleRef "T:H59W8") (constraintUnits mil) )
+    (attr "LineToLineClearance" "10.0mil" (textStyleRef "T:H59W8") (constraintUnits mil) )
+    (attr "ViaToLineClearance" "10.0mil" (textStyleRef "T:H59W8") (constraintUnits mil) )
+    (attr "PadToPadClearance" "22.0mil" (textStyleRef "T:H59W8") (constraintUnits mil) )
+    (attr "ViaToPadClearance" "22.0mil" (textStyleRef "T:H59W8") (constraintUnits mil) )
+    (attr "ViaToViaClearance" "22.0mil" (textStyleRef "T:H59W8") (constraintUnits mil) )
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Bot Mask"
+    (layerNum 5)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Bot Paste"
+    (layerNum 9)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Bot Silk"
+    (layerNum 7)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Bot Assy"
+    (layerNum 11)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Board"
+    (layerNum 3)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Stiffener"
+    (layerNum 13)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Plate"
+    (layerNum 15)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "drill"
+    (layerNum 16)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (multiLayer 
+    (pattern (patternRef "PIEZO_PAD2_2") (refDesRef "P4") (pt 130.43046 mm 136.79975 mm) (rotation 330.0) (isFlipped True))
+    (pattern (patternRef "PIEZO_PAD2_3") (refDesRef "P5") (pt 129.50499 mm 146.53072 mm) (rotation 150.0) (isFlipped True))
+    (pattern (patternRef "PIEZO_PAD2_1") (refDesRef "P2") (pt 6900.0 4530.0) (rotation 90.0) (isFlipped True)
+      (attr "Type" "" (pt -90.0 290.0) (rotation 90.0) (isFlipped True) (textStyleRef "(Default)") )
+      (attr "RefDes" "" (pt -130.0 -30.0) (rotation 90.0) (isFlipped True) (isVisible True) (textStyleRef "T:H59W8") )
+    )
+    (pattern (patternRef "PIEZO_PAD2_1") (refDesRef "P1") (pt 7250.0 4370.0) (rotation 270.0) (isFlipped True))
+    (pattern (patternRef "PIEZO_PAD2_5") (refDesRef "P10") (pt 133.99892 mm 87.12676 mm) (rotation 210.0) (isFlipped True))
+    (pattern (patternRef "PIEZO_PAD2_4") (refDesRef "P11") (pt 126.03439 mm 81.45979 mm) (rotation 30.0) (isFlipped True))
+    (pad (padNum 0) (padStyleRef "piezo_pad2 [1]")(pt 130.77052 mm 94.46944 mm) (rotation 60.0) (dimensionRef 3 1) (dimensionRef 4 4) )
+    (pad (padNum 0) (padStyleRef "piezo_pad2 [1]")(pt 130.64352 mm 131.59056 mm) (rotation 120.0) (dimensionRef 2 1) (dimensionRef 4 7) )
+    (pad (padNum 0) (padStyleRef "piezo_pad2 [1]")(pt 121.62652 mm 78.63156 mm) (rotation 60.0) (dimensionRef 4 2) (dimensionRef 0 1) )
+    (pad (padNum 0) (padStyleRef "piezo_pad2 [1]")(pt 130.21448 mm 75.72636 mm) (rotation 60.0) (dimensionRef 4 1) (dimensionRef 0 2) )
+    (pad (padNum 0) (padStyleRef "piezo_pad2 [1]")(pt 137.58048 mm 88.48464 mm) (rotation 60.0) (dimensionRef 4 3) (dimensionRef 0 3) )
+    (pad (padNum 0) (padStyleRef "hole094")(pt 5982.5 4818.5) (isFlipped True)(dimensionRef 4 6) (dimensionRef 0 5) )
+    (pad (padNum 0) (padStyleRef "piezo_pad2 [1]")(pt 6785.0 4275.0) (dimensionRef 6 1) (dimensionRef 0 6) )
+    (pad (padNum 0) (padStyleRef "piezo_pad2 [1]")(pt 7365.0 4275.0) (dimensionRef 0 7) )
+    (pad (padNum 0) (padStyleRef "bare280")(pt 5770.0 4450.0) (isFlipped True)(dimensionRef 4 5) (dimensionRef 0 4) )
+    (pad (padNum 0) (padStyleRef "piezo_pad2 [1]")(pt 7435.0 4625.0) (dimensionRef 1 5) )
+    (pad (padNum 0) (padStyleRef "piezo_pad2 [1]")(pt 6715.0 4625.0) (dimensionRef 6 2) (dimensionRef 1 4) )
+    (pad (padNum 0) (padStyleRef "piezo_pad2 [1]")(pt 137.45348 mm 137.57536 mm) (rotation 120.0) (dimensionRef 4 8) (dimensionRef 1 3) )
+    (pad (padNum 0) (padStyleRef "piezo_pad2 [1]")(pt 130.08748 mm 150.33364 mm) (rotation 120.0) (dimensionRef 4 10) (dimensionRef 1 2) )
+    (pad (padNum 0) (padStyleRef "piezo_pad2 [1]")(pt 121.49952 mm 147.42844 mm) (rotation 120.0) (dimensionRef 4 9) (dimensionRef 1 1) )
+    (fromTo (netNameRef "NET00000")(pt 6900.0 4530.0) (pt 7250.0 4370.0) )
+    (fromTo (netNameRef "NET00001")(pt 130.43046 mm 136.79975 mm) (pt 129.50499 mm 146.53072 mm) )
+    (fromTo (netNameRef "NET00002")(pt 133.99892 mm 87.12676 mm) (pt 126.03439 mm 81.45979 mm) )
+  )
+  (layerContents (layerNumRef 3)
+    (line (pt 125.26189 mm 80.1167 mm) (pt 4853.8 3199.1) (width 1.0) )
+    (line (pt 131.6723 mm 101.63893 mm) (pt 122.9474 mm 86.52696 mm) (width 1.0) )
+    (line (pt 121.70784 mm 86.91998 mm) (pt 130.57245 mm 102.27393 mm) (width 1.0) )
+    (line (pt 122.9474 mm 86.52696 mm) (pt 122.86542 mm 86.36908 mm) (width 1.0) )
+    (line (pt 122.8147 mm 86.22532 mm) (pt 122.78064 mm 86.07488 mm) (width 1.0) )
+    (line (pt 122.78064 mm 86.07488 mm) (pt 122.76577 mm 85.92213 mm) (width 1.0) )
+    (line (pt 122.76577 mm 85.92213 mm) (pt 122.76793 mm 85.76837 mm) (width 1.0) )
+    (line (pt 122.76793 mm 85.76837 mm) (pt 122.78963 mm 85.61801 mm) (width 1.0) )
+    (line (pt 122.78963 mm 85.61801 mm) (pt 122.8296 mm 85.46881 mm) (width 1.0) )
+    (line (pt 122.8296 mm 85.46881 mm) (pt 122.88818 mm 85.32646 mm) (width 1.0) )
+    (line (pt 122.88818 mm 85.32646 mm) (pt 122.95974 mm 85.1913 mm) (width 1.0) )
+    (line (pt 122.95974 mm 85.1913 mm) (pt 123.05025 mm 85.06866 mm) (width 1.0) )
+    (line (pt 123.05025 mm 85.06866 mm) (pt 123.15496 mm 84.9554 mm) (width 1.0) )
+    (line (pt 123.15496 mm 84.9554 mm) (pt 123.27076 mm 84.85627 mm) (width 1.0) )
+    (line (pt 123.27076 mm 84.85627 mm) (pt 123.39987 mm 84.77001 mm) (width 1.0) )
+    (line (pt 122.86542 mm 86.36908 mm) (pt 122.8147 mm 86.22532 mm) (width 1.0) )
+    (line (pt 123.39735 mm 84.77138 mm) (pt 126.80909 mm 82.80161 mm) (width 1.0) )
+    (arc (pt 125.37736 mm 84.88971 mm) (radius 4.19262 mm) (startAngle 150.8) (sweepAngle 89.3) (width 1.0) )
+    (arc (pt 126.03439 mm 81.45979 mm) (radius 61.0) (startAngle 240.0) (sweepAngle 180.0) (width 1.0) )
+    (line (pt 5464.0 4364.0) (pt 4727.0 4364.0) (width 1.0) )
+    (line (pt 4727.0 4535.0) (pt 5463.5 4534.9) (width 1.0) )
+    (line (pt 4727.0 4364.0) (pt 4727.0 4535.0) (width 1.0) )
+    (line (pt 124.91152 mm 135.35556 mm) (pt 125.02734 mm 135.45468 mm) (width 1.0) )
+    (line (pt 124.8068 mm 5324.5) (pt 124.91152 mm 135.35556 mm) (width 1.0) )
+    (line (pt 124.71756 mm 135.11746 mm) (pt 124.8068 mm 5324.5) (width 1.0) )
+    (line (pt 124.64255 mm 134.98323 mm) (pt 124.71756 mm 135.11746 mm) (width 1.0) )
+    (line (pt 124.58615 mm 134.84215 mm) (pt 124.64255 mm 134.98323 mm) (width 1.0) )
+    (line (pt 124.54617 mm 134.69295 mm) (pt 124.58615 mm 134.84215 mm) (width 1.0) )
+    (line (pt 124.52448 mm 134.54258 mm) (pt 124.54617 mm 134.69295 mm) (width 1.0) )
+    (line (pt 124.52013 mm 134.38756 mm) (pt 124.52448 mm 134.54258 mm) (width 1.0) )
+    (line (pt 124.53718 mm 134.23609 mm) (pt 124.52013 mm 134.38756 mm) (width 1.0) )
+    (line (pt 124.57125 mm 134.08565 mm) (pt 124.53718 mm 134.23609 mm) (width 1.0) )
+    (line (pt 124.62198 mm 133.94189 mm) (pt 124.57125 mm 134.08565 mm) (width 1.0) )
+    (line (pt 124.68151 mm 133.80322 mm) (pt 124.62198 mm 133.94189 mm) (width 1.0) )
+    (line (pt 125.02734 mm 135.45468 mm) (pt 125.12437 mm 135.52537 mm) (width 1.0) )
+    (line (pt 5226.2 4717.1) (pt 124.68151 mm 133.80322 mm) (width 1.0) )
+    (line (pt 125.12437 mm 135.52537 mm) (pt 5104.6 5438.7) (width 1.0) )
+    (line (pt 6425.8 4090.0) (pt 6158.7 4090.0) (width 1.0) )
+    (arc (pt 6158.7 104.215 mm) (radius 13.0) (startAngle 214.2) (sweepAngle 55.8) (width 1.0) )
+    (arc (pt 132.536 mm 4258.6) (radius 40.3) (startAngle 89.2) (sweepAngle 150.1) (width 1.0) )
+    (arc (pt 5463.4 110.02144 mm) (radius 32.5) (startAngle 270.0) (sweepAngle 180.0) (width 1.0) )
+    (arc (pt 5463.4 116.01316 mm) (radius 32.5) (startAngle 270.0) (sweepAngle 180.0) (width 1.0) )
+    (line (pt 5212.0 4600.0) (pt 5463.2 4600.0) (width 1.0) )
+    (arc (pt 132.4344 mm 4639.0) (radius 0.99073 mm) (startAngle 140.3) (sweepAngle 126.8) (width 1.0) )
+    (arc (pt 132.22283 mm 101.32246 mm) (radius 25.0) (startAngle 60.2) (sweepAngle 89.8) (width 1.0) )
+    (arc (pt 130.02439 mm 102.59467 mm) (radius 25.0) (startAngle 330.0) (sweepAngle 89.8) (width 1.0) )
+    (arc (pt 134.98887 mm 104.8395 mm) (radius 25.0) (startAngle 60.2) (sweepAngle 89.8) (width 1.0) )
+    (line (pt 132.541 mm 101.87355 mm) (pt 134.43926 mm 105.15585 mm) (width 1.0) )
+    (arc (pt 131.6873 mm 106.74293 mm) (radius 25.0) (startAngle 330.2) (sweepAngle 89.8) (width 1.0) )
+    (line (pt 130.34256 mm 103.14576 mm) (pt 5206.3 4190.1) (width 1.0) )
+    (arc (pt 148.27384 mm 4106.8) (radius 37.5) (startAngle 27.6) (sweepAngle 181.1) (width 1.0) )
+    (arc (pt 153.22684 mm 4219.8) (radius 37.5) (startAngle 27.6) (sweepAngle 181.1) (width 1.0) )
+    (line (pt 6148.0 4095.6) (pt 6065.8 4237.3) (width 1.0) )
+    (line (pt 5218.4 4298.9) (pt 5463.5 4299.0) (width 1.0) )
+    (line (pt 5857.2 5033.5) (pt 6250.6 4801.1) (width 1.0) )
+    (line (pt 134.69129 mm 120.22497 mm) (pt 5732.1 4981.8) (width 1.0) )
+    (line (pt 127.33077 mm 131.75459 mm) (pt 133.83317 mm 120.49209 mm) (width 1.0) )
+    (arc (pt 132.19669 mm 119.49796 mm) (radius 25.0) (startAngle 294.8) (sweepAngle 95.2) (width 1.0) )
+    (line (pt 5184.0 4664.0) (pt 132.458 mm 118.91687 mm) (width 1.0) )
+    (arc (pt 134.39475 mm 120.787 mm) (radius 25.0) (startAngle 207.7) (sweepAngle 92.3) (width 1.0) )
+    (line (pt 144.16168 mm 131.55858 mm) (pt 135.43678 mm 146.67055 mm) (width 1.0) )
+    (line (pt 136.39693 mm 147.54752 mm) (pt 145.26153 mm 132.19358 mm) (width 1.0) )
+    (arc (pt 143.61235 mm 131.24004 mm) (radius 25.0) (startAngle 300.2) (sweepAngle 89.8) (width 1.0) )
+    (arc (pt 145.81333 mm 132.50784 mm) (radius 25.0) (startAngle 210.0) (sweepAngle 89.8) (width 1.0) )
+    (arc (pt 149.67531 mm 129.39989 mm) (radius 1.79093 mm) (startAngle 209.6) (sweepAngle 30.4) (width 1.0) )
+    (line (pt 146.1315 mm 131.95675 mm) (pt 5831.3 5059.8) (width 1.0) )
+    (arc (pt 145.27517 mm 127.08606 mm) (radius 25.0) (startAngle 300.2) (sweepAngle 89.8) (width 1.0) )
+    (line (pt 143.93052 mm 130.68895 mm) (pt 5741.1 5015.9) (width 1.0) )
+    (line (pt 135.43678 mm 146.67055 mm) (pt 135.34104 mm 146.82049 mm) (width 1.0) )
+    (line (pt 135.2419 mm 146.93629 mm) (pt 135.12865 mm 147.04102 mm) (width 1.0) )
+    (line (pt 135.12865 mm 147.04102 mm) (pt 135.0038 mm 147.13026 mm) (width 1.0) )
+    (line (pt 135.0038 mm 147.13026 mm) (pt 134.86956 mm 147.20527 mm) (width 1.0) )
+    (line (pt 134.86956 mm 147.20527 mm) (pt 134.72849 mm 147.26166 mm) (width 1.0) )
+    (line (pt 134.72849 mm 147.26166 mm) (pt 134.5793 mm 147.30164 mm) (width 1.0) )
+    (line (pt 134.5793 mm 147.30164 mm) (pt 134.42672 mm 147.32208 mm) (width 1.0) )
+    (line (pt 134.42672 mm 147.32208 mm) (pt 134.2739 mm 147.32769 mm) (width 1.0) )
+    (line (pt 134.2739 mm 147.32769 mm) (pt 134.12243 mm 147.31063 mm) (width 1.0) )
+    (line (pt 134.12243 mm 147.31063 mm) (pt 133.97199 mm 147.27658 mm) (width 1.0) )
+    (line (pt 133.97199 mm 147.27658 mm) (pt 133.82824 mm 147.22585 mm) (width 1.0) )
+    (line (pt 133.82824 mm 147.22585 mm) (pt 133.68898 mm 147.15717 mm) (width 1.0) )
+    (line (pt 135.34104 mm 146.82049 mm) (pt 135.2419 mm 146.93629 mm) (width 1.0) )
+    (line (pt 133.69143 mm 147.15867 mm) (pt 130.27969 mm 145.1889 mm) (width 1.0) )
+    (arc (pt 5228.5 145.38476 mm) (radius 4.19262 mm) (startAngle 30.8) (sweepAngle 89.3) (width 1.0) )
+    (arc (pt 129.50499 mm 146.53072 mm) (radius 61.0) (startAngle 120.0) (sweepAngle 180.0) (width 1.0) )
+    (line (pt 127.26336 mm 131.89164 mm) (pt 127.33204 mm 131.75239 mm) (width 1.0) )
+    (line (pt 127.16586 mm 132.49233 mm) (pt 127.16151 mm 132.3373 mm) (width 1.0) )
+    (line (pt 127.18756 mm 132.6427 mm) (pt 127.16586 mm 132.49233 mm) (width 1.0) )
+    (line (pt 127.22754 mm 132.7919 mm) (pt 127.18756 mm 132.6427 mm) (width 1.0) )
+    (line (pt 127.17857 mm 132.18584 mm) (pt 127.21263 mm 132.0354 mm) (width 1.0) )
+    (line (pt 127.16151 mm 132.3373 mm) (pt 127.17857 mm 132.18584 mm) (width 1.0) )
+    (line (pt 127.21263 mm 132.0354 mm) (pt 127.26336 mm 131.89164 mm) (width 1.0) )
+    (arc (pt 130.43046 mm 136.79975 mm) (radius 61.0) (startAngle 300.0) (sweepAngle 180.0) (width 1.0) )
+    (line (pt 131.20516 mm 135.45793 mm) (pt 127.79562 mm 133.48943 mm) (width 1.0) )
+    (line (pt 127.28393 mm 132.93298 mm) (pt 127.22754 mm 132.7919 mm) (width 1.0) )
+    (line (pt 127.35895 mm 133.06721 mm) (pt 127.28393 mm 132.93298 mm) (width 1.0) )
+    (line (pt 127.44818 mm 133.19205 mm) (pt 127.35895 mm 133.06721 mm) (width 1.0) )
+    (line (pt 127.5529 mm 133.30531 mm) (pt 127.44818 mm 133.19205 mm) (width 1.0) )
+    (line (pt 127.66872 mm 133.40443 mm) (pt 127.5529 mm 133.30531 mm) (width 1.0) )
+    (line (pt 127.79562 mm 133.48943 mm) (pt 127.66872 mm 133.40443 mm) (width 1.0) )
+    (line (pt 128.72809 mm 147.87127 mm) (pt 5145.8 5866.6) (width 1.0) )
+    (arc (pt 181.50811 mm 108.71404 mm) (radius 4.19262 mm) (startAngle 270.8) (sweepAngle 89.3) (width 1.0) )
+    (line (pt 7311.0 4370.1) (pt 7311.1 4282.1) (width 1.0) )
+    (arc (pt 7250.0 4370.0) (radius 61.0) (startAngle 0.0) (sweepAngle 180.0) (width 1.0) )
+    (line (pt 7149.0 4115.0) (pt 6451.0 4115.0) (width 1.0) )
+    (line (pt 6251.0 4710.0) (pt 6251.0 4215.0) (width 1.0) )
+    (line (pt 6425.9 4190.0) (pt 6276.0 4190.0) (width 1.0) )
+    (arc (pt 159.41174 mm 4215.1) (radius 25.0) (startAngle 180.2) (sweepAngle 89.8) (width 1.0) )
+    (arc (pt 163.85166 mm 4090.0) (radius 25.0) (startAngle 90.0) (sweepAngle 89.8) (width 1.0) )
+    (arc (pt 163.8542 mm 4190.0) (radius 25.0) (startAngle 180.2) (sweepAngle 89.8) (width 1.0) )
+    (line (pt 6451.0 4165.0) (pt 7138.0 4165.0) (width 1.0) )
+    (line (pt 7189.0 4214.9) (pt 7189.0 4370.0) (width 1.0) )
+    (line (pt 181.48292 mm 105.79895 mm) (pt 181.63278 mm 105.8269 mm) (width 1.0) )
+    (line (pt 182.59036 mm 106.90639 mm) (pt 182.60052 mm 107.06133 mm) (width 1.0) )
+    (line (pt 182.56243 mm 106.75653 mm) (pt 182.59036 mm 106.90639 mm) (width 1.0) )
+    (line (pt 182.5167 mm 106.60922 mm) (pt 182.56243 mm 106.75653 mm) (width 1.0) )
+    (line (pt 182.45574 mm 106.46951 mm) (pt 182.5167 mm 106.60922 mm) (width 1.0) )
+    (line (pt 182.37447 mm 106.33997 mm) (pt 182.45574 mm 106.46951 mm) (width 1.0) )
+    (line (pt 182.28048 mm 106.21805 mm) (pt 182.37447 mm 106.33997 mm) (width 1.0) )
+    (line (pt 182.17126 mm 106.10884 mm) (pt 182.28048 mm 106.21805 mm) (width 1.0) )
+    (line (pt 182.05189 mm 106.01487 mm) (pt 182.17126 mm 106.10884 mm) (width 1.0) )
+    (line (pt 181.91981 mm 105.93612 mm) (pt 182.05189 mm 106.01487 mm) (width 1.0) )
+    (line (pt 181.7801 mm 105.87261 mm) (pt 181.91981 mm 105.93612 mm) (width 1.0) )
+    (line (pt 181.63278 mm 105.8269 mm) (pt 181.7801 mm 105.87261 mm) (width 1.0) )
+    (line (pt 7138.0 4165.0) (pt 181.48292 mm 105.79895 mm) (width 1.0) )
+    (line (pt 6839.0 4530.0) (pt 6839.0 4685.0) (width 1.0) )
+    (line (pt 6961.0 4736.0) (pt 6961.0 4531.0) (width 1.0) )
+    (arc (pt 6900.0 4530.0) (radius 61.0) (startAngle 180.0) (sweepAngle 180.0) (width 1.0) )
+    (line (pt 6959.4 4746.6) (pt 6960.5 4740.7) (width 1.0) )
+    (line (pt 6957.6 4752.4) (pt 6959.4 4746.6) (width 1.0) )
+    (line (pt 6955.1 4757.9) (pt 6957.6 4752.4) (width 1.0) )
+    (line (pt 6952.0 4763.1) (pt 6955.1 4757.9) (width 1.0) )
+    (line (pt 6948.3 4767.8) (pt 6952.0 4763.1) (width 1.0) )
+    (line (pt 6944.0 4772.1) (pt 6948.3 4767.8) (width 1.0) )
+    (line (pt 6939.3 4775.8) (pt 6944.0 4772.1) (width 1.0) )
+    (line (pt 6934.1 4779.0) (pt 6939.3 4775.8) (width 1.0) )
+    (line (pt 6928.6 4781.4) (pt 6934.1 4779.0) (width 1.0) )
+    (line (pt 6922.8 4783.2) (pt 6928.6 4781.4) (width 1.0) )
+    (line (pt 6916.9 4784.3) (pt 6922.8 4783.2) (width 1.0) )
+    (line (pt 6911.0 4785.0) (pt 6916.9 4784.3) (width 1.0) )
+    (line (pt 6960.5 4740.7) (pt 6961.0 4736.0) (width 1.0) )
+    (line (pt 6795.0 4734.6) (pt 6788.9 4735.0) (width 1.0) )
+    (line (pt 6817.4 4726.1) (pt 6812.2 4729.3) (width 1.0) )
+    (line (pt 6822.1 4722.4) (pt 6817.4 4726.1) (width 1.0) )
+    (line (pt 6826.4 4718.1) (pt 6822.1 4722.4) (width 1.0) )
+    (line (pt 6830.1 4713.4) (pt 6826.4 4718.1) (width 1.0) )
+    (line (pt 6833.2 4708.2) (pt 6830.1 4713.4) (width 1.0) )
+    (line (pt 6835.7 4702.7) (pt 6833.2 4708.2) (width 1.0) )
+    (line (pt 6837.5 4696.9) (pt 6835.7 4702.7) (width 1.0) )
+    (line (pt 6838.6 4691.0) (pt 6837.5 4696.9) (width 1.0) )
+    (line (pt 6839.0 4685.0) (pt 6838.6 4691.0) (width 1.0) )
+    (line (pt 6806.7 4731.7) (pt 6800.9 4733.5) (width 1.0) )
+    (line (pt 6812.2 4729.3) (pt 6806.7 4731.7) (width 1.0) )
+    (line (pt 6800.9 4733.5) (pt 6795.0 4734.6) (width 1.0) )
+    (line (pt 6274.0 4785.0) (pt 6911.0 4785.0) (width 1.0) )
+    (arc (pt 159.3584 mm 4810.0) (radius 25.0) (startAngle 200.6) (sweepAngle 69.4) (width 1.0) )
+    (arc (pt 6276.0 119.6352 mm) (radius 25.0) (startAngle 87.7) (sweepAngle 92.3) (width 1.0) )
+    (line (pt 6789.0 4735.0) (pt 6277.0 4735.0) (width 1.0) )
+    (arc (pt 6974.0 3305.0) (radius 55.0) (startAngle 0.0) (sweepAngle 89.9) (width 1.0) )
+    (line (pt 7029.0 3305.0) (pt 7029.0 3200.0) (width 1.0) )
+    (line (pt 6974.0 3360.0) (pt 6953.0 3360.0) (width 1.0) )
+    (line (pt 6675.4 3874.0) (pt 6953.0 3360.0) (width 1.0) )
+    (line (pt 6522.0 3348.0) (pt 6653.0 3348.0) (width 1.0) )
+    (line (pt 6659.2 3198.0) (pt 6523.4 3198.0) (width 1.0) )
+    (line (pt 6467.0 2986.0) (pt 6467.0 3102.0) (width 1.0) )
+    (line (pt 6522.0 2673.0) (pt 6522.0 2930.0) (width 1.0) )
+    (arc (pt 6522.0 2985.0) (radius 55.0) (startAngle 180.0) (sweepAngle 89.9) (width 1.0) )
+    (arc (pt 6522.0 3102.0) (radius 55.0) (startAngle 90.0) (sweepAngle 90.0) (width 1.0) )
+    (line (pt 6522.0 3389.0) (pt 6522.0 3873.7) (width 1.0) )
+    (arc (pt 6524.0 3403.0) (radius 1.39492 mm) (startAngle 206.6) (sweepAngle 61.2) (width 1.0) )
+    (arc (pt 6523.8 3401.9) (radius 5.17923 mm) (startAngle 208.7) (sweepAngle 61.2) (width 1.0) )
+    (line (pt 139.16576 mm 83.30486 mm) (pt 139.0431 mm 83.21435 mm) (width 1.0) )
+    (line (pt 139.27901 mm 83.40959 mm) (pt 139.16576 mm 83.30486 mm) (width 1.0) )
+    (line (pt 139.37814 mm 83.5254 mm) (pt 139.27901 mm 83.40959 mm) (width 1.0) )
+    (line (pt 139.46847 mm 83.64629 mm) (pt 139.37814 mm 83.5254 mm) (width 1.0) )
+    (line (pt 137.86535 mm 83.12005 mm) (pt 137.75561 mm 83.16874 mm) (width 1.0) )
+    (line (pt 138.92091 mm 86.33517 mm) (pt 139.07128 mm 86.35687 mm) (width 1.0) )
+    (line (pt 138.76715 mm 86.33302 mm) (pt 138.92091 mm 86.33517 mm) (width 1.0) )
+    (line (pt 138.61442 mm 86.34788 mm) (pt 138.76715 mm 86.33302 mm) (width 1.0) )
+    (line (pt 138.46398 mm 86.38194 mm) (pt 138.61442 mm 86.34788 mm) (width 1.0) )
+    (line (pt 138.32023 mm 86.43268 mm) (pt 138.46398 mm 86.38194 mm) (width 1.0) )
+    (line (pt 138.18316 mm 86.50008 mm) (pt 138.32023 mm 86.43268 mm) (width 1.0) )
+    (line (pt 5804.6 4088.9) (pt 5890.0 3929.9) (width 1.0) )
+    (line (pt 5856.1 3859.2) (pt 5838.6 3854.6) (width 1.0) )
+    (arc (pt 5845.0 99.262 mm) (radius 50.0) (startAngle 282.7) (sweepAngle 103.4) (width 1.0) )
+    (arc (pt 145.88422 mm 98.56631 mm) (radius 25.0) (startAngle 327.7) (sweepAngle 92.3) (width 1.0) )
+    (line (pt 146.22268 mm 99.10414 mm) (pt 135.30366 mm 105.39094 mm) (width 1.0) )
+    (arc (pt 148.0996 mm 97.30725 mm) (radius 25.0) (startAngle 71.0) (sweepAngle 79.0) (width 1.0) )
+    (line (pt 139.918 mm 86.96493 mm) (pt 146.42041 mm 98.22742 mm) (width 1.0) )
+    (line (pt 147.55121 mm 97.62433 mm) (pt 139.46847 mm 83.64629 mm) (width 1.0) )
+    (line (pt 6345.0 3304.0) (pt 5870.8 4124.2) (width 1.0) )
+    (line (pt 5999.7 4201.8) (pt 6475.0 3378.0) (width 1.0) )
+    (line (pt 137.75561 mm 83.16874 mm) (pt 5245.0 3377.4) (width 1.0) )
+    (line (pt 139.83302 mm 86.83802 mm) (pt 139.91927 mm 86.96713 mm) (width 1.0) )
+    (line (pt 139.36156 mm 86.45324 mm) (pt 139.49799 mm 86.52699 mm) (width 1.0) )
+    (line (pt 139.22048 mm 86.39685 mm) (pt 139.36156 mm 86.45324 mm) (width 1.0) )
+    (line (pt 139.07128 mm 86.35687 mm) (pt 139.22048 mm 86.39685 mm) (width 1.0) )
+    (line (pt 139.62063 mm 86.61749 mm) (pt 139.73388 mm 86.72221 mm) (width 1.0) )
+    (line (pt 139.49799 mm 86.52699 mm) (pt 139.62063 mm 86.61749 mm) (width 1.0) )
+    (line (pt 139.73388 mm 86.72221 mm) (pt 139.83302 mm 86.83802 mm) (width 1.0) )
+    (arc (pt 133.99892 mm 87.12676 mm) (radius 61.0) (startAngle 60.0) (sweepAngle 180.0) (width 1.0) )
+    (line (pt 134.77362 mm 88.46858 mm) (pt 138.18316 mm 86.50008 mm) (width 1.0) )
+    (line (pt 138.0091 mm 83.06931 mm) (pt 137.86535 mm 83.12005 mm) (width 1.0) )
+    (line (pt 138.15954 mm 83.03525 mm) (pt 138.0091 mm 83.06931 mm) (width 1.0) )
+    (line (pt 138.31228 mm 83.02039 mm) (pt 138.15954 mm 83.03525 mm) (width 1.0) )
+    (line (pt 138.46603 mm 83.02254 mm) (pt 138.31228 mm 83.02039 mm) (width 1.0) )
+    (line (pt 138.61641 mm 83.04424 mm) (pt 138.46603 mm 83.02254 mm) (width 1.0) )
+    (line (pt 138.76561 mm 83.08421 mm) (pt 138.61641 mm 83.04424 mm) (width 1.0) )
+    (line (pt 138.90668 mm 83.14061 mm) (pt 138.76561 mm 83.08421 mm) (width 1.0) )
+    (line (pt 139.0431 mm 83.21435 mm) (pt 138.90668 mm 83.14061 mm) (width 1.0) )
+    (line (pt 6907.7 3104.1) (pt 6675.7 2673.5) (width 1.0) )
+    (arc (pt 6974.2 3069.2) (radius 1.90839 mm) (startAngle 90.0) (sweepAngle 62.3) (width 1.0) )
+    (arc (pt 6974.0 3199.3) (radius 55.0) (startAngle 270.0) (sweepAngle 90.0) (width 1.0) )
+    (line (pt 6774.2 3296.9) (pt 6812.2 3259.4) (width 1.0) )
+    (arc (pt 6652.4 3177.1) (radius 4.3405 mm) (startAngle 44.4) (sweepAngle 45.6) (width 1.0) )
+    (arc (pt 6652.7 3177.5) (radius 0.52071 mm) (startAngle 44.4) (sweepAngle 45.6) (width 1.0) )
+    (line (pt 6675.4 2673.2) (pt 6625.3 2673.5) (width 1.0) )
+    (line (pt 6625.2 2673.2) (pt 6625.3 2773.5) (width 1.0) )
+    (line (pt 6625.2 2772.6) (pt 6522.1 2673.5) (width 1.0) )
+    (line (pt 6521.8 3874.0) (pt 6625.3 3774.3) (width 1.0) )
+    (line (pt 6625.2 3773.6) (pt 6625.3 3874.3) (width 1.0) )
+    (arc (pt 6826.5 3273.4) (radius 20.0) (startAngle 224.2) (sweepAngle 183.8) (width 1.0) )
+    (arc (pt 6692.3 3138.5) (radius 20.0) (startAngle 231.6) (sweepAngle 175.0) (width 1.0) )
+    (arc (pt 6637.8 3137.0) (radius 20.0) (startAngle 39.4) (sweepAngle 48.9) (width 1.0) )
+    (line (pt 6653.2 3149.8) (pt 6679.9 3122.8) (width 1.0) )
+    (line (pt 6522.0 3157.0) (pt 6638.5 3157.0) (width 1.0) )
+    (line (pt 6667.3 3191.9) (pt 6706.0 3153.0) (width 1.0) )
+    (line (pt 6730.0 3389.0) (pt 6522.0 3389.0) (width 1.0) )
+    (arc (pt 6729.0 3363.0) (radius 0.66013 mm) (startAngle 43.5) (sweepAngle 44.3) (width 1.0) )
+    (line (pt 6839.8 3288.3) (pt 6747.8 3380.9) (width 1.0) )
+    (line (pt 6625.2 3874.0) (pt 6675.7 3874.3) (width 1.0) )
+  )
+  (layerContents (layerNumRef 10)
+    (arc (pt 6715.0 4625.0) (radius 0.80645 mm) (startAngle 180.0) (sweepAngle 360.0) (width 1.0) )
+    (arc (pt 130.21448 mm 75.72636 mm) (radius 0.80645 mm) (startAngle 240.0) (sweepAngle 360.0) (width 1.0) )
+    (arc (pt 137.58048 mm 88.48464 mm) (radius 0.80645 mm) (startAngle 240.0) (sweepAngle 360.0) (width 1.0) )
+    (arc (pt 130.77052 mm 94.46944 mm) (radius 0.80645 mm) (startAngle 240.0) (sweepAngle 360.0) (width 1.0) )
+    (arc (pt 7365.0 4275.0) (radius 0.80645 mm) (startAngle 180.0) (sweepAngle 360.0) (width 1.0) )
+    (arc (pt 130.64352 mm 131.59056 mm) (radius 0.80645 mm) (startAngle 300.0) (sweepAngle 360.0) (width 1.0) )
+    (arc (pt 121.49952 mm 147.42844 mm) (radius 0.80645 mm) (startAngle 300.0) (sweepAngle 360.0) (width 1.0) )
+    (arc (pt 130.08748 mm 150.33364 mm) (radius 0.80645 mm) (startAngle 300.0) (sweepAngle 360.0) (width 1.0) )
+    (arc (pt 7435.0 4625.0) (radius 0.80645 mm) (startAngle 180.0) (sweepAngle 360.0) (width 1.0) )
+    (arc (pt 6785.0 4275.0) (radius 0.80645 mm) (startAngle 180.0) (sweepAngle 360.0) (width 1.0) )
+    (arc (pt 121.62652 mm 78.63156 mm) (radius 0.80645 mm) (startAngle 240.0) (sweepAngle 360.0) (width 1.0) )
+    (arc (pt 137.45348 mm 137.57536 mm) (radius 0.80645 mm) (startAngle 300.0) (sweepAngle 360.0) (width 1.0) )
+    (line (pt 4200.0 2400.0) (pt 8000.0 2400.0) (width 1.0) (dimensionRef 6 0) (dimensionRef 4 0) )
+    (line (pt 8000.0 6500.0) (pt 4200.0 6500.0) (width 1.0) (dimensionRef 4 11) )
+    (line (pt 8000.0 2400.0) (pt 8000.0 6500.0) (width 1.0) (dimensionRef 0 8) )
+    (arc (pt 5982.5 4819.0) (radius 47.0) (startAngle 0.0) (sweepAngle 360.0) (width 1.0) )
+    (line (pt 4200.0 6500.0) (pt 4200.0 2400.0) (width 1.0) (dimensionRef 2 0) (dimensionRef 3 0) (dimensionRef 0 0) (dimensionRef 1 0) )
+    (arc (pt 5768.5 4451.0) (radius 140.0) (startAngle 0.0) (sweepAngle 360.0) (width 1.0) )
+    (text (pt 8536.0 3096.0) "Material: 0.25 thick aluminum" (textStyleRef "T:H80W8") (extent 1183.0 108.0) )
+    (dimension 
+      (dimStyle dim_leader )
+      (pt 147.15183 mm 116.57961 mm) (rotation 0)
+      (isFlipped False)
+      (dimOrient dim_horizontal )
+      (dimTextOrient dim_horizontal )
+      (dimPrecision 1)
+      (dimDisplayUnits False)
+      (dimUnits dim_units_inch )
+      (dimLineWidth 2540)
+      (dimLeaderStyle dim_leader_style_text )
+      (dimLeaderSize 1270000)
+      (dimCenterSize 508000)
+      (dimPlusLinearTol 12700)
+      (dimMinusLinearTol 12700)
+      (dimPlusDegTol 0)
+      (dimMinusDegTol 0)
+      (dimShowTolerance False)
+      (dimShowDiaSymbol False)
+      (dimDimLineGraphics 
+        (dimGraphics 
+          (dimGraphic (line (pt 163.50616 mm 186.74838 mm) (pt 157.15616 mm 186.74838 mm) (width 1.0) )
+          )
+        )
+      )
+      (dimExtLineGraphics 
+        (dimGraphics 
+          (dimGraphic (line (pt 147.15183 mm 116.57961 mm) (pt 157.15616 mm 186.74838 mm) (width 1.0) )
+          )
+          (dimGraphic (poly 
+            (pt 147.15183 mm 116.57961 mm) 
+            (pt 147.04154 mm 121.39297 mm) 
+            (pt 148.60063 mm 121.17108 mm) 
+          )
+          )
+        )
+      )
+      (dimTextGraphics 
+        (dimGraphics 
+          (dimGraphic (text (pt 175.51401 mm 186.74838 mm) "Press fit 0.275 pin\r\n0.25 height above plate\r\n" (textStyleRef "T:H80W8") (justify Center) (extent 945.5 218.0) )
+          )
+        )
+      )
+      (dimPoints 
+        (pt 147.15183 mm 116.57961 mm) (pt 175.51401 mm 186.74838 mm) )
+      (arrowheadWidth 62.0)
+      (arrowheadHeight 187.0)
+      (dimensionID -1)
+    )
+    (dimension 
+      (dimStyle dim_leader )
+      (pt 152.67693 mm 124.49892 mm) (rotation 0)
+      (isFlipped False)
+      (dimOrient dim_horizontal )
+      (dimTextOrient dim_horizontal )
+      (dimPrecision 1)
+      (dimDisplayUnits False)
+      (dimUnits dim_units_inch )
+      (dimLineWidth 2540)
+      (dimLeaderStyle dim_leader_style_text )
+      (dimLeaderSize 1270000)
+      (dimCenterSize 508000)
+      (dimPlusLinearTol 12700)
+      (dimMinusLinearTol 12700)
+      (dimPlusDegTol 0)
+      (dimMinusDegTol 0)
+      (dimShowTolerance False)
+      (dimShowDiaSymbol False)
+      (dimDimLineGraphics 
+        (dimGraphics 
+          (dimGraphic (line (pt 168.66292 mm 180.4866 mm) (pt 162.31292 mm 180.4866 mm) (width 1.0) )
+          )
+        )
+      )
+      (dimExtLineGraphics 
+        (dimGraphics 
+          (dimGraphic (line (pt 152.67693 mm 124.49892 mm) (pt 162.31292 mm 180.4866 mm) (width 1.0) )
+          )
+          (dimGraphic (poly 
+            (pt 152.67693 mm 124.49892 mm) 
+            (pt 152.70948 mm 129.31343 mm) 
+            (pt 154.2613 mm 129.04539 mm) 
+          )
+          )
+        )
+      )
+      (dimTextGraphics 
+        (dimGraphics 
+          (dimGraphic (text (pt 180.67077 mm 180.4866 mm) "Press fit 0.090 pin\r\n0.25 height above plate" (textStyleRef "T:H80W8") (justify Center) (extent 945.5 218.0) )
+          )
+        )
+      )
+      (dimPoints 
+        (pt 152.67693 mm 124.49892 mm) (pt 180.67077 mm 180.4866 mm) )
+      (arrowheadWidth 62.0)
+      (arrowheadHeight 187.0)
+      (dimensionID -1)
+    )
+    (text (pt 8543.0 3640.0) "Please make 6 0.059 x 0.75 inch\r\npins with beveled ends, by \r\ncutting gage pins (supplied)\r\nor from watever material you\r\nplease.\r\n" (textStyleRef "T:H80W8") (extent 1328.0 518.0) )
+    (text (pt 4112.0 1378.0) "Rob MacLachlan  Robotics\r\nram@ri.cmu.edu\r\n412-445-8113\r\nCharge to 20124.1.1041177\r\n\r\n" (textStyleRef "T:H80W8") (extent 1133.0 418.0) )
+    (text (pt 6679.0 1595.0) "Micron piezo soldering fixture\r\nram " (textStyleRef "T:H80W8") (extent 1168.0 218.0) )
+    (dimension 
+      (dimStyle dim_datum )
+      (pt 4200.0 2400.0) (rotation 0)
+      (isFlipped False)
+      (dimOrient dim_horizontal )
+      (dimTextOrient dim_vertical )
+      (dimPrecision 3)
+      (dimDisplayUnits False)
+      (dimUnits dim_units_inch )
+      (dimLineWidth 2540)
+      (dimLeaderStyle dim_leader_style_text )
+      (dimLeaderSize 1270000)
+      (dimCenterSize 508000)
+      (dimPlusLinearTol 0)
+      (dimMinusLinearTol 0)
+      (dimPlusDegTol 0)
+      (dimMinusDegTol 0)
+      (dimShowTolerance False)
+      (dimShowDiaSymbol False)
+      (dimDimLineGraphics 
+      )
+      (dimExtLineGraphics 
+        (dimGraphics 
+          (dimGraphic (line (pt 4200.0 2340.0) (pt 4200.0 56.32502 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 121.62652 mm 77.10756 mm) (pt 121.62652 mm 56.32502 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 130.21448 mm 74.20236 mm) (pt 130.21448 mm 56.32502 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 137.58048 mm 86.96064 mm) (pt 137.58048 mm 56.32502 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 5770.0 4390.0) (pt 5770.0 56.32502 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 5982.5 4758.5) (pt 5982.5 56.32502 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 6785.0 4215.0) (pt 6785.0 56.32502 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 7365.0 4215.0) (pt 7365.0 56.32502 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 8000.0 2340.0) (pt 8000.0 56.32502 mm) (width 1.0) )
+          )
+        )
+      )
+      (dimTextGraphics 
+        (dimGraphics 
+          (dimGraphic (text (pt 4200.0 53.23892 mm) "0.000" (textStyleRef "T:H80W8") (rotation 90.0) (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 121.62652 mm 53.23892 mm) "0.588" (textStyleRef "T:H80W8") (rotation 90.0) (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 130.21448 mm 53.23892 mm) "0.927" (textStyleRef "T:H80W8") (rotation 90.0) (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 137.58048 mm 53.23892 mm) "1.217" (textStyleRef "T:H80W8") (rotation 90.0) (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 5770.0 53.23892 mm) "1.570" (textStyleRef "T:H80W8") (rotation 90.0) (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 5982.5 53.23892 mm) "1.783" (textStyleRef "T:H80W8") (rotation 90.0) (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 6785.0 53.23892 mm) "2.585" (textStyleRef "T:H80W8") (rotation 90.0) (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 7365.0 53.23892 mm) "3.165" (textStyleRef "T:H80W8") (rotation 90.0) (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 8000.0 53.23892 mm) "3.800" (textStyleRef "T:H80W8") (rotation 90.0) (justify Center) (extent 243.0 108.0) )
+          )
+        )
+      )
+      (dimPoints 
+        (pt 4200.0 2400.0) (pt 106.74731 mm 53.23892 mm) (pt 121.62652 mm 78.63156 mm) (pt 130.21448 mm 75.72636 mm) (pt 137.58048 mm 88.48464 mm) (pt 5770.0 4450.0) (pt 5982.5 4818.5) (pt 6785.0 4275.0) (pt 7365.0 4275.0) (pt 8000.0 2400.0) )
+      (arrowheadWidth 62.0)
+      (arrowheadHeight 187.0)
+      (dimensionID 0)
+      (dimensionOffsets (pt 0.0 0.1 mm) (pt 0.0 0.0) (pt 0.0 0.0) (pt 0.0 0.0) (pt 0.0 0.0) (pt 0.0 0.0) (pt 0.0 0.0) (pt 0.0 0.0) (pt 0.1 mm 0.0) )
+    )
+    (dimension 
+      (dimStyle dim_datum )
+      (pt 4200.0 6500.0) (rotation 0)
+      (isFlipped False)
+      (dimOrient dim_horizontal )
+      (dimTextOrient dim_vertical )
+      (dimPrecision 3)
+      (dimDisplayUnits False)
+      (dimUnits dim_units_inch )
+      (dimLineWidth 2540)
+      (dimLeaderStyle dim_leader_style_text )
+      (dimLeaderSize 1270000)
+      (dimCenterSize 508000)
+      (dimPlusLinearTol 0)
+      (dimMinusLinearTol 0)
+      (dimPlusDegTol 0)
+      (dimMinusDegTol 0)
+      (dimShowTolerance False)
+      (dimShowDiaSymbol False)
+      (dimDimLineGraphics 
+      )
+      (dimExtLineGraphics 
+        (dimGraphics 
+          (dimGraphic (line (pt 4200.0 6560.0) (pt 4200.0 170.56246 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 121.49952 mm 148.95244 mm) (pt 121.49952 mm 170.56246 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 130.08748 mm 151.85764 mm) (pt 130.08748 mm 170.56246 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 137.45348 mm 139.09936 mm) (pt 137.45348 mm 170.56246 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 6715.0 4685.0) (pt 6715.0 170.56246 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 7435.0 4685.0) (pt 7435.0 170.56246 mm) (width 1.0) )
+          )
+        )
+      )
+      (dimTextGraphics 
+        (dimGraphics 
+          (dimGraphic (text (pt 4200.0 173.64856 mm) "0.000" (textStyleRef "T:H80W8") (rotation 90.0) (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 121.49952 mm 173.64856 mm) "0.583" (textStyleRef "T:H80W8") (rotation 90.0) (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 130.08748 mm 173.64856 mm) "0.922" (textStyleRef "T:H80W8") (rotation 90.0) (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 137.45348 mm 173.64856 mm) "1.212" (textStyleRef "T:H80W8") (rotation 90.0) (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 6715.0 173.64856 mm) "2.515" (textStyleRef "T:H80W8") (rotation 90.0) (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 7435.0 173.64856 mm) "3.235" (textStyleRef "T:H80W8") (rotation 90.0) (justify Center) (extent 243.0 108.0) )
+          )
+        )
+      )
+      (dimPoints 
+        (pt 4200.0 6500.0) (pt 104.20815 mm 173.64856 mm) (pt 121.49952 mm 147.42844 mm) (pt 130.08748 mm 150.33364 mm) (pt 137.45348 mm 137.57536 mm) (pt 6715.0 4625.0) (pt 7435.0 4625.0) )
+      (arrowheadWidth 62.0)
+      (arrowheadHeight 187.0)
+      (dimensionID 1)
+      (dimensionOffsets (pt 0.1 mm 0.0) (pt 0.0 0.0) (pt 0.0 0.0) (pt 0.0 0.0) (pt 0.0 0.0) (pt 0.0 0.0) )
+    )
+    (dimension 
+      (dimStyle dim_point_to_point )
+      (pt 4200.0 6500.0) (rotation 0)
+      (isFlipped False)
+      (dimOrient dim_horizontal )
+      (dimTextOrient dim_horizontal )
+      (dimPrecision 3)
+      (dimDisplayUnits False)
+      (dimUnits dim_units_inch )
+      (dimLineWidth 2540)
+      (dimLeaderStyle dim_leader_style_text )
+      (dimLeaderSize 1270000)
+      (dimCenterSize 508000)
+      (dimPlusLinearTol 0)
+      (dimMinusLinearTol 0)
+      (dimPlusDegTol 0)
+      (dimMinusDegTol 0)
+      (dimShowTolerance False)
+      (dimShowDiaSymbol False)
+      (dimDimLineGraphics 
+        (dimGraphics 
+          (dimGraphic (line (pt 4200.0 127.14184 mm) (pt 115.56845 mm 127.14184 mm) (width 1.0) )
+          )
+          (dimGraphic (poly 
+            (pt 4200.0 127.14184 mm) 
+            (pt 4387.0 127.92924 mm) 
+            (pt 4387.0 126.35444 mm) 
+          )
+          )
+          (dimGraphic (line (pt 130.64352 mm 127.14184 mm) (pt 122.24865 mm 127.14184 mm) (width 1.0) )
+          )
+          (dimGraphic (poly 
+            (pt 130.64352 mm 127.14184 mm) 
+            (pt 125.89372 mm 127.92924 mm) 
+            (pt 125.89372 mm 126.35444 mm) 
+          )
+          )
+        )
+      )
+      (dimExtLineGraphics 
+        (dimGraphics 
+          (dimGraphic (line (pt 4200.0 6440.0) (pt 4200.0 126.12584 mm) (width 1.0) )
+          )
+          (dimGraphic (line (pt 130.64352 mm 130.06656 mm) (pt 130.64352 mm 126.12584 mm) (width 1.0) )
+          )
+        )
+      )
+      (dimTextGraphics 
+        (dimGraphics 
+          (dimGraphic (text (pt 118.90855 mm 127.14184 mm) "0.943" (textStyleRef "T:H80W8") (justify Center) (extent 243.0 108.0) )
+          )
+        )
+      )
+      (dimPoints 
+        (pt 4200.0 6500.0) (pt 130.64352 mm 131.59056 mm) (pt 118.90855 mm 127.14184 mm) )
+      (arrowheadWidth 62.0)
+      (arrowheadHeight 187.0)
+      (dimensionID 2)
+      (dimensionOffsets (pt 0.1 mm 0.0) (pt 0.0 0.0) )
+    )
+    (dimension 
+      (dimStyle dim_point_to_point )
+      (pt 4200.0 2400.0) (rotation 0)
+      (isFlipped False)
+      (dimOrient dim_horizontal )
+      (dimTextOrient dim_horizontal )
+      (dimPrecision 3)
+      (dimDisplayUnits False)
+      (dimUnits dim_units_inch )
+      (dimLineWidth 2540)
+      (dimLeaderStyle dim_leader_style_text )
+      (dimLeaderSize 1270000)
+      (dimCenterSize 508000)
+      (dimPlusLinearTol 0)
+      (dimMinusLinearTol 0)
+      (dimPlusDegTol 0)
+      (dimMinusDegTol 0)
+      (dimShowTolerance False)
+      (dimShowDiaSymbol False)
+      (dimDimLineGraphics 
+        (dimGraphics 
+          (dimGraphic (line (pt 4200.0 99.34472 mm) (pt 115.16753 mm 99.34472 mm) (width 1.0) )
+          )
+          (dimGraphic (poly 
+            (pt 4200.0 99.34472 mm) 
+            (pt 4387.0 100.13212 mm) 
+            (pt 4387.0 98.55732 mm) 
+          )
+          )
+          (dimGraphic (line (pt 130.77052 mm 99.34472 mm) (pt 121.84773 mm 99.34472 mm) (width 1.0) )
+          )
+          (dimGraphic (poly 
+            (pt 130.77052 mm 99.34472 mm) 
+            (pt 126.02072 mm 100.13212 mm) 
+            (pt 126.02072 mm 98.55732 mm) 
+          )
+          )
+        )
+      )
+      (dimExtLineGraphics 
+        (dimGraphics 
+          (dimGraphic (line (pt 4200.0 2460.0) (pt 4200.0 100.36072 mm) (width 1.0) )
+          )
+          (dimGraphic (line (pt 130.77052 mm 95.99344 mm) (pt 130.77052 mm 100.36072 mm) (width 1.0) )
+          )
+        )
+      )
+      (dimTextGraphics 
+        (dimGraphics 
+          (dimGraphic (text (pt 118.50763 mm 99.34472 mm) "0.948" (textStyleRef "T:H80W8") (justify Center) (extent 243.0 108.0) )
+          )
+        )
+      )
+      (dimPoints 
+        (pt 4200.0 2400.0) (pt 130.77052 mm 94.46944 mm) (pt 118.50763 mm 99.34472 mm) )
+      (arrowheadWidth 62.0)
+      (arrowheadHeight 187.0)
+      (dimensionID 3)
+      (dimensionOffsets (pt 0.0 0.1 mm) (pt 0.0 0.0) )
+    )
+    (dimension 
+      (dimStyle dim_datum )
+      (pt 4200.0 2400.0) (rotation 0)
+      (isFlipped False)
+      (dimOrient dim_vertical )
+      (dimTextOrient dim_horizontal )
+      (dimPrecision 3)
+      (dimDisplayUnits False)
+      (dimUnits dim_units_inch )
+      (dimLineWidth 2540)
+      (dimLeaderStyle dim_leader_style_text )
+      (dimLeaderSize 1270000)
+      (dimCenterSize 508000)
+      (dimPlusLinearTol 0)
+      (dimMinusLinearTol 0)
+      (dimPlusDegTol 0)
+      (dimMinusDegTol 0)
+      (dimShowTolerance False)
+      (dimShowDiaSymbol False)
+      (dimDimLineGraphics 
+      )
+      (dimExtLineGraphics 
+        (dimGraphics 
+          (dimGraphic (line (pt 4140.0 2400.0) (pt 102.34957 mm 2400.0) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 128.69048 mm 75.72636 mm) (pt 102.34957 mm 75.72636 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 120.10252 mm 78.63156 mm) (pt 102.34957 mm 78.63156 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 136.05648 mm 88.48464 mm) (pt 102.34957 mm 88.48464 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 129.24652 mm 94.46944 mm) (pt 102.34957 mm 94.46944 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 5710.0 4450.0) (pt 102.34957 mm 4450.0) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 5922.5 4818.5) (pt 102.34957 mm 4818.5) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 129.11952 mm 131.59056 mm) (pt 102.34957 mm 131.59056 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 135.92948 mm 137.57536 mm) (pt 102.34957 mm 137.57536 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 119.97552 mm 147.42844 mm) (pt 102.34957 mm 147.42844 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 128.56348 mm 150.33364 mm) (pt 102.34957 mm 150.33364 mm) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 4140.0 6500.0) (pt 102.34957 mm 6500.0) (width 1.0) )
+          )
+        )
+      )
+      (dimTextGraphics 
+        (dimGraphics 
+          (dimGraphic (text (pt 99.26347 mm 2400.0) "0.000" (textStyleRef "T:H80W8") (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 99.26347 mm 75.72636 mm) "0.581" (textStyleRef "T:H80W8") (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 99.26347 mm 78.63156 mm) "0.696" (textStyleRef "T:H80W8") (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 99.26347 mm 88.48464 mm) "1.084" (textStyleRef "T:H80W8") (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 99.26347 mm 94.46944 mm) "1.319" (textStyleRef "T:H80W8") (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 99.26347 mm 4450.0) "2.050" (textStyleRef "T:H80W8") (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 99.26347 mm 4818.5) "2.418" (textStyleRef "T:H80W8") (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 99.26347 mm 131.59056 mm) "2.781" (textStyleRef "T:H80W8") (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 99.26347 mm 137.57536 mm) "3.016" (textStyleRef "T:H80W8") (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 99.26347 mm 147.42844 mm) "3.404" (textStyleRef "T:H80W8") (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 99.26347 mm 150.33364 mm) "3.519" (textStyleRef "T:H80W8") (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 99.26347 mm 6500.0) "4.100" (textStyleRef "T:H80W8") (justify Center) (extent 243.0 108.0) )
+          )
+        )
+      )
+      (dimPoints 
+        (pt 4200.0 2400.0) (pt 99.26347 mm 60.45548 mm) (pt 130.21448 mm 75.72636 mm) (pt 121.62652 mm 78.63156 mm) (pt 137.58048 mm 88.48464 mm) (pt 130.77052 mm 94.46944 mm) (pt 5770.0 4450.0) (pt 5982.5 4818.5) (pt 130.64352 mm 131.59056 mm) (pt 137.45348 mm 137.57536 mm) (pt 121.49952 mm 147.42844 mm) (pt 130.08748 mm 150.33364 mm) (pt 4200.0 6500.0) )
+      (arrowheadWidth 62.0)
+      (arrowheadHeight 187.0)
+      (dimensionID 4)
+      (dimensionOffsets (pt 0.1 mm 0.0) (pt 0.0 0.0) (pt 0.0 0.0) (pt 0.0 0.0) (pt 0.0 0.0) (pt 0.0 0.0) (pt 0.0 0.0) (pt 0.0 0.0) (pt 0.0 0.0) (pt 0.0 0.0) (pt 0.0 0.0) (pt 0.0 0.1 mm) )
+    )
+    (dimension 
+      (dimStyle dim_datum )
+      (pt 8000.0 2400.0) (rotation 0)
+      (isFlipped False)
+      (dimOrient dim_vertical )
+      (dimTextOrient dim_horizontal )
+      (dimPrecision 3)
+      (dimDisplayUnits False)
+      (dimUnits dim_units_inch )
+      (dimLineWidth 2540)
+      (dimLeaderStyle dim_leader_style_text )
+      (dimLeaderSize 1270000)
+      (dimCenterSize 508000)
+      (dimPlusLinearTol 0)
+      (dimMinusLinearTol 0)
+      (dimPlusDegTol 0)
+      (dimMinusDegTol 0)
+      (dimShowTolerance False)
+      (dimShowDiaSymbol False)
+      (dimDimLineGraphics 
+      )
+      (dimExtLineGraphics 
+        (dimGraphics 
+          (dimGraphic (line (pt 8060.0 2400.0) (pt 207.63313 mm 2400.0) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 6845.0 4275.0) (pt 207.63313 mm 4275.0) (width 1.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (line (pt 6775.0 4625.0) (pt 207.63313 mm 4625.0) (width 1.0) )
+          )
+        )
+      )
+      (dimTextGraphics 
+        (dimGraphics 
+          (dimGraphic (text (pt 210.71923 mm 2400.0) "0.000" (textStyleRef "T:H80W8") (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 210.71923 mm 4275.0) "1.875" (textStyleRef "T:H80W8") (justify Center) (extent 243.0 108.0) )
+          )
+        )
+        (dimGraphics 
+          (dimGraphic (text (pt 210.71923 mm 4625.0) "2.225" (textStyleRef "T:H80W8") (justify Center) (extent 243.0 108.0) )
+          )
+        )
+      )
+      (dimPoints 
+        (pt 8000.0 2400.0) (pt 210.71923 mm 59.78728 mm) (pt 6785.0 4275.0) (pt 6715.0 4625.0) )
+      (arrowheadWidth 62.0)
+      (arrowheadHeight 187.0)
+      (dimensionID 6)
+      (dimensionOffsets (pt 0.0 0.1 mm) (pt 0.0 0.0) (pt 0.0 0.0) )
+    )
+    (dimension 
+      (dimStyle dim_leader )
+      (pt 189.2734 mm 118.14512 mm) (rotation 0)
+      (isFlipped False)
+      (dimOrient dim_horizontal )
+      (dimTextOrient dim_horizontal )
+      (dimPrecision 1)
+      (dimDisplayUnits False)
+      (dimUnits dim_units_inch )
+      (dimLineWidth 2540)
+      (dimLeaderStyle dim_leader_style_text )
+      (dimLeaderSize 1270000)
+      (dimCenterSize 508000)
+      (dimPlusLinearTol 12700)
+      (dimMinusLinearTol 12700)
+      (dimPlusDegTol 0)
+      (dimMinusDegTol 0)
+      (dimShowTolerance False)
+      (dimShowDiaSymbol False)
+      (dimDimLineGraphics 
+        (dimGraphics 
+          (dimGraphic (line (pt 214.03975 mm 134.29346 mm) (pt 207.68975 mm 134.29346 mm) (width 1.0) )
+          )
+        )
+      )
+      (dimExtLineGraphics 
+        (dimGraphics 
+          (dimGraphic (line (pt 189.2734 mm 118.14512 mm) (pt 207.68975 mm 134.29346 mm) (width 1.0) )
+          )
+          (dimGraphic (poly 
+            (pt 189.2734 mm 118.14512 mm) 
+            (pt 192.32857 mm 121.86621 mm) 
+            (pt 193.36587 mm 120.68131 mm) 
+          )
+          )
+        )
+      )
+      (dimTextGraphics 
+        (dimGraphics 
+          (dimGraphic (text (pt 225.1586 mm 134.29346 mm) "Easy slip fit 0.059 pin\r\n12 places" (textStyleRef "T:H80W8") (justify Center) (extent 875.5 218.0) )
+          )
+        )
+      )
+      (dimPoints 
+        (pt 189.2734 mm 118.14512 mm) (pt 225.1586 mm 134.29346 mm) )
+      (arrowheadWidth 62.0)
+      (arrowheadHeight 187.0)
+      (dimensionID -1)
+    )
+    (field "Modified Date" (pt 6686.0 1464.0) (textStyleRef "T:H80W8") )
+  )
+  (layerContents (layerNumRef 11)
+    (line (pt 141.4482 mm 90.35773 mm) (pt 129.5698 mm 97.21573 mm) (width 1.0) )
+    (line (pt 141.4482 mm 90.35773 mm) (pt 130.5262 mm 71.44027 mm) (width 1.0) )
+    (line (pt 137.43191 mm 86.95731 mm) (pt 128.63309 mm 92.03731 mm) (width 1.0) )
+    (line (pt 131.46291 mm 76.61869 mm) (pt 122.66409 mm 81.69869 mm) (width 1.0) )
+    (line (pt 131.46291 mm 76.61869 mm) (pt 137.43191 mm 86.95731 mm) (width 1.0) )
+    (line (pt 130.5262 mm 71.44027 mm) (pt 118.6478 mm 78.29827 mm) (width 1.0) )
+    (line (pt 122.66409 mm 81.69869 mm) (pt 128.63309 mm 92.03731 mm) (width 1.0) )
+    (line (pt 129.5698 mm 97.21573 mm) (pt 118.6478 mm 78.29827 mm) (width 1.0) )
+    (line (pt 6645.0 4180.0) (pt 6645.0 4720.0) (width 1.0) )
+    (line (pt 6840.0 4250.0) (pt 7310.0 4250.0) (width 1.0) )
+    (line (pt 6840.0 4250.0) (pt 6840.0 4650.0) (width 1.0) )
+    (line (pt 7310.0 4250.0) (pt 7310.0 4650.0) (width 1.0) )
+    (line (pt 7505.0 4180.0) (pt 6645.0 4180.0) (width 1.0) )
+    (line (pt 7505.0 4180.0) (pt 7505.0 4720.0) (width 1.0) )
+    (line (pt 6840.0 4650.0) (pt 7310.0 4650.0) (width 1.0) )
+    (line (pt 7505.0 4720.0) (pt 6645.0 4720.0) (width 1.0) )
+    (line (pt 130.3992 mm 154.61973 mm) (pt 118.5208 mm 147.76173 mm) (width 1.0) )
+    (line (pt 130.3992 mm 154.61973 mm) (pt 141.3212 mm 135.70227 mm) (width 1.0) )
+    (line (pt 131.33591 mm 149.44131 mm) (pt 122.53709 mm 144.36131 mm) (width 1.0) )
+    (line (pt 137.30491 mm 139.10269 mm) (pt 128.50609 mm 134.02269 mm) (width 1.0) )
+    (line (pt 137.30491 mm 139.10269 mm) (pt 131.33591 mm 149.44131 mm) (width 1.0) )
+    (line (pt 141.3212 mm 135.70227 mm) (pt 129.4428 mm 128.84427 mm) (width 1.0) )
+    (line (pt 128.50609 mm 134.02269 mm) (pt 122.53709 mm 144.36131 mm) (width 1.0) )
+    (line (pt 118.5208 mm 147.76173 mm) (pt 129.4428 mm 128.84427 mm) (width 1.0) )
+  )
+  (layerContents (layerNumRef 13)
+    (arc (pt 153.22684 mm 4219.8) (radius 37.5) (startAngle 27.6) (sweepAngle 92.3) (width 1.0) )
+    (arc (pt 6158.7 104.215 mm) (radius 13.0) (startAngle 214.2) (sweepAngle 55.8) (width 1.0) )
+    (line (pt 6148.0 4095.6) (pt 6065.8 4237.2) (width 1.0) )
+    (line (pt 6251.0 4801.0) (pt 6251.0 4103.2) (width 1.0) )
+    (arc (pt 158.4464 mm 4103.0) (radius 13.0) (startAngle 268.1) (sweepAngle 91.9) (width 1.0) )
+    (line (pt 6237.6 4090.0) (pt 6158.9 4090.0) (width 1.0) )
+    (arc (pt 5845.0 99.262 mm) (radius 50.0) (startAngle 282.8) (sweepAngle 105.0) (width 1.0) )
+    (line (pt 5856.1 3859.2) (pt 5838.6 3854.6) (width 1.0) )
+    (line (pt 5804.5 4089.0) (pt 5894.9 3920.9) (width 1.0) )
+    (arc (pt 5837.6 104.30898 mm) (radius 37.5) (startAngle 117.6) (sweepAngle 92.3) (width 1.0) )
+    (line (pt 6013.9 4252.3) (pt 5820.2 4139.9) (width 1.0) )
+    (line (pt 5213.0 4600.0) (pt 5463.0 4600.0) (width 1.0) )
+    (arc (pt 5463.4 116.01316 mm) (radius 32.5) (startAngle 359.4) (sweepAngle 90.6) (width 1.0) )
+    (arc (pt 132.4344 mm 4639.0) (radius 0.99073 mm) (startAngle 140.0) (sweepAngle 128.1) (width 1.0) )
+    (arc (pt 5463.4 110.02144 mm) (radius 32.5) (startAngle 270.0) (sweepAngle 90.6) (width 1.0) )
+    (line (pt 5496.0 4332.0) (pt 5496.0 4568.0) (width 1.0) )
+    (arc (pt 132.54616 mm 4258.0) (radius 40.3) (startAngle 90.2) (sweepAngle 148.2) (width 1.0) )
+    (line (pt 5838.6 3854.6) (pt 5197.1 4223.7) (width 1.0) )
+    (line (pt 5184.1 4664.0) (pt 5838.3 5044.5) (width 1.0) )
+    (line (pt 5210.9 4298.2) (pt 5463.6 4299.0) (width 1.0) )
+    (line (pt 5838.3 5044.5) (pt 6251.0 4801.1) (width 1.0) )
+  )
+  (layerContents (layerNumRef 15)
+    (line (pt 6625.2 3874.0) (pt 6675.7 3874.3) (width 1.0) )
+    (line (pt 6625.2 3773.6) (pt 6625.3 3874.3) (width 1.0) )
+    (line (pt 6521.8 3874.0) (pt 6625.3 3774.3) (width 1.0) )
+    (line (pt 6521.8 3874.0) (pt 6625.3 3774.3) (width 1.0) )
+    (line (pt 6625.2 3773.6) (pt 6625.3 3874.3) (width 1.0) )
+    (line (pt 6625.2 3874.0) (pt 6675.7 3874.3) (width 1.0) )
+    (line (pt 6675.4 3874.0) (pt 6972.5 3323.9) (width 1.0) )
+    (line (pt 6971.6 3323.8) (pt 6972.5 3223.9) (width 1.0) )
+    (line (pt 6971.6 3223.4) (pt 6675.7 2673.5) (width 1.0) )
+    (line (pt 6625.2 2673.2) (pt 6625.3 2773.5) (width 1.0) )
+    (line (pt 6675.4 2673.2) (pt 6625.3 2673.5) (width 1.0) )
+    (line (pt 6675.4 3874.0) (pt 6972.5 3323.9) (width 1.0) )
+    (line (pt 6971.6 3323.8) (pt 6972.5 3223.9) (width 1.0) )
+    (line (pt 6971.6 3223.4) (pt 6675.7 2673.5) (width 1.0) )
+    (line (pt 6675.4 2673.2) (pt 6625.3 2673.5) (width 1.0) )
+    (line (pt 6625.2 2673.2) (pt 6625.3 2773.5) (width 1.0) )
+    (line (pt 6625.2 2772.6) (pt 6522.1 2673.5) (width 1.0) )
+    (line (pt 6522.0 3389.0) (pt 6522.1 3874.3) (width 1.0) )
+    (line (pt 6522.0 3157.0) (pt 6638.5 3157.0) (width 1.0) )
+    (arc (pt 6637.8 3137.0) (radius 20.0) (startAngle 39.4) (sweepAngle 48.9) (width 1.0) )
+    (line (pt 6653.2 3149.8) (pt 6679.9 3122.8) (width 1.0) )
+    (line (pt 6522.0 2673.0) (pt 6522.0 3157.0) (width 1.0) )
+    (line (pt 6625.2 2772.6) (pt 6522.0 2673.0) (width 1.0) )
+    (arc (pt 6692.3 3138.5) (radius 20.0) (startAngle 231.6) (sweepAngle 83.8) (width 1.0) )
+    (line (pt 6706.5 3124.4) (pt 6753.5 3172.1) (width 1.0) )
+    (line (pt 6728.0 3148.6) (pt 6840.3 3258.9) (width 1.0) )
+    (arc (pt 6826.5 3273.4) (radius 20.0) (startAngle 313.6) (sweepAngle 94.4) (width 1.0) )
+    (line (pt 6730.0 3389.0) (pt 6522.0 3389.0) (width 1.0) )
+    (arc (pt 6729.1 3363.0) (radius 0.66013 mm) (startAngle 43.5) (sweepAngle 44.3) (width 1.0) )
+    (line (pt 6839.8 3288.3) (pt 6747.9 3381.0) (width 1.0) )
+  )
+  (pcbPrintSettings 
+    (printQueueEntry "ALL"
+      (layerList 
+        (layerNumRef 3)
+        (layerNumRef 10)
+        (layerNumRef 11)
+      )
+      (isRotated True)
+      (isThinStrokeText False)
+      (isSelected True)
+      (drillSymSize 80.0)
+      (outputPads True)
+      (outputVias True)
+      (outputRefDes True)
+      (outputType True)
+      (outputValue True)
+      (outputDrillSym True)
+      (outputTitle True)
+      (PrintRegion 
+        (pt 999.5 999.5) (pt 6625.5 6300.5) )
+    )
+    (printQueueEntry "ASSEM"
+      (layerList 
+        (layerNumRef 10)
+      )
+      (isRotated True)
+      (isThinStrokeText False)
+      (isSelected True)
+      (drillSymSize 80.0)
+      (outputPads True)
+      (outputVias True)
+      (outputRefDes True)
+      (outputType True)
+      (outputValue True)
+      (outputDrillSym True)
+      (outputTitle True)
+      (ScaleToFitPage True)
+      (PrintRegion 
+        (pt 999.5 999.5) (pt 6625.5 6300.5) )
+    )
+  )
+  (drillSymSettings 
+    (drillSym Cross (holeDiam 22.0)(isHolePlated False))
+    (drillSym X (holeDiam 57.0)(isHolePlated False))
+    (drillSym Y (holeDiam 94.0)(isHolePlated False))
+    (drillSym T (holeDiam 280.0)(isHolePlated False))
+  )
+  (gerberSettings 
+    (units in)
+    (numFormat gbr44)
+    (autoDrawApertureSize 1.0)
+    (outputPath "C:\\Documents and Settings\\ram\\My Documents\\work\\micron\\handle\\")
+    (viewLog True)
+    (autoClear True)
+    (g54Option False)
+    (useArcs False)
+    (embedApertures True)
+    (useApertureHoles False)
+    (drawRotated False)
+    (drawPolygons False)
+    (apertureDef 
+      (dCode 10)
+      (apertureShape Ellipse)
+      (width 1.0)
+      (height 1.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X1.0mil Y1.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Draw")
+      (apertureType draw)
+    )
+    (apertureDef 
+      (dCode 11)
+      (apertureShape Ellipse)
+      (width 0.5)
+      (height 0.5)
+      (holeDiam 0.0)
+      (desc "Ellipse X0.5mil Y0.5mil H0.0mil 0.0deg (0.0mil,0.0mil) Draw")
+      (apertureType draw)
+    )
+    (apertureDef 
+      (dCode 12)
+      (apertureShape Ellipse)
+      (width 10.0)
+      (height 10.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X10.0mil Y10.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Draw")
+      (apertureType draw)
+    )
+    (apertureDef 
+      (dCode 13)
+      (apertureShape Ellipse)
+      (width 12.0)
+      (height 12.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X12.0mil Y12.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Draw")
+      (apertureType draw)
+    )
+    (apertureDef 
+      (dCode 14)
+      (apertureShape Ellipse)
+      (width 0.1 mm)
+      (height 0.1 mm)
+      (holeDiam 0.0)
+      (desc "Ellipse X3.9mil Y3.9mil H0.0mil 0.0deg (0.0mil,0.0mil) Draw")
+      (apertureType draw)
+    )
+    (apertureDef 
+      (dCode 15)
+      (apertureShape Ellipse)
+      (width 30.0)
+      (height 30.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X30.0mil Y30.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Draw")
+      (apertureType draw)
+    )
+    (apertureDef 
+      (dCode 16)
+      (apertureShape Ellipse)
+      (width 0.8 mm)
+      (height 0.8 mm)
+      (holeDiam 0.0)
+      (desc "Ellipse X31.5mil Y31.5mil H0.0mil 0.0deg (0.0mil,0.0mil) Draw")
+      (apertureType draw)
+    )
+    (apertureDef 
+      (dCode 17)
+      (apertureShape Ellipse)
+      (width 50.0)
+      (height 50.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X50.0mil Y50.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Draw")
+      (apertureType draw)
+    )
+    (apertureDef 
+      (dCode 18)
+      (apertureShape Ellipse)
+      (width 60.0)
+      (height 60.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X60.0mil Y60.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Draw")
+      (apertureType draw)
+    )
+    (apertureDef 
+      (dCode 19)
+      (apertureShape Ellipse)
+      (width 8.0)
+      (height 8.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X8.0mil Y8.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Draw")
+      (apertureType draw)
+    )
+    (apertureDef 
+      (dCode 20)
+      (apertureShape Ellipse)
+      (width 0.24999 mm)
+      (height 0.24999 mm)
+      (holeDiam 0.0)
+      (desc "Ellipse X9.8mil Y9.8mil H0.0mil 0.0deg (0.0mil,0.0mil) Draw")
+      (apertureType draw)
+    )
+    (apertureDef 
+      (dCode 21)
+      (apertureShape Ellipse)
+      (width 0.25 mm)
+      (height 0.25 mm)
+      (holeDiam 0.0)
+      (desc "Ellipse X9.8mil Y9.8mil H0.0mil 0.0deg (0.0mil,0.0mil) Draw")
+      (apertureType draw)
+    )
+    (apertureDef 
+      (dCode 22)
+      (apertureShape Ellipse)
+      (width 180.0)
+      (height 180.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X180.0mil Y180.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash")
+    )
+    (apertureDef 
+      (dCode 23)
+      (apertureShape Ellipse)
+      (width 200.0)
+      (height 200.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X200.0mil Y200.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash")
+    )
+    (apertureDef 
+      (dCode 24)
+      (apertureShape Ellipse)
+      (width 215.0)
+      (height 215.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X215.0mil Y215.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash")
+    )
+    (apertureDef 
+      (dCode 25)
+      (apertureShape Ellipse)
+      (width 22.0)
+      (height 22.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X22.0mil Y22.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash")
+    )
+    (apertureDef 
+      (dCode 26)
+      (apertureShape Ellipse)
+      (width 280.0)
+      (height 280.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X280.0mil Y280.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash")
+    )
+    (apertureDef 
+      (dCode 27)
+      (apertureShape Ellipse)
+      (width 290.0)
+      (height 290.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X290.0mil Y290.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash")
+    )
+    (apertureDef 
+      (dCode 28)
+      (apertureShape Ellipse)
+      (width 55.0)
+      (height 55.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X55.0mil Y55.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash")
+    )
+    (apertureDef 
+      (dCode 29)
+      (apertureShape Ellipse)
+      (width 57.0)
+      (height 57.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X57.0mil Y57.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash")
+    )
+    (apertureDef 
+      (dCode 30)
+      (apertureShape Ellipse)
+      (width 65.0)
+      (height 65.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X65.0mil Y65.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash")
+    )
+    (apertureDef 
+      (dCode 31)
+      (apertureShape Ellipse)
+      (width 67.0)
+      (height 67.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X67.0mil Y67.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash")
+    )
+    (apertureDef 
+      (dCode 32)
+      (apertureShape Ellipse)
+      (width 70.0)
+      (height 70.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X70.0mil Y70.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash")
+    )
+    (apertureDef 
+      (dCode 33)
+      (apertureShape Ellipse)
+      (width 80.0)
+      (height 80.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X80.0mil Y80.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash")
+    )
+    (apertureDef 
+      (dCode 34)
+      (apertureShape Ellipse)
+      (width 94.0)
+      (height 94.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X94.0mil Y94.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash")
+    )
+    (apertureDef 
+      (dCode 35)
+      (apertureShape Ellipse)
+      (width 95.0)
+      (height 95.0)
+      (holeDiam 0.0)
+      (desc "Ellipse X95.0mil Y95.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash")
+    )
+    (apertureDef 
+      (dCode 36)
+      (apertureShape Rect)
+      (width 200.0)
+      (height 70.0)
+      (holeDiam 0.0)
+      (desc "Rectangle X200.0mil Y70.0mil H0.0mil 30.0deg (0.0mil,0.0mil) Flash")
+      (rotation 30.0)
+    )
+    (apertureDef 
+      (dCode 37)
+      (apertureShape Rect)
+      (width 200.0)
+      (height 70.0)
+      (holeDiam 0.0)
+      (desc "Rectangle X200.0mil Y70.0mil H0.0mil 330.0deg (0.0mil,0.0mil) Flash")
+      (rotation 330.0)
+    )
+    (apertureDef 
+      (dCode 38)
+      (apertureShape Rect)
+      (width 70.0)
+      (height 200.0)
+      (holeDiam 0.0)
+      (desc "Rectangle X70.0mil Y200.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash")
+    )
+    (apertureDef 
+      (dCode 39)
+      (apertureShape Rect)
+      (width 215.0)
+      (height 85.0)
+      (holeDiam 0.0)
+      (desc "Rectangle X215.0mil Y85.0mil H0.0mil 30.0deg (0.0mil,0.0mil) Flash")
+      (rotation 30.0)
+    )
+    (apertureDef 
+      (dCode 40)
+      (apertureShape Rect)
+      (width 215.0)
+      (height 85.0)
+      (holeDiam 0.0)
+      (desc "Rectangle X215.0mil Y85.0mil H0.0mil 330.0deg (0.0mil,0.0mil) Flash")
+      (rotation 330.0)
+    )
+    (apertureDef 
+      (dCode 41)
+      (apertureShape Rect)
+      (width 85.0)
+      (height 215.0)
+      (holeDiam 0.0)
+      (desc "Rectangle X85.0mil Y215.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash")
+    )
+    (apertureDef 
+      (dCode 42)
+      (apertureShape Rect)
+      (width 1.5 mm)
+      (height 51.5)
+      (holeDiam 0.0)
+      (desc "Rectangle X59.1mil Y51.5mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash")
+    )
+    (apertureDef 
+      (dCode 43)
+      (apertureShape Rect)
+      (width 1.881 mm)
+      (height 66.5)
+      (holeDiam 0.0)
+      (desc "Rectangle X74.1mil Y66.5mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash")
+    )
+    (apertureAssn 
+      (apertureRef (dCode 10))
+      (itemMnemonic 
+        "[Drawn Symbols]"
+        "[Drawn Symbols]"
+        "[Drawn Symbols]"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 10))
+      (itemMnemonic 
+        "[Polygons]"
+        "[Polygons]"
+        "[Polygons]"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 11))
+      (itemMnemonic 
+        "LINE 0.5mil"
+        "LINE 0.01mm"
+        "LINE 1270app"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 10))
+      (itemMnemonic 
+        "LINE 1.0mil"
+        "LINE 0.03mm"
+        "LINE 2540app"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 12))
+      (itemMnemonic 
+        "LINE 10.0mil"
+        "LINE 0.25mm"
+        "LINE 25400app"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 13))
+      (itemMnemonic 
+        "LINE 12.0mil"
+        "LINE 0.30mm"
+        "LINE 30480app"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 14))
+      (itemMnemonic 
+        "LINE 3.9mil"
+        "LINE 0.10mm"
+        "LINE 10000app"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 15))
+      (itemMnemonic 
+        "LINE 30.0mil"
+        "LINE 0.76mm"
+        "LINE 76200app"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 16))
+      (itemMnemonic 
+        "LINE 31.5mil"
+        "LINE 0.80mm"
+        "LINE 80000app"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 17))
+      (itemMnemonic 
+        "LINE 50.0mil"
+        "LINE 1.27mm"
+        "LINE 127000app"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 18))
+      (itemMnemonic 
+        "LINE 60.0mil"
+        "LINE 1.52mm"
+        "LINE 152400app"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 19))
+      (itemMnemonic 
+        "LINE 8.0mil"
+        "LINE 0.20mm"
+        "LINE 20320app"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 20))
+      (itemMnemonic 
+        "LINE 9.8mil"
+        "LINE 0.25mm"
+        "LINE 24999app"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 21))
+      (itemMnemonic 
+        "LINE 9.8mil"
+        "LINE 0.25mm"
+        "LINE 25000app"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 22))
+      (itemMnemonic 
+        "PAD EL 180.0mil 180.0mil 94.0mil 0.0deg (0.0mil,0.0mil)"
+        "PAD EL 4.57mm 4.57mm 2.39mm 0.0deg (0.00mm,0.00mm)"
+        "PAD EL 457200app 457200app 238760app 0.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 23))
+      (itemMnemonic 
+        "PAD EL 200.0mil 200.0mil 94.0mil 0.0deg (0.0mil,0.0mil)"
+        "PAD EL 5.08mm 5.08mm 2.39mm 0.0deg (0.00mm,0.00mm)"
+        "PAD EL 508000app 508000app 238760app 0.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 24))
+      (itemMnemonic 
+        "PAD EL 215.0mil 215.0mil 94.0mil 0.0deg (0.0mil,0.0mil)"
+        "PAD EL 5.46mm 5.46mm 2.39mm 0.0deg (0.00mm,0.00mm)"
+        "PAD EL 546100app 546100app 238760app 0.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 25))
+      (itemMnemonic 
+        "PAD EL 22.0mil 22.0mil 22.0mil 0.0deg (0.0mil,0.0mil)"
+        "PAD EL 0.56mm 0.56mm 0.56mm 0.0deg (0.00mm,0.00mm)"
+        "PAD EL 55880app 55880app 55880app 0.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 26))
+      (itemMnemonic 
+        "PAD EL 280.0mil 280.0mil 280.0mil 0.0deg (0.0mil,0.0mil)"
+        "PAD EL 7.11mm 7.11mm 7.11mm 0.0deg (0.00mm,0.00mm)"
+        "PAD EL 711200app 711200app 711200app 0.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 27))
+      (itemMnemonic 
+        "PAD EL 290.0mil 290.0mil 280.0mil 0.0deg (0.0mil,0.0mil)"
+        "PAD EL 7.37mm 7.37mm 7.11mm 0.0deg (0.00mm,0.00mm)"
+        "PAD EL 736600app 736600app 711200app 0.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 28))
+      (itemMnemonic 
+        "PAD EL 55.0mil 55.0mil 22.0mil 0.0deg (0.0mil,0.0mil)"
+        "PAD EL 1.40mm 1.40mm 0.56mm 0.0deg (0.00mm,0.00mm)"
+        "PAD EL 139700app 139700app 55880app 0.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 29))
+      (itemMnemonic 
+        "PAD EL 57.0mil 57.0mil 57.0mil 0.0deg (0.0mil,0.0mil)"
+        "PAD EL 1.45mm 1.45mm 1.45mm 0.0deg (0.00mm,0.00mm)"
+        "PAD EL 144780app 144780app 144780app 0.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 30))
+      (itemMnemonic 
+        "PAD EL 65.0mil 65.0mil 22.0mil 0.0deg (0.0mil,0.0mil)"
+        "PAD EL 1.65mm 1.65mm 0.56mm 0.0deg (0.00mm,0.00mm)"
+        "PAD EL 165100app 165100app 55880app 0.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 31))
+      (itemMnemonic 
+        "PAD EL 67.0mil 67.0mil 57.0mil 0.0deg (0.0mil,0.0mil)"
+        "PAD EL 1.70mm 1.70mm 1.45mm 0.0deg (0.00mm,0.00mm)"
+        "PAD EL 170180app 170180app 144780app 0.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 32))
+      (itemMnemonic 
+        "PAD EL 70.0mil 70.0mil 0.0mil 150.0deg (0.0mil,0.0mil)"
+        "PAD EL 1.78mm 1.78mm 0.00mm 150.0deg (0.00mm,0.00mm)"
+        "PAD EL 177800app 177800app 0app 150.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 32))
+      (itemMnemonic 
+        "PAD EL 70.0mil 70.0mil 0.0mil 210.0deg (0.0mil,0.0mil)"
+        "PAD EL 1.78mm 1.78mm 0.00mm 210.0deg (0.00mm,0.00mm)"
+        "PAD EL 177800app 177800app 0app 210.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 32))
+      (itemMnemonic 
+        "PAD EL 70.0mil 70.0mil 0.0mil 270.0deg (0.0mil,0.0mil)"
+        "PAD EL 1.78mm 1.78mm 0.00mm 270.0deg (0.00mm,0.00mm)"
+        "PAD EL 177800app 177800app 0app 270.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 32))
+      (itemMnemonic 
+        "PAD EL 70.0mil 70.0mil 0.0mil 30.0deg (0.0mil,0.0mil)"
+        "PAD EL 1.78mm 1.78mm 0.00mm 30.0deg (0.00mm,0.00mm)"
+        "PAD EL 177800app 177800app 0app 30.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 32))
+      (itemMnemonic 
+        "PAD EL 70.0mil 70.0mil 0.0mil 330.0deg (0.0mil,0.0mil)"
+        "PAD EL 1.78mm 1.78mm 0.00mm 330.0deg (0.00mm,0.00mm)"
+        "PAD EL 177800app 177800app 0app 330.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 32))
+      (itemMnemonic 
+        "PAD EL 70.0mil 70.0mil 0.0mil 90.0deg (0.0mil,0.0mil)"
+        "PAD EL 1.78mm 1.78mm 0.00mm 90.0deg (0.00mm,0.00mm)"
+        "PAD EL 177800app 177800app 0app 90.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 33))
+      (itemMnemonic 
+        "PAD EL 80.0mil 80.0mil 0.0mil 150.0deg (0.0mil,0.0mil)"
+        "PAD EL 2.03mm 2.03mm 0.00mm 150.0deg (0.00mm,0.00mm)"
+        "PAD EL 203200app 203200app 0app 150.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 33))
+      (itemMnemonic 
+        "PAD EL 80.0mil 80.0mil 0.0mil 210.0deg (0.0mil,0.0mil)"
+        "PAD EL 2.03mm 2.03mm 0.00mm 210.0deg (0.00mm,0.00mm)"
+        "PAD EL 203200app 203200app 0app 210.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 33))
+      (itemMnemonic 
+        "PAD EL 80.0mil 80.0mil 0.0mil 270.0deg (0.0mil,0.0mil)"
+        "PAD EL 2.03mm 2.03mm 0.00mm 270.0deg (0.00mm,0.00mm)"
+        "PAD EL 203200app 203200app 0app 270.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 33))
+      (itemMnemonic 
+        "PAD EL 80.0mil 80.0mil 0.0mil 30.0deg (0.0mil,0.0mil)"
+        "PAD EL 2.03mm 2.03mm 0.00mm 30.0deg (0.00mm,0.00mm)"
+        "PAD EL 203200app 203200app 0app 30.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 33))
+      (itemMnemonic 
+        "PAD EL 80.0mil 80.0mil 0.0mil 330.0deg (0.0mil,0.0mil)"
+        "PAD EL 2.03mm 2.03mm 0.00mm 330.0deg (0.00mm,0.00mm)"
+        "PAD EL 203200app 203200app 0app 330.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 33))
+      (itemMnemonic 
+        "PAD EL 80.0mil 80.0mil 0.0mil 90.0deg (0.0mil,0.0mil)"
+        "PAD EL 2.03mm 2.03mm 0.00mm 90.0deg (0.00mm,0.00mm)"
+        "PAD EL 203200app 203200app 0app 90.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 33))
+      (itemMnemonic 
+        "PAD EL 80.0mil 80.0mil 22.0mil 0.0deg (0.0mil,0.0mil)"
+        "PAD EL 2.03mm 2.03mm 0.56mm 0.0deg (0.00mm,0.00mm)"
+        "PAD EL 203200app 203200app 55880app 0.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 34))
+      (itemMnemonic 
+        "PAD EL 94.0mil 94.0mil 94.0mil 0.0deg (0.0mil,0.0mil)"
+        "PAD EL 2.39mm 2.39mm 2.39mm 0.0deg (0.00mm,0.00mm)"
+        "PAD EL 238760app 238760app 238760app 0.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 35))
+      (itemMnemonic 
+        "PAD EL 95.0mil 95.0mil 0.0mil 150.0deg (0.0mil,0.0mil)"
+        "PAD EL 2.41mm 2.41mm 0.00mm 150.0deg (0.00mm,0.00mm)"
+        "PAD EL 241300app 241300app 0app 150.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 35))
+      (itemMnemonic 
+        "PAD EL 95.0mil 95.0mil 0.0mil 210.0deg (0.0mil,0.0mil)"
+        "PAD EL 2.41mm 2.41mm 0.00mm 210.0deg (0.00mm,0.00mm)"
+        "PAD EL 241300app 241300app 0app 210.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 35))
+      (itemMnemonic 
+        "PAD EL 95.0mil 95.0mil 0.0mil 270.0deg (0.0mil,0.0mil)"
+        "PAD EL 2.41mm 2.41mm 0.00mm 270.0deg (0.00mm,0.00mm)"
+        "PAD EL 241300app 241300app 0app 270.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 35))
+      (itemMnemonic 
+        "PAD EL 95.0mil 95.0mil 0.0mil 30.0deg (0.0mil,0.0mil)"
+        "PAD EL 2.41mm 2.41mm 0.00mm 30.0deg (0.00mm,0.00mm)"
+        "PAD EL 241300app 241300app 0app 30.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 35))
+      (itemMnemonic 
+        "PAD EL 95.0mil 95.0mil 0.0mil 330.0deg (0.0mil,0.0mil)"
+        "PAD EL 2.41mm 2.41mm 0.00mm 330.0deg (0.00mm,0.00mm)"
+        "PAD EL 241300app 241300app 0app 330.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 35))
+      (itemMnemonic 
+        "PAD EL 95.0mil 95.0mil 0.0mil 90.0deg (0.0mil,0.0mil)"
+        "PAD EL 2.41mm 2.41mm 0.00mm 90.0deg (0.00mm,0.00mm)"
+        "PAD EL 241300app 241300app 0app 90.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 36))
+      (itemMnemonic 
+        "PAD SQ 200.0mil 70.0mil 0.0mil 30.0deg (0.0mil,0.0mil)"
+        "PAD SQ 5.08mm 1.78mm 0.00mm 30.0deg (0.00mm,0.00mm)"
+        "PAD SQ 508000app 177800app 0app 30.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 37))
+      (itemMnemonic 
+        "PAD SQ 200.0mil 70.0mil 0.0mil 330.0deg (0.0mil,0.0mil)"
+        "PAD SQ 5.08mm 1.78mm 0.00mm 330.0deg (0.00mm,0.00mm)"
+        "PAD SQ 508000app 177800app 0app 330.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 38))
+      (itemMnemonic 
+        "PAD SQ 200.0mil 70.0mil 0.0mil 90.0deg (0.0mil,0.0mil)"
+        "PAD SQ 5.08mm 1.78mm 0.00mm 90.0deg (0.00mm,0.00mm)"
+        "PAD SQ 508000app 177800app 0app 90.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 39))
+      (itemMnemonic 
+        "PAD SQ 215.0mil 85.0mil 0.0mil 30.0deg (0.0mil,0.0mil)"
+        "PAD SQ 5.46mm 2.16mm 0.00mm 30.0deg (0.00mm,0.00mm)"
+        "PAD SQ 546100app 215900app 0app 30.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 40))
+      (itemMnemonic 
+        "PAD SQ 215.0mil 85.0mil 0.0mil 330.0deg (0.0mil,0.0mil)"
+        "PAD SQ 5.46mm 2.16mm 0.00mm 330.0deg (0.00mm,0.00mm)"
+        "PAD SQ 546100app 215900app 0app 330.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 41))
+      (itemMnemonic 
+        "PAD SQ 215.0mil 85.0mil 0.0mil 90.0deg (0.0mil,0.0mil)"
+        "PAD SQ 5.46mm 2.16mm 0.00mm 90.0deg (0.00mm,0.00mm)"
+        "PAD SQ 546100app 215900app 0app 90.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 42))
+      (itemMnemonic 
+        "PAD SQ 51.5mil 59.1mil 0.0mil 270.0deg (0.0mil,0.0mil)"
+        "PAD SQ 1.31mm 1.50mm 0.00mm 270.0deg (0.00mm,0.00mm)"
+        "PAD SQ 130810app 150000app 0app 270.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 42))
+      (itemMnemonic 
+        "PAD SQ 51.5mil 59.1mil 0.0mil 90.0deg (0.0mil,0.0mil)"
+        "PAD SQ 1.31mm 1.50mm 0.00mm 90.0deg (0.00mm,0.00mm)"
+        "PAD SQ 130810app 150000app 0app 90.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 43))
+      (itemMnemonic 
+        "PAD SQ 66.5mil 74.1mil 0.0mil 270.0deg (0.0mil,0.0mil)"
+        "PAD SQ 1.69mm 1.88mm 0.00mm 270.0deg (0.00mm,0.00mm)"
+        "PAD SQ 168910app 188100app 0app 270.0deg (0app,0app)"
+      )
+    )
+    (apertureAssn 
+      (apertureRef (dCode 43))
+      (itemMnemonic 
+        "PAD SQ 66.5mil 74.1mil 0.0mil 90.0deg (0.0mil,0.0mil)"
+        "PAD SQ 1.69mm 1.88mm 0.00mm 90.0deg (0.00mm,0.00mm)"
+        "PAD SQ 168910app 188100app 0app 90.0deg (0app,0app)"
+      )
+    )
+    (camQueueEntry "TOP"
+      (layerList 
+        (layerNumRef 1)
+      )
+      (isSelected True)
+      (drillSymSize 80.0)
+      (outputPads True)
+      (outputVias True)
+      (outputNoMountingHole True)
+    )
+    (camQueueEntry "BRD"
+      (layerList 
+        (layerNumRef 3)
+      )
+      (isSelected True)
+      (drillSymSize 80.0)
+      (outputDrillSym True)
+    )
+    (camQueueEntry "COV"
+      (layerList 
+        (layerNumRef 12)
+      )
+      (isSelected True)
+      (drillSymSize 80.0)
+      (outputPads True)
+      (outputVias True)
+    )
+    (camQueueEntry "FAB"
+      (layerList 
+        (layerNumRef 1)
+        (layerNumRef 2)
+        (layerNumRef 6)
+        (layerNumRef 10)
+        (layerNumRef 12)
+      )
+      (isSelected True)
+      (drillSymSize 80.0)
+      (outputPads True)
+      (outputVias True)
+      (outputRefDes True)
+      (outputType True)
+      (outputValue True)
+      (outputDrillSym True)
+      (outputNoMountingHole True)
+      (outputTitle True)
+    )
+    (camQueueEntry "DET"
+      (layerList 
+        (layerNumRef 11)
+      )
+      (isSelected True)
+      (drillSymSize 80.0)
+      (outputPads True)
+      (outputVias True)
+      (outputNoMountingHole True)
+    )
+    (camQueueEntry "GLS"
+      (layerList 
+        (layerNumRef 13)
+      )
+      (isSelected True)
+      (drillSymSize 80.0)
+      (outputPads True)
+      (outputVias True)
+      (outputHoles True)
+      (outputRefDes True)
+      (outputType True)
+      (outputValue True)
+      (outputDrillSym True)
+    )
+    (camQueueEntry "ALU"
+      (layerList 
+        (layerNumRef 15)
+      )
+      (isSelected True)
+      (drillSymSize 80.0)
+      (outputPads True)
+      (outputVias True)
+      (outputHoles True)
+      (outputRefDes True)
+      (outputType True)
+      (outputValue True)
+      (outputDrillSym True)
+    )
+  )
+  (ncDrillSettings 
+    (units in)
+    (codeFormat AsciiNone)
+    (zeroFormat None)
+    (outputPath "C:\\DOCUMENTS AND SETTINGS\\RAM\\MY DOCUMENTS\\WORK\\MICRON\\HANDLE\\")
+    (viewLog True)
+    (autoClear True)
+    (toolDef (toolCode 1) (toolDiam 22.0) )
+    (toolDef (toolCode 2) (toolDiam 57.0) )
+    (toolDef (toolCode 3) (toolDiam 94.0) )
+    (toolDef (toolCode 4) (toolDiam 280.0) )
+    (toolAssn (holeDiam 22.0) (isHolePlated False) (toolRef (toolCode 1)))
+    (toolAssn (holeDiam 57.0) (isHolePlated False) (toolRef (toolCode 2)))
+    (toolAssn (holeDiam 94.0) (isHolePlated False) (toolRef (toolCode 3)))
+    (toolAssn (holeDiam 280.0) (isHolePlated False) (toolRef (toolCode 4)))
+    (camQueueEntry "DRL"
+      (layerList 
+        (layerNumRef 1)
+        (layerNumRef 2)
+        (layerNumRef 12)
+      )
+      (isSelected True)
+      (drillSymSize 80.0)
+    )
+  )
+  (programState 
+    (layerState 
+      (currentLayer (layerNumRef 10))
+      (layerDisabled (layerNumRef 1))
+      (layerDisabled (layerNumRef 2))
+      (layerDisabled (layerNumRef 4))
+      (layerDisabled (layerNumRef 5))
+      (layerDisabled (layerNumRef 6))
+      (layerDisabled (layerNumRef 7))
+      (layerDisabled (layerNumRef 8))
+      (layerDisabled (layerNumRef 9))
+      (layerDisabled (layerNumRef 12))
+      (layerDisabled (layerNumRef 13))
+      (layerDisabled (layerNumRef 15))
+      (layerDisabled (layerNumRef 16))
+    )
+    (gridState 
+      (currentAbsGrid "1.0mil")
+      (currentRelGrid "1.0mil")
+      (currentViaGrid "5.0mil")
+      (isAbsoluteGrid True)
+      (isDottedGrid True)
+      (isVisibleGrid True)
+      (isPromptForRel False)
+    )
+    (ecoState (ecoRecording False))
+    (onlineDrcState 
+      (onlineDrcEnabled False)
+      (onlineDrcReport False)
+      (onlineDrcClearanceEnabled True)
+      (onlineDrcTextEnabled False)
+      (onlineDrcComponentEnabled False)
+      (onlineDrcSilkEnabled False)
+      (onlineDrcNetlistEnabled True)
+      (onlineDrcWidthEnabled True)
+    )
+    (drcState 
+      (drcRegion 
+        (pt 0.0 0.0) (pt 0.0 0.0) )
+    )
+    (currentTextStyle "T:H80W8")
+    (currentPadStyle "hole094")
+    (currentViaStyle "22mil")
+  )
+
+  (layerSets 
+    (layerSet "All Layers,1,1,2,3,4,5,6,7,8,9,10,11,12,13,15,16")
+    (layerSet "Signal Layers,1,1,2,12")
+    (layerSet "Plane Layers,-1")
+    (layerSet "Nonsignal Layers,6,6,3,4,5,7,8,9,10,11,13,15,16,12")
+  )
+  (reportSettings 
+    (reportStyle reportStyleAccel)
+    (reportDestination DestinationScreen)
+    (pt 0.0 0.0) 
+    (reportDefinitions 
+      (reportDefinition 
+        (reportName "Aperture Information")
+        (reportExtension "apr")
+        (reportType ReportTypeApertures)
+        (reportLinesPerPage 60)
+        (reportColumnWidth 20)
+        (reportHeader "")
+        (reportFooter "")
+        (reportShowCDFPreface True)
+        (reportShowColumnNames True)
+        (reportFieldsSections 
+          (reportFields 
+            (reportField 
+              (reportFieldName "DCode")
+              (reportFieldType PropertyTypeDCode)
+              (reportFieldSortOrder 1)
+              (reportFieldSortType ascending)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 5)
+            )
+            (reportField 
+              (reportFieldName "Shape")
+              (reportFieldType PropertyTypeShape)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 5)
+            )
+            (reportField 
+              (reportFieldName "DimX")
+              (reportFieldType PropertyTypeDimX)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 4)
+            )
+            (reportField 
+              (reportFieldName "DimY")
+              (reportFieldType PropertyTypeDimY)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 4)
+            )
+            (reportField 
+              (reportFieldName "Diameter")
+              (reportFieldType PropertyTypeDiameter)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 8)
+            )
+            (reportField 
+              (reportFieldName "Type")
+              (reportFieldType PropertyTypeType)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 4)
+            )
+            (reportField 
+              (reportFieldName "Angle")
+              (reportFieldType PropertyTypeAngle)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 5)
+            )
+            (reportField 
+              (reportFieldName "OffsetX")
+              (reportFieldType PropertyTypeOffsetX)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 7)
+            )
+            (reportField 
+              (reportFieldName "OffsetY")
+              (reportFieldType PropertyTypeOffsetY)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 7)
+            )
+          )
+          (reportFields 
+            (reportField 
+              (reportFieldName "Shape")
+              (reportFieldType PropertyTypeShape)
+              (reportFieldSortOrder 1)
+              (reportFieldSortType ascending)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 5)
+            )
+            (reportField 
+              (reportFieldName "DimX")
+              (reportFieldType PropertyTypeDimX)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 4)
+            )
+            (reportField 
+              (reportFieldName "DimY")
+              (reportFieldType PropertyTypeDimY)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 4)
+            )
+            (reportField 
+              (reportFieldName "Diameter")
+              (reportFieldType PropertyTypeDiameter)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 8)
+            )
+            (reportField 
+              (reportFieldName "Angle")
+              (reportFieldType PropertyTypeAngle)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 5)
+            )
+            (reportField 
+              (reportFieldName "OffsetX")
+              (reportFieldType PropertyTypeOffsetX)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 7)
+            )
+            (reportField 
+              (reportFieldName "OffsetY")
+              (reportFieldType PropertyTypeOffsetY)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 7)
+            )
+            (reportField 
+              (reportFieldName "DCode")
+              (reportFieldType PropertyTypeDCode)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 5)
+            )
+          )
+        )
+      )
+      (reportDefinition 
+        (reportName "Attributes")
+        (reportExtension "atr")
+        (reportType ReportTypeAttributes)
+        (reportLinesPerPage 60)
+        (reportColumnWidth 15)
+        (reportHeader "")
+        (reportFooter "")
+        (reportShowCDFPreface True)
+        (reportShowColumnNames True)
+        (reportFieldsSections 
+          (reportFields 
+            (reportField 
+              (reportFieldName "RefDes")
+              (reportFieldType PropertyTypeRefdes)
+              (reportFieldSortOrder 1)
+              (reportFieldSortType ascending)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 6)
+            )
+            (reportField 
+              (reportFieldName "Type")
+              (reportFieldType PropertyTypeType)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 4)
+            )
+            (reportField 
+              (reportFieldName "Value")
+              (reportFieldType PropertyTypeCompValue)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 5)
+            )
+            (reportField 
+              (reportFieldName "Description")
+              (reportFieldType PropertyTypeAttribute)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 11)
+            )
+          )
+          (reportFields 
+            (reportField 
+              (reportFieldName "NetName")
+              (reportFieldType PropertyTypeNetname)
+              (reportFieldSortOrder 1)
+              (reportFieldSortType ascending)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 7)
+            )
+          )
+        )
+      )
+      (reportDefinition 
+        (reportName "Bill of Materials")
+        (reportExtension "bom")
+        (reportShowFlag True)
+        (reportType ReportTypeBillOfMaterials)
+        (reportLinesPerPage 60)
+        (reportColumnWidth 15)
+        (reportHeader "")
+        (reportFooter "")
+        (reportShowCDFPreface True)
+        (reportShowColumnNames True)
+        (reportFieldsSections 
+          (reportFields 
+            (reportField 
+              (reportFieldName "_Count")
+              (reportFieldType PropertyTypeCount)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 6)
+            )
+            (reportField 
+              (reportFieldName "ComponentName")
+              (reportFieldType PropertyTypeComponentName)
+              (reportFieldSortOrder 1)
+              (reportFieldSortType ascending)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 13)
+            )
+            (reportField 
+              (reportFieldName "RefDes")
+              (reportFieldType PropertyTypeRefdes)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 6)
+            )
+            (reportField 
+              (reportFieldName "OrigRefDes")
+              (reportFieldType PropertyTypeAttribute)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 10)
+            )
+            (reportField 
+              (reportFieldName "PatternName")
+              (reportFieldType PropertyTypePatternName)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldColumnWidth 11)
+            )
+            (reportField 
+              (reportFieldName "Value")
+              (reportFieldType PropertyTypeCompValue)
+              (reportFieldSortOrder 2)
+              (reportFieldSortType ascending)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 5)
+            )
+            (reportField 
+              (reportFieldName "Description")
+              (reportFieldType PropertyTypeAttribute)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 11)
+            )
+            (reportField 
+              (reportFieldName "OriginalName")
+              (reportFieldType PropertyTypeAttribute)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldColumnWidth 12)
+            )
+            (reportField 
+              (reportFieldName "ComponentField6")
+              (reportFieldType PropertyTypeAttribute)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldColumnWidth 15)
+            )
+            (reportField 
+              (reportFieldName "ComponentField7")
+              (reportFieldType PropertyTypeAttribute)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldColumnWidth 15)
+            )
+            (reportField 
+              (reportFieldName "SimType")
+              (reportFieldType PropertyTypeAttribute)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldColumnWidth 7)
+            )
+            (reportField 
+              (reportFieldName "SimModel")
+              (reportFieldType PropertyTypeAttribute)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldColumnWidth 8)
+            )
+            (reportField 
+              (reportFieldName "SimFile")
+              (reportFieldType PropertyTypeAttribute)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldColumnWidth 7)
+            )
+            (reportField 
+              (reportFieldName "SimPins")
+              (reportFieldType PropertyTypeAttribute)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldColumnWidth 7)
+            )
+            (reportField 
+              (reportFieldName "SimNetlist")
+              (reportFieldType PropertyTypeAttribute)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldColumnWidth 10)
+            )
+            (reportField 
+              (reportFieldName "ComponentField1")
+              (reportFieldType PropertyTypeAttribute)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldColumnWidth 15)
+            )
+            (reportField 
+              (reportFieldName "ComponentField2")
+              (reportFieldType PropertyTypeAttribute)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldColumnWidth 15)
+            )
+            (reportField 
+              (reportFieldName "ComponentField3")
+              (reportFieldType PropertyTypeAttribute)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldColumnWidth 15)
+            )
+            (reportField 
+              (reportFieldName "ComponentField4")
+              (reportFieldType PropertyTypeAttribute)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldColumnWidth 15)
+            )
+            (reportField 
+              (reportFieldName "ComponentField5")
+              (reportFieldType PropertyTypeAttribute)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldColumnWidth 15)
+            )
+          )
+        )
+      )
+      (reportDefinition 
+        (reportName "Component Locations")
+        (reportExtension "cpl")
+        (reportType ReportTypeComponentsLocations)
+        (reportLinesPerPage 60)
+        (reportColumnWidth 15)
+        (reportHeader "")
+        (reportFooter "")
+        (reportShowCDFPreface True)
+        (reportShowColumnNames True)
+        (reportFieldsSections 
+          (reportFields 
+            (reportField 
+              (reportFieldName "RefDes")
+              (reportFieldType PropertyTypeRefdes)
+              (reportFieldSortOrder 1)
+              (reportFieldSortType ascending)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 6)
+            )
+            (reportField 
+              (reportFieldName "Layer")
+              (reportFieldType PropertyTypeLayer)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 5)
+            )
+            (reportField 
+              (reportFieldName "LocationX")
+              (reportFieldType PropertyTypeLocationX)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 9)
+            )
+            (reportField 
+              (reportFieldName "LocationY")
+              (reportFieldType PropertyTypeLocationY)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 9)
+            )
+            (reportField 
+              (reportFieldName "Rotation")
+              (reportFieldType PropertyTypeRotation)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 8)
+            )
+            (reportField 
+              (reportFieldName "Fixed")
+              (reportFieldType PropertyTypeFixed)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 5)
+            )
+          )
+        )
+      )
+      (reportDefinition 
+        (reportName "DRC Error Indicators")
+        (reportExtension "dei")
+        (reportType ReportTypeDrcErrors)
+        (reportLinesPerPage 60)
+        (reportColumnWidth 15)
+        (reportHeader "")
+        (reportFooter "")
+        (reportShowCDFPreface True)
+        (reportShowColumnNames True)
+        (reportFieldsSections 
+          (reportFields 
+            (reportField 
+              (reportFieldName "ErrorNum")
+              (reportFieldType PropertyTypeErrorNumber)
+              (reportFieldSortOrder 1)
+              (reportFieldSortType ascending)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 8)
+            )
+            (reportField 
+              (reportFieldName "LocationX")
+              (reportFieldType PropertyTypeLocationX)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 9)
+            )
+            (reportField 
+              (reportFieldName "LocationY")
+              (reportFieldType PropertyTypeLocationY)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 9)
+            )
+            (reportField 
+              (reportFieldName "Error")
+              (reportFieldType PropertyTypeError)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 5)
+            )
+          )
+        )
+      )
+      (reportDefinition 
+        (reportName "Glue Dot Locations")
+        (reportExtension "glu")
+        (reportType ReportTypeGlueDots)
+        (reportLinesPerPage 60)
+        (reportColumnWidth 15)
+        (reportHeader "")
+        (reportFooter "")
+        (reportShowCDFPreface True)
+        (reportShowColumnNames True)
+        (reportFieldsSections 
+          (reportFields 
+            (reportField 
+              (reportFieldName "RefDes")
+              (reportFieldType PropertyTypeRefdes)
+              (reportFieldSortOrder 1)
+              (reportFieldSortType ascending)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 6)
+            )
+            (reportField 
+              (reportFieldName "PatternName")
+              (reportFieldType PropertyTypePatternName)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 11)
+            )
+            (reportField 
+              (reportFieldName "Type")
+              (reportFieldType PropertyTypeType)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 4)
+            )
+            (reportField 
+              (reportFieldName "Value")
+              (reportFieldType PropertyTypeCompValue)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 5)
+            )
+            (reportField 
+              (reportFieldName "Layer")
+              (reportFieldType PropertyTypeLayer)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 5)
+            )
+            (reportField 
+              (reportFieldName "LocationX")
+              (reportFieldType PropertyTypeLocationX)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 9)
+            )
+            (reportField 
+              (reportFieldName "LocationY")
+              (reportFieldType PropertyTypeLocationY)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 9)
+            )
+          )
+        )
+      )
+      (reportDefinition 
+        (reportName "Library Contents")
+        (reportExtension "lct")
+        (reportType ReportTypeLibrary)
+        (reportLinesPerPage 60)
+        (reportColumnWidth 15)
+        (reportHeader "")
+        (reportFooter "")
+        (reportShowCDFPreface True)
+        (reportShowColumnNames True)
+      )
+      (reportDefinition 
+        (reportName "Pick and Place Locations")
+        (reportExtension "pnp")
+        (reportType ReportTypePickAndPlace)
+        (reportLinesPerPage 60)
+        (reportColumnWidth 15)
+        (reportHeader "")
+        (reportFooter "")
+        (reportShowCDFPreface True)
+        (reportShowColumnNames True)
+        (reportFieldsSections 
+          (reportFields 
+            (reportField 
+              (reportFieldName "RefDes")
+              (reportFieldType PropertyTypeRefdes)
+              (reportFieldSortOrder 1)
+              (reportFieldSortType ascending)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 6)
+            )
+            (reportField 
+              (reportFieldName "PatternName")
+              (reportFieldType PropertyTypePatternName)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 11)
+            )
+            (reportField 
+              (reportFieldName "Type")
+              (reportFieldType PropertyTypeType)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 4)
+            )
+            (reportField 
+              (reportFieldName "Value")
+              (reportFieldType PropertyTypeCompValue)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 5)
+            )
+            (reportField 
+              (reportFieldName "Layer")
+              (reportFieldType PropertyTypeLayer)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 5)
+            )
+            (reportField 
+              (reportFieldName "LocationX")
+              (reportFieldType PropertyTypeLocationX)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 9)
+            )
+            (reportField 
+              (reportFieldName "LocationY")
+              (reportFieldType PropertyTypeLocationY)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 9)
+            )
+            (reportField 
+              (reportFieldName "Rotation")
+              (reportFieldType PropertyTypeRotation)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 8)
+            )
+          )
+        )
+      )
+      (reportDefinition 
+        (reportName "Rooms")
+        (reportExtension "rom")
+        (reportType ReportTypeRooms)
+        (reportLinesPerPage 60)
+        (reportColumnWidth 15)
+        (reportHeader "")
+        (reportFooter "")
+        (reportShowCDFPreface True)
+        (reportShowColumnNames True)
+        (reportFieldsSections 
+          (reportFields 
+            (reportField 
+              (reportFieldName "Room")
+              (reportFieldType PropertyTypeRoom)
+              (reportFieldSortOrder 1)
+              (reportFieldSortType ascending)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 4)
+            )
+            (reportField 
+              (reportFieldName "Side")
+              (reportFieldType PropertyTypeBoardside)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 4)
+            )
+            (reportField 
+              (reportFieldName "Components")
+              (reportFieldType PropertyTypeComponents)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 10)
+            )
+          )
+          (reportFields 
+            (reportField 
+              (reportFieldName "Components")
+              (reportFieldType PropertyTypeComponents)
+              (reportFieldSortOrder 1)
+              (reportFieldSortType ascending)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 10)
+            )
+            (reportField 
+              (reportFieldName "Room")
+              (reportFieldType PropertyTypeRoom)
+              (reportFieldSortOrder 0)
+              (reportFieldSortType None)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 4)
+            )
+            (reportField 
+              (reportFieldName "Unassigned Components")
+              (reportFieldType PropertyTypeUnassignedComps)
+              (reportFieldSortOrder 2)
+              (reportFieldSortType ascending)
+              (reportFieldShowFlag True)
+              (reportFieldColumnWidth 21)
+            )
+          )
+        )
+      )
+      (reportDefinition 
+        (reportName "Statistics")
+        (reportExtension "sta")
+        (reportType ReportTypeStatistics)
+        (reportLinesPerPage 60)
+        (reportColumnWidth 20)
+        (reportHeader "")
+        (reportFooter "")
+        (reportShowCDFPreface True)
+        (reportShowColumnNames True)
+      )
+    )
+  )
+)

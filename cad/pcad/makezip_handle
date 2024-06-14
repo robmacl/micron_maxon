@@ -1,0 +1,33 @@
+#!/bin/sh
+tmpdir=/tmp/$2
+rm -r $tmpdir
+mkdir $tmpdir
+echo "Job name: " $2 >$tmpdir/READ.ME
+cat >>$tmpdir/read.me <<EOF
+TSK Top silkscreen
+TMS Top solder mask
+TOP Top copper
+GND Ground plane (negative)
+IN  Inner signal (handle job only)
+VDD Power plane (motor_drv job only)
+BOT Bottom copper
+BMS Bottom solder mask
+BSK Bottom silkscreen
+DRL NC drill
+NOT Notes & fabrication drawing
+BRD Board outline only
+
+
+Rob MacLachlan
+email: ram@ri.cmu.edu
+phone: 412-445-8113
+EOF
+
+for foo in TSK TMS TOP GND IN VDD BOT BMS BSK NOT BRD DRL;
+do
+  cp -p $1.$foo $tmpdir/$2.$foo
+done
+
+cd $tmpdir
+rm -f $2.ZIP
+zip $2.ZIP *

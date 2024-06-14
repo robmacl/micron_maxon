@@ -1,0 +1,49 @@
+P-CAD Bill of Materials                          sensor-r1-resolve.pcb
+
+======================================================================
+
+Count  ComponentName   RefDes          Value           Description    
+------ --------------- --------------- --------------- ---------------
+
+     4 CAP0805         C1              4.7pF           Capacitor      
+                       C2                                             
+                       C3                                             
+                       C6                                             
+     6 CAP1206         C10             1uF 25V         Capacitor      
+                       C11                                            
+                       C12                                            
+                       C13                                            
+                       C14                                            
+                       C15                                            
+     1 DL10            X1                                             
+     1 M_1PIN          P30             +15V                           
+     1 M_1PIN          P32             -15V                           
+     1 M_1PIN          P31             15V RET                        
+     1 M_1PIN          P37             GND                            
+     1 M_1PIN          P33             U+                             
+     1 M_1PIN          P34             U-                             
+     1 M_1PIN          P35             V+                             
+     1 M_1PIN          P36             V-                             
+     2 OPA2228         U1                                             
+                       U2                                             
+     2 RES0805         R6              3K                             
+                       R7                                             
+     4 RES0805         R2              10                             
+                       R3                                             
+                       R9                                             
+                       R11                                            
+     2 RES0805         R5              15K                            
+                       R8                                             
+     4 RES1210         R1              60K                            
+                       R4                                             
+                       R10                                            
+                       R12                                            
+     4 SMAJ_TVS_BIDIR  D2              10V                            
+                       D4                                             
+                       D5                                             
+                       D6                                             
+     2 SMBJ_TVS        D1              15V                            
+                       D3                                             
+     2 TANT_D          C4              47uF 25V        Radial Polarize
+                       C5                                             
+     1 TESTPOINT       TP1             GND             Test Point     

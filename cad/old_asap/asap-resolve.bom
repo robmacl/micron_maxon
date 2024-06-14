@@ -1,0 +1,144 @@
+P-CAD Bill of Materials                               asap-resolve.pcb
+
+======================================================================
+
+Count  ComponentName   RefDes          OrigRefDes      Value           Description     ComponentField1 ComponentField2 ComponentField3 ComponentField4 ComponentField5
+------ --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- ---------------
+
+     2 CAP100RP        C4                              100uF 25V       Radial Polarize                                                                                
+                       C5                                                                                                                                             
+     8 CAP200          C3                              2.7nF           Capacitor                                                                                      
+                       C16                                                                                                                                            
+                       C19                                                                                                                                            
+                       C23                                                                                                                                            
+                       C27                                                                                                                                            
+                       C31                                                                                                                                            
+                       C35                                                                                                                                            
+                       C39                                                                                                                                            
+     8 CAP200          C2                              5.6nF           Capacitor                                                                                      
+                       C15                                                                                                                                            
+                       C17                                                                                                                                            
+                       C20                                                                                                                                            
+                       C25                                                                                                                                            
+                       C28                                                                                                                                            
+                       C33                                                                                                                                            
+                       C36                                                                                                                                            
+     8 CAP200BOX       C1                              1uF             Capacitor                                                                                      
+                       C14                                                                                                                                            
+                       C18                                                                                                                                            
+                       C21                                                                                                                                            
+                       C26                                                                                                                                            
+                       C29                                                                                                                                            
+                       C34                                                                                                                                            
+                       C37                                                                                                                                            
+     1 HD68RA          U2                              1uF             Receptacle Head Positions: 68   Orientation: Ri Contact Materia Contact Plating Housing: Thermo
+     1 IDC2X8MRALATCH  P1                              PSD XZ          IDC Header                                                                                     
+     1 IDC2X8MRALATCH  P2                              PSD YZ          IDC Header                                                                                     
+     4 LF412           U1                                                                                                                                             
+                       U3                                                                                                                                             
+                       U4                                                                                                                                             
+                       U5                                                                                                                                             
+     1 M_1PIN          P33                             +5V                                                                                                            
+     1 M_1PIN          P34                             +5V RET                                                                                                        
+     1 M_1PIN          P30                             +15V                                                                                                           
+     1 M_1PIN          P32                             -15V                                                                                                           
+     1 M_1PIN          P31                             15V RET                                                                                                        
+     1 M_1PIN          P23                             AI HOLD                                                                                                        
+     1 M_1PIN          P3                              AO0                                                                                                            
+     1 M_1PIN          P4                              AO1                                                                                                            
+     1 M_1PIN          P5                              AO EXT                                                                                                         
+     1 M_1PIN          P29                             AO GND                                                                                                         
+     4 M_1PIN          P38                             CHAN0                                                                                                          
+                       P46                                                                                                                                            
+                       P47                                                                                                                                            
+                       P48                                                                                                                                            
+     1 M_1PIN          P40                             CTR0                                                                                                           
+     1 M_1PIN          P41                             CTR1                                                                                                           
+     1 M_1PIN          P22                             EXT STROBE                                                                                                     
+     1 M_1PIN          P16                             FREQ OUT                                                                                                       
+     1 M_1PIN          P28                             P0.0                                                                                                           
+     1 M_1PIN          P7                              P0.1                                                                                                           
+     1 M_1PIN          P26                             P0.2                                                                                                           
+     1 M_1PIN          P24                             P0.3                                                                                                           
+     1 M_1PIN          P6                              P0.4                                                                                                           
+     1 M_1PIN          P27                             P0.5                                                                                                           
+     1 M_1PIN          P8                              P0.6                                                                                                           
+     1 M_1PIN          P25                             P0.7                                                                                                           
+     1 M_1PIN          P10                             PFI0                                                                                                           
+     1 M_1PIN          P11                             PFI1                                                                                                           
+     1 M_1PIN          P21                             PFI2                                                                                                           
+     1 M_1PIN          P20                             PFI3                                                                                                           
+     1 M_1PIN          P19                             PFI4                                                                                                           
+     1 M_1PIN          P13                             PFI5                                                                                                           
+     1 M_1PIN          P14                             PFI6                                                                                                           
+     1 M_1PIN          P18                             PFI7                                                                                                           
+     1 M_1PIN          P17                             PFI8                                                                                                           
+     1 M_1PIN          P15                             PFI9                                                                                                           
+     1 M_1PIN          P35                             PROBE +5V                                                                                                      
+     1 M_1PIN          P36                             PROBE +5V RET                                                                                                  
+     1 M_1PIN          P42                             PROBE CHAN0                                                                                                    
+     1 M_1PIN          P43                             PROBE CHAN1                                                                                                    
+     1 M_1PIN          P44                             PROBE DIO0                                                                                                     
+     1 M_1PIN          P45                             PROBE DIO1                                                                                                     
+     1 M_1PIN          P39                             PROBE GND                                                                                                      
+     8 RES400          R2                              8.45K           Resistor                                                                                       
+                       R4                                                                                                                                             
+                       R8                                                                                                                                             
+                       R12                                                                                                                                            
+                       R14                                                                                                                                            
+                       R18                                                                                                                                            
+                       R20                                                                                                                                            
+                       R24                                                                                                                                            
+     8 RES400          R3                              12.4K           Resistor                                                                                       
+                       R6                                                                                                                                             
+                       R10                                                                                                                                            
+                       R11                                                                                                                                            
+                       R16                                                                                                                                            
+                       R17                                                                                                                                            
+                       R22                                                                                                                                            
+                       R23                                                                                                                                            
+     8 RES400          R1                              16K             Resistor                                                                                       
+                       R7                                                                                                                                             
+                       R9                                                                                                                                             
+                       R13                                                                                                                                            
+                       R15                                                                                                                                            
+                       R19                                                                                                                                            
+                       R21                                                                                                                                            
+                       R25                                                                                                                                            
+     4 RES400          R5                              100             Resistor                                                                                       
+                       R26                                                                                                                                            
+                       R27                                                                                                                                            
+                       R28                                                                                                                                            
+     4 SMAJ_TVS        D2                              5V                                                                                                             
+                       D4                                                                                                                                             
+                       D5                                                                                                                                             
+                       D6                                                                                                                                             
+     2 SMBJ_TVS        D1                              15V                                                                                                            
+                       D3                                                                                                                                             
+     8 TANT_C          C6                              4.7uF 25V                                                                                                      
+                       C7                                                                                                                                             
+                       C22                                                                                                                                            
+                       C24                                                                                                                                            
+                       C30                                                                                                                                            
+                       C32                                                                                                                                            
+                       C38                                                                                                                                            
+                       C40                                                                                                                                            
+     1 TESTPOINT       TP3                             +15V            Test Point                                                                                     
+     1 TESTPOINT       TP4                             -15V            Test Point                                                                                     
+     1 TESTPOINT       TP5                             GND             Test Point                                                                                     
+     4 TESTPOINT       TP1                             IN1             Test Point                                                                                     
+                       TP9                                                                                                                                            
+                       TP13                                                                                                                                           
+                       TP17                                                                                                                                           
+     4 TESTPOINT       TP6                             IN2             Test Point                                                                                     
+                       TP8                                                                                                                                            
+                       TP12                                                                                                                                           
+                       TP16                                                                                                                                           
+     4 TESTPOINT       TP2                             OUT1            Test Point                                                                                     
+                       TP11                                                                                                                                           
+                       TP15                                                                                                                                           
+                       TP19                                                                                                                                           
+     4 TESTPOINT       TP7                             OUT2            Test Point                                                                                     
+                       TP10                                                                                                                                           
+                       TP14                                                                                                                                           
+                       TP18                                                                                                                                           

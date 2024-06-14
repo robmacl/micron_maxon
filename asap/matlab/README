@@ -1,0 +1,118 @@
+10x10.dat
+10x5.dat
+30x3.dat
+35x5.dat
+psd_cal.dat
+rot12x15z80.dat
+    These are calibration test patterns used with
+    Micron\motion\client\asap_calibration.vi.   35x5.dat is the current
+    pattern for overall calibration using calibrate.m  psd_cal.dat is used for
+    PSD calibration, and rot12x15z80.dat is a probe error test pattern.
+
+calibrate_ref.dat
+calibrate_ref_1.dat
+calibrate_ref_100.dat
+calibrate_ref_21.dat
+    These files define the calibration pattern for manual calibration using
+    the manual 3-axis stage.  This is only a fallback if we don't have a
+    working motion system, or if we want to reanalyze old calibration data.
+
+K_inv_sym.m
+    This is not actually used, but provides a symbolic analysis of the K_inv
+    matrix used to map rays into pixel coordinates (the convention camera
+    projection matrix.)
+
+analyze_data.m
+analyze_vel.m
+read_calibrated_data.m
+    These are old scripts for reading raw ASAP amplitude data and applying
+    calibration.  This analysis mode has been largely supplanted by logging
+    binary trace data which contains position and pose info.
+
+apply_calibration.m
+rectify_sensor.m
+    Apply sensor calibration data.  apply_calibration applies the T, K ideal
+    camera model calibration to some data. rectify_sensor linearizes sensor
+    axis position data using lookup tables from sensor calibration.  If it is
+    used, then rectify_sensor should be done before apply_calibration.
+
+calibrate.m
+calibrate_3d.m
+calibrate_3d_objective.m
+cal_fixture_transform.m
+find_intersection.m
+find_k.m
+fixture_transform.m
+get_ray.m
+sensor_project.m
+tsai_calibrate.m
+    calibrate.m is the main entry point for doing calibration of the ASAP head
+    according to an ideal camera model.  Image plane distortions (mainly due
+    to the PSD) are dealt with by sensor_calibrate.m.  If there is no prior
+    calibration, then we default to using the Tsai C code calibration, which
+    is robust at finding an initial approximation of the camera poses.  
+    Perhaps the Matlab code could be convinced to work in this case.  You can
+    use the calibration for another serial # ASAP head, all you need is a
+    reasonable starting point.
+
+check_calibration.m
+plot_cal_sensor.m
+workspace_volume.m
+    check_calibration.m tests a calibration dataset against a calibration.  Mostly used to
+    visualize the calibration quality immediately after calibration.
+
+load_format.m
+load_cal_points.m
+read_data.m
+read_data_hex.m
+read_data_motion_v1.m
+read_data_motion_v2.m
+row_slicer.m
+    load_format.m is an internal entry point that loads calibration in a
+    number of old formats, as well as the current one.  Most functions will
+    default to the current format unless it is otherwise specified.
+
+nominal_scale.m
+normalize.m
+pad_ones.m
+poldec.m
+dir2rot.m
+rotvec.m
+rotx.m
+roty.m
+rotz.m
+tr2pvec.m
+tr2rpy.m
+pvec2tr.m
+rpy2tr.m
+    Some geometric utilities.  Many of these are from the Corke robotics toolboxes.
+
+mesh_points.m
+rot_mesh.m
+    Generate test patterns for calibration (the .dat files above).
+
+calibrate_sensors.m
+calibrate_sensor.m
+sensor_cal_objective.m
+    calibrate_sensors.m is the main entry point for sensor calibration.
+    Sensor calibration requires at least a rough camera calibration because it
+    corrects the residue that can't be absorbed into the camera parameters.
+    The two procedures are interacting.  A typical pattern is to do calibrate
+    with no sensor calibration, then do sensor calibration, then redo
+    calibrate.  The two calibrations shouldn't be alternated indefinitely
+    because the result may diverge.  
+
+probe_cal_objective.m
+probe_calibration.m
+
+sensor_correlation.m
+correlate_surfaces.m
+    This is some scrap code related to sensor calibration that allows you to
+    look at how the sensor error surfaces have changed due to some effect, or
+    to compare between sensors.  
+
+test_matrix.m
+write_matrix.m
+    write_matrix.m is a utility for writing out multidimensional matrices for
+    reading into labview.  There are corresponding labview VIs to read this
+    format.  This is used to write the calibration.dat file.

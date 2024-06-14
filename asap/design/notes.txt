@@ -1,0 +1,12 @@
+ASAP calibration ideas
+
+ -- Move away from using Tsai calibrate.  Instead use Matlab
+    lsqnonlin.
+ -- Calibrate each sensor seperately keeping LED normal radial to lens
+    center.  This minimizes contribution from probe error.
+ -- Calibrate probe model separately before external parameters or
+    simultaneously.
+ -- Using lots of points minimizes effect of motion stage errors.
+ -- Led pinhole mask.  Special small one for calibrate, rectangle for normal
+    operation.
+ -- Asap gain cal?  Probably submerged in psd nonlinearity.

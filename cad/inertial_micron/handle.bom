@@ -1,0 +1,52 @@
+P-CAD Bill of Materials                                     handle.sch
+
+======================================================================
+
+RefDes                    Count  ComponentName             Value                     Description               Part Number              
+------------------------- ------ ------------------------- ------------------------- ------------------------- -------------------------
+
+M1                             2 ACCEL_DUMMY                                                                                            
+M2                                                                                                                                      
+U7                             1 ADXL203                                                                                                
+U5                             1 ADXRS401                                                                                               
+FB1                            2 BEAD0805                                            Resistor                                           
+FB2                                                                                                                                     
+C7                             1 CAP0402                   1nF                       Capacitor                                          
+C4                             1 CAP0402                   7.1nF                     Capacitor                                          
+C9                             2 CAP0402                   10nF                      Capacitor                                          
+C12                                                                                                                                     
+C14                            2 CAP0402                   18nf                      Capacitor                                          
+C17                                                                                                                                     
+C13                            2 CAP0402                   27nF                      Capacitor                                          
+C16                                                                                                                                     
+C3                             1 CAP0402                   51nF                      Capacitor                                          
+C2                             7 CAP0402                   100nF                     Capacitor                                          
+C5                                                                                                                                      
+C15                                                                                                                                     
+C18                                                                                                                                     
+C19                                                                                                                                     
+C20                                                                                                                                     
+C21                                                                                                                                     
+C1                             1 CAP0402                   100pF                     Capacitor                                          
+C11                            2 CAP0805                   1uF                       25V X5R                   PCC2319CT                
+C22                                                                                                                                     
+P2                             1 CONN_1.25MM_9M                                                                                         
+U6                             1 LT1962                                                                                                 
+U4                             2 OPA2350E                                                                                               
+U8                                                                                                                                      
+R1                             1 RES0402                   1K                                                                           
+R2                             1 RES0402                   22                                                                           
+R7                             2 RES0402                   63.4K                                                                        
+R8                                                                                                                                      
+R5                             1 RES0805                   10                        anti surge thick film                              
+R3                             1 RES0805                   100                       anti surge thick film                              
+R6                             1 RES0805                   330                       anti surge thick film                              
+D1                             1 SMAJ_TVS                  15V                                                                          
+DA1                            1 SMS05T10                                                                                               
+U3                             1 SN74CBT3251                                         Analog Multiplexers/Demul                          
+U1                             1 SN74HC4040PWR                                       Asynchronous 12-Bit Binar                          
+D2                             1 SOT23_ZENER               15V                                                                          
+C10                            1 TANT_A                    10uF 10V                  Capacitor                                          
+U2                             1 TC4S584F                                                                                               
+TP1                            2 TESTPOINT                                           Test Point                                         
+TP2                                                                                                                                     

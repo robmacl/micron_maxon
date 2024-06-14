@@ -1,0 +1,78 @@
+; P-CAD 2000 Schematic Version 15.10.24 [C:\Documents and Settings\ram\My Documents\work\micron\piezo_amp\piezo.sch]--Thu Feb 14 16:40:03 2008
+NetNodeDelete "NET00004" "R1-1"
+NetNodeDelete "NET00007" "R1-2"
+NetNodeDelete "NET00006" "R4-3"
+NetNodeDelete "NET00006" "R4-2"
+NetNodeDelete "NET00007" "R4-1"
+CompDelete "R4"
+CompDelete "R1"
+NetDelete "NET00007"
+CompAttrModify "R2" "Value" "2K" "" "string" ""
+; P-CAD 2000 Schematic Version 15.10.24 [C:\Documents and Settings\ram\My Documents\work\micron\piezo_amp\piezo.sch]--Fri Feb 15 06:57:43 2008
+CompAttrModify "D3" "Value" "4.3V" "" "string" ""
+CompAttrModify "R19" "Value" "499K" "" "string" ""
+; P-CAD 2000 Schematic Version 15.10.24 [C:\Documents and Settings\ram\My Documents\work\micron\piezo_amp\piezo.sch]--Fri Feb 15 07:13:44 2008
+NetNodeDelete "HV+" "R23-B"
+NetNodeAdd "HV-" "R23-B"
+; P-CAD 2000 Schematic Version 15.10.24 [C:\Documents and Settings\ram\My Documents\work\micron\piezo_amp\piezo.sch]--Fri Feb 15 07:34:56 2008
+NetAdd "NET00068"
+NetNodeAdd "NET00068" "U1-6"
+NetNodeAdd "NET00068" "U1-7"
+NetAdd "NET00069"
+NetNodeAdd "NET00069" "U1-5"
+NetMerge "NET00069" "GNDA"
+NetDelete "NET00069"
+; P-CAD 2000 Schematic Version 15.10.24 [C:\Documents and Settings\ram\My Documents\work\micron\piezo_amp\piezo.sch]--Sun Feb 17 08:10:49 2008
+NetNodeDelete "NET00000" "D1-3"
+NetNodeDelete "NET00002" "D1-1"
+NetNodeDelete "NET00013" "D2-3"
+NetNodeDelete "NET00018" "D3-3"
+NetNodeDelete "NET00039" "D7-3"
+NetNodeDelete "NET00047" "D6-1"
+NetNodeDelete "GNDA" "D7-1"
+NetNodeDelete "GNDA" "D6-3"
+NetNodeDelete "NET00088" "D3-1"
+NetNodeDelete "NET00088" "D2-1"
+; P-CAD 2000 Schematic Version 15.10.24 [C:\Documents and Settings\ram\My Documents\work\micron\piezo_amp\piezo.sch]--Sun Feb 17 08:14:45 2008
+NetNodeAdd "NET00047" "D6-3"
+NetNodeAdd "GNDA" "D6-1"
+NetNodeAdd "GNDA" "D7-3"
+NetNodeAdd "NET00039" "D7-1"
+NetNodeAdd "NET00018" "D3-1"
+NetNodeAdd "NET00088" "D3-3"
+NetNodeAdd "NET00088" "D2-3"
+NetNodeAdd "NET00013" "D2-1"
+NetNodeAdd "NET00002" "D1-3"
+NetNodeAdd "NET00000" "D1-1"
+; P-CAD 2000 Schematic Version 15.10.24 [C:\Documents and Settings\ram\My Documents\work\micron\piezo_amp\piezo.sch]--Tue Mar 04 16:54:38 2008
+CompAdd "CAP0805" "C12" ""
+CompAttrAdd "C12" "Value" "100 nF" "" "string" ""
+CompAdd "CAP0805" "C13" "100 nF"
+NetNodeAdd "NET00047" "C12-1"
+NetNodeAdd "GNDA" "C12-2"
+NetNodeAdd "NET00039" "C13-1"
+NetNodeAdd "GNDA" "C13-2"
+; P-CAD 2000 Schematic Version 15.10.24 [C:\Documents and Settings\ram\My Documents\work\micron\piezo_amp\piezo.sch]--Tue Mar 04 17:39:29 2008
+CompReplace "R14" "RES400" "RES400RAD"
+CompAttrModify "R14" "Value" "100M" "" "string" ""
+CompReplace "R8" "RES400" "RES400RAD"
+CompAttrModify "R8" "Value" "10M" "" "string" ""
+CompReplace "R7" "RES400" "RES400RAD"
+CompAttrModify "R7" "Value" "10M" "" "string" ""
+; P-CAD 2000 Schematic Version 15.10.24 [C:\Documents and Settings\ram\My Documents\work\micron\piezo_amp\piezo.sch]--Tue Mar 04 17:56:14 2008
+; --------
+; Updated V monitor for higher bandwidth.
+CompAttrModify "C5" "Value" "33 nF" "" "string" ""
+CompAdd "CAP0805" "C14" ""
+NetNodeAdd "NET00053" "C14-1"
+NetNodeAdd "GNDA" "C14-2"
+CompAttrAdd "C14" "Value" "82 pF" "" "string" ""
+; P-CAD 2000 Schematic Version 15.10.24 [C:\Documents and Settings\ram\My Documents\work\micron\piezo_amp\piezo.sch]--Fri Apr 03 11:11:56 2009
+; --------
+; Updated comments, note unused capacitor.
+CompAttrModify "C3" "Value" "0pF" "" "string" ""
+; P-CAD 2000 Schematic Version 15.10.24 [C:\Documents and Settings\ram\My Documents\work\micron\piezo_amp\piezo.sch]--Fri Apr 03 11:12:33 2009
+; --------
+; C8,C9 = 10nF
+CompAttrModify "C9" "Value" "10 nF 1KV" "" "string" ""
+CompAttrModify "C8" "Value" "10 nF 1KV" "" "string" ""

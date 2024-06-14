@@ -1,0 +1,26 @@
+P-CAD Bill of Materials                              fpga-breakout.pcb
+
+======================================================================
+
+Count  ComponentName   RefDes          Value           Description    
+------ --------------- --------------- --------------- ---------------
+
+     2 CAP0402         C10             470nF           Capacitor      
+                       C11                                            
+     1 DIFF_RX4_TSSOP  U6              MAX3094                        
+     1 DIFF_TX4_TSSOP  U7              MAX3033                        
+     1 HD68RA          P100            NI R-series RDI Receptacle Head
+     1 IDC2X8M         P2              ASAP driver 0   IDC Header     
+     1 IDC2X8M         P3              ASAP driver 1   IDC Header     
+     1 IDC2X8M         P4              ASAP driver 2   IDC Header     
+     1 IDC2X10M        P1              Handle digital  IDC Header     
+     1 REGSOT223       U5              LT1117-3.3      3-Terminal Adju
+     1 RES0402         R8              137                            
+     1 RES0402         R10             196                            
+     4 RES0805         R7              82                             
+                       R9                                             
+                       R11                                            
+                       R12                                            
+     1 SMAJ_TVS        D1              SMAJ5.0A                       
+     2 TANT_B          C2              22uF 10V                       
+                       C3                                             

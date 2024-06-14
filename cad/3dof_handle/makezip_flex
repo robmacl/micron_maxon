@@ -1,0 +1,28 @@
+#!/bin/sh
+tmpdir=/tmp/$2
+rm -r $tmpdir
+mkdir $tmpdir
+echo "Job name: " $2 >$tmpdir/READ.ME
+cat >>$tmpdir/read.me <<EOF
+TOP 0.5 ounce copper
+BRD Flex board outline
+COV 1 mil polyimide coverlay
+FAB Fabrication drawing
+GLS 31 mil epoxy/class stiffener
+ALU 20 mil aluminum stiffener
+DRL NC drill
+
+
+Rob MacLachlan
+email: ram@ri.cmu.edu
+phone: 412-445-8113
+EOF
+
+for foo in TOP BRD COV FAB GLS ALU DRL;
+do
+  cp -p $1.$foo $tmpdir/$2.$foo
+done
+
+cd $tmpdir
+rm -f $2.ZIP
+zip $2.ZIP *
