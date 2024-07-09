@@ -484,6 +484,7 @@ InactivityTimeout 60
 			<Item Name="narrowband_response.vi" Type="VI" URL="../testing/narrowband_response.vi"/>
 			<Item Name="oct_ui.vi" Type="VI" URL="../testing/oct_ui.vi"/>
 			<Item Name="set_led_enable_test.vi" Type="VI" URL="../manipulator/squiggle/Host/set_led_enable_test.vi"/>
+			<Item Name="Simple UDP - Receiver.vi" Type="VI" URL="../../../Simple UDP - Receiver.vi"/>
 			<Item Name="spectrogram.vi" Type="VI" URL="../testing/spectrogram.vi"/>
 			<Item Name="sq_test.vi" Type="VI" URL="../manipulator/squiggle/Host/sq_test.vi"/>
 			<Item Name="sq_test_all.vi" Type="VI" URL="../manipulator/squiggle/Host/sq_test_all.vi"/>
@@ -526,6 +527,7 @@ InactivityTimeout 60
 		<Item Name="Micron_rt_vars.lvlib" Type="Library" URL="../Micron_rt_vars.lvlib"/>
 		<Item Name="array_3d_double.ctl" Type="VI" URL="../calibration/array_3d_double.ctl"/>
 		<Item Name="force_control_vars.lvlib" Type="Library" URL="../filtering/force/force_control_vars.lvlib"/>
+		<Item Name="sq_controller.vi" Type="VI" URL="../cancellation/sq_controller.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
@@ -995,7 +997,6 @@ InactivityTimeout 60
 			<Item Name="status_loop.vi" Type="VI" URL="../testing/status_loop.vi"/>
 			<Item Name="squiggle_write_all.vi" Type="VI" URL="../manipulator/squiggle/Host/squiggle_write_all.vi"/>
 			<Item Name="set_led_half_periods.vi" Type="VI" URL="../manipulator/squiggle/Host/set_led_half_periods.vi"/>
-			<Item Name="dynamic_mode.ctl" Type="VI" URL="../calibration/dynamic_mode.ctl"/>
 			<Item Name="vector_to_pose.vi" Type="VI" URL="../../../utilities/labview/vector_to_pose.vi"/>
 			<Item Name="magnitude_dbl.vi" Type="VI" URL="../../../utilities/labview/magnitude_dbl.vi"/>
 			<Item Name="crossProduct.vi" Type="VI" URL="../../../utilities/labview/crossProduct.vi"/>
@@ -1205,6 +1206,12 @@ InactivityTimeout 60
 			<Item Name="i2c_delta_t_stats.vi" Type="VI" URL="../manipulator/squiggle/Host/i2c_delta_t_stats.vi"/>
 			<Item Name="i2c_decode_status.vi" Type="VI" URL="../manipulator/squiggle/Host/i2c_decode_status.vi"/>
 			<Item Name="gang_controls.vi" Type="VI" URL="../manipulator/squiggle/Host/gang_controls.vi"/>
+			<Item Name="dynamic_mode.ctl" Type="VI" URL="../calibration/dynamic_mode.ctl"/>
+			<Item Name="decoupled_gains_vec.vi" Type="VI" URL="../cancellation/decoupled_gains_vec.vi"/>
+			<Item Name="split_modes_vec.vi" Type="VI" URL="../cancellation/split_modes_vec.vi"/>
+			<Item Name="decouple_modes.vi" Type="VI" URL="../cancellation/decouple_modes.vi"/>
+			<Item Name="IIR Cascade Filter PtbyPt Vec.vi" Type="VI" URL="../../../utilities/labview/IIR Cascade Filter PtbyPt Vec.vi"/>
+			<Item Name="recouple_modes.vi" Type="VI" URL="../cancellation/recouple_modes.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Micron" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
