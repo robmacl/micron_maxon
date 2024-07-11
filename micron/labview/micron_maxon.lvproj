@@ -528,6 +528,7 @@ InactivityTimeout 60
 		<Item Name="array_3d_double.ctl" Type="VI" URL="../calibration/array_3d_double.ctl"/>
 		<Item Name="force_control_vars.lvlib" Type="Library" URL="../filtering/force/force_control_vars.lvlib"/>
 		<Item Name="sq_controller.vi" Type="VI" URL="../cancellation/sq_controller.vi"/>
+		<Item Name="lights_swap.vi" Type="VI" URL="../../../lights_swap.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
