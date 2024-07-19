@@ -529,6 +529,7 @@ InactivityTimeout 60
 		<Item Name="force_control_vars.lvlib" Type="Library" URL="../filtering/force/force_control_vars.lvlib"/>
 		<Item Name="sq_controller.vi" Type="VI" URL="../cancellation/sq_controller.vi"/>
 		<Item Name="lights_swap.vi" Type="VI" URL="../../../lights_swap.vi"/>
+		<Item Name="out_pivot_display.vi" Type="VI" URL="../../../out_pivot_display.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
@@ -1092,8 +1093,6 @@ InactivityTimeout 60
 			<Item Name="select_pose_waveforms.vi" Type="VI" URL="../testing/select_pose_waveforms.vi"/>
 			<Item Name="error_w_context.vi" Type="VI" URL="../testing/error_w_context.vi"/>
 			<Item Name="squiggle_calibrate.vi" Type="VI" URL="../manipulator/squiggle/Host/squiggle_calibrate.vi"/>
-			<Item Name="sub_manipulator_command.vi" Type="VI" URL="../manipulator/squiggle/Host/sub_manipulator_command.vi"/>
-			<Item Name="sqiggle_write_n.vi" Type="VI" URL="../manipulator/squiggle/Host/sqiggle_write_n.vi"/>
 			<Item Name="recenter.vi" Type="VI" URL="../manipulator/squiggle/Host/recenter.vi"/>
 			<Item Name="Delay Vec.vi" Type="VI" URL="../../../utilities/labview/Delay Vec.vi"/>
 			<Item Name="check_cancellation_on.vi" Type="VI" URL="../testing/check_cancellation_on.vi"/>
