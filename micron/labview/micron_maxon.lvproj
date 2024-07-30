@@ -530,6 +530,7 @@ InactivityTimeout 60
 		<Item Name="sq_controller.vi" Type="VI" URL="../cancellation/sq_controller.vi"/>
 		<Item Name="lights_swap.vi" Type="VI" URL="../../../lights_swap.vi"/>
 		<Item Name="out_pivot_display.vi" Type="VI" URL="../../../out_pivot_display.vi"/>
+		<Item Name="tip_light_error_test.vi" Type="VI" URL="../calibration/tip_light_error_test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
