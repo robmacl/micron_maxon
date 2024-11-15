@@ -603,6 +603,20 @@
 			<Property Name="type" Type="Str">Global</Property>
 			<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"1!A!!!!!!#!!V!#1!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"4;7ZH&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
 		</Item>
+		<Item Name="Maxon data" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Global</Property>
+			<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+			<Property Name="Real-Time Features:ArrayLength" Type="Str">2</Property>
+			<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+			<Property Name="Real-Time Features:DatapointsInWaveform" Type="Str">1</Property>
+			<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+			<Property Name="type" Type="Str">Global</Property>
+			<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"(1Q!!!"1!A!!!!!!#!"6!#1!/:'FN:7ZT;7^O)(.J?G5!!":!1!!#``````````]!!!6"=H*B?1!"!!%!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
 		<Item Name="Start trace" Type="Variable">
 			<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 			<Property Name="Global:EnableTimestamp" Type="Str">False</Property>

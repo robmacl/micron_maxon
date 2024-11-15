@@ -19,7 +19,7 @@ const int micron_link_kf_degraded_flag = 15;
 
 const float micron_trace_data_magic = 123.125000f;
 const float micron_trace_data_version = 1.300000f;
-const int micron_trace_length = 64;
+const int micron_trace_length = 75;
 
 struct MicronRecvPacket {
     float position_tip[3];
@@ -86,5 +86,16 @@ struct MicronRecvPacket {
     float handle_angle_rates[3];
     float handle_pos_residue[3];
     float handle_angle_residue[3];
+    float manip_status_word_0[3];
+    float manip_status_word_1[3];
+    float manip_error_code_0[3];
+    float manip_error_code_1[3];
+    float manip_position_0[3];
+    float manip_position_1[3];
+    float manip_velocity_0[3];
+    float manip_velocity_1[3];
+    float manip_current_0[3];
+    float manip_current_1[3];
+    float manip_control[3];
     unsigned int sequence_num;
     int trace_index;

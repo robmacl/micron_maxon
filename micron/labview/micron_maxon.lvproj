@@ -62,6 +62,7 @@
 	<Property Name="varPersistentID:{6D13F552-B1C0-442D-9E39-C9B2C2BE4E14}" Type="Ref">/Micron/Micron_rt_vars.lvlib/Status/Goal force</Property>
 	<Property Name="varPersistentID:{6EF88364-1B0B-4595-BE6F-0D07716AEE3E}" Type="Ref">/My Computer/Micron_rt_vars.lvlib/ASAP/ASAP sample interval</Property>
 	<Property Name="varPersistentID:{72635D09-B42D-45C1-BCDF-44746E429F2A}" Type="Ref">/Micron/Micron_rt_vars.lvlib/ASAP/ASAP signals</Property>
+	<Property Name="varPersistentID:{72C0B9C6-946F-449A-8ACE-F19AC8F7804F}" Type="Ref">/Micron/Micron_rt_vars.lvlib/Trace/Maxon data</Property>
 	<Property Name="varPersistentID:{7383E793-EA71-4185-9E9E-6EBECD04A5CE}" Type="Ref">/My Computer/Micron_rt_vars.lvlib/Trace/Digital data</Property>
 	<Property Name="varPersistentID:{739CFA1E-AA87-4D52-BADC-856C4C27D628}" Type="Ref">/My Computer/Micron_rt_vars.lvlib/Trace/V limiter out</Property>
 	<Property Name="varPersistentID:{742A6D9D-8129-4A6E-BF9A-39BF91518857}" Type="Ref">/Micron/Micron_rt_vars.lvlib/Status/Speedup - network</Property>
@@ -91,6 +92,7 @@
 	<Property Name="varPersistentID:{A4BBB3A8-5980-4415-B3B8-FA78D9E6C0DB}" Type="Ref">/My Computer/Micron_rt_vars.lvlib/Trace/Extra trace data</Property>
 	<Property Name="varPersistentID:{A83C7448-7A41-46B7-B9F5-483A82B7C8DA}" Type="Ref">/Micron/Micron_rt_vars.lvlib/Status/Log error</Property>
 	<Property Name="varPersistentID:{A9EB8457-6DF8-4BEF-AC39-AF61DF2FCB7E}" Type="Ref">/My Computer/Micron_rt_vars.lvlib/Status/Position saturation</Property>
+	<Property Name="varPersistentID:{AD3C8F86-A81F-4319-B77C-B6FCBD751786}" Type="Ref">/My Computer/Micron_rt_vars.lvlib/Trace/Maxon data</Property>
 	<Property Name="varPersistentID:{AD552C4A-D518-49FA-AD36-BB2E291423A5}" Type="Ref">/Micron/motion_vars.lvlib/Motion command</Property>
 	<Property Name="varPersistentID:{B0E21754-1C49-4CB7-8E59-043BC3FD1DC8}" Type="Ref">/My Computer/Micron_rt_vars.lvlib/Trace/Trace reset</Property>
 	<Property Name="varPersistentID:{B19C29E7-7BA2-4DFE-B84B-4657A4270A94}" Type="Ref">/Micron/Micron_rt_vars.lvlib/ASAP/ASAP data</Property>
@@ -484,7 +486,6 @@ InactivityTimeout 60
 			<Item Name="narrowband_response.vi" Type="VI" URL="../testing/narrowband_response.vi"/>
 			<Item Name="oct_ui.vi" Type="VI" URL="../testing/oct_ui.vi"/>
 			<Item Name="set_led_enable_test.vi" Type="VI" URL="../manipulator/squiggle/Host/set_led_enable_test.vi"/>
-			<Item Name="Simple UDP - Receiver.vi" Type="VI" URL="../../../Simple UDP - Receiver.vi"/>
 			<Item Name="spectrogram.vi" Type="VI" URL="../testing/spectrogram.vi"/>
 			<Item Name="sq_test.vi" Type="VI" URL="../manipulator/squiggle/Host/sq_test.vi"/>
 			<Item Name="sq_test_all.vi" Type="VI" URL="../manipulator/squiggle/Host/sq_test_all.vi"/>
@@ -531,6 +532,7 @@ InactivityTimeout 60
 		<Item Name="lights_swap.vi" Type="VI" URL="../../../lights_swap.vi"/>
 		<Item Name="out_pivot_display.vi" Type="VI" URL="../../../out_pivot_display.vi"/>
 		<Item Name="tip_light_error_test.vi" Type="VI" URL="../calibration/tip_light_error_test.vi"/>
+		<Item Name="manip_status_test.vi" Type="VI" URL="../../../manip_status_test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>

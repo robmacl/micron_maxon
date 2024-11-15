@@ -19,7 +19,7 @@ micron_link_kf_degraded_flag = 15;
 
 micron_trace_data_magic = 123.125000;
 micron_trace_data_version = 1.300000;
-micron_trace_length = 64;
+micron_trace_length = 75;
 
 micron_position_tip = 1;
 micron_position_rcm = 2;
@@ -85,3 +85,14 @@ micron_handle_angles = 61;
 micron_handle_angle_rates = 62;
 micron_handle_pos_residue = 63;
 micron_handle_angle_residue = 64;
+micron_manip_status_word_0 = 65;
+micron_manip_status_word_1 = 66;
+micron_manip_error_code_0 = 67;
+micron_manip_error_code_1 = 68;
+micron_manip_position_0 = 69;
+micron_manip_position_1 = 70;
+micron_manip_velocity_0 = 71;
+micron_manip_velocity_1 = 72;
+micron_manip_current_0 = 73;
+micron_manip_current_1 = 74;
+micron_manip_control = 75;
