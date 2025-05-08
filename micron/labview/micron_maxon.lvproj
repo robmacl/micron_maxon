@@ -481,10 +481,11 @@ InactivityTimeout 60
 			<Item Name="depth_servo_ui.vi" Type="VI" URL="../filtering/depth_servo_ui.vi"/>
 			<Item Name="frequency_response.vi" Type="VI" URL="../testing/frequency_response.vi"/>
 			<Item Name="Get TimeStamp from NTP.vi" Type="VI" URL="../initialization/Get TimeStamp from NTP.vi"/>
+			<Item Name="lights_swap.vi" Type="VI" URL="../../../lights_swap.vi"/>
 			<Item Name="log_watcher.vi" Type="VI" URL="../testing/log_watcher.vi"/>
-			<Item Name="manip_status_loop.vi" Type="VI" URL="../manipulator/squiggle/Host/manip_status_loop.vi"/>
 			<Item Name="narrowband_response.vi" Type="VI" URL="../testing/narrowband_response.vi"/>
 			<Item Name="oct_ui.vi" Type="VI" URL="../testing/oct_ui.vi"/>
+			<Item Name="out_pivot_display.vi" Type="VI" URL="../../../out_pivot_display.vi"/>
 			<Item Name="set_led_enable_test.vi" Type="VI" URL="../manipulator/squiggle/Host/set_led_enable_test.vi"/>
 			<Item Name="spectrogram.vi" Type="VI" URL="../testing/spectrogram.vi"/>
 			<Item Name="sq_test.vi" Type="VI" URL="../manipulator/squiggle/Host/sq_test.vi"/>
@@ -495,6 +496,7 @@ InactivityTimeout 60
 			<Item Name="strobe.vi" Type="VI" URL="../testing/strobe.vi"/>
 			<Item Name="sweeper.vi" Type="VI" URL="../testing/sweeper.vi"/>
 			<Item Name="test_asap_coupling.vi" Type="VI" URL="../calibration/test_asap_coupling.vi"/>
+			<Item Name="tip_light_error_test.vi" Type="VI" URL="../calibration/tip_light_error_test.vi"/>
 		</Item>
 		<Item Name="calibration" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -512,12 +514,11 @@ InactivityTimeout 60
 			<Item Name="asap_micron_loop.vi" Type="VI" URL="../cancellation/asap_micron_loop.vi"/>
 			<Item Name="ASAP_SubVI_rt.vi" Type="VI" URL="../../../asap/labview/main/ASAP_SubVI_rt.vi"/>
 			<Item Name="gradient_descent.vi" Type="VI" URL="../../../utilities/labview/gradient_descent.vi"/>
-			<Item Name="light_decoupling.vi" Type="VI" URL="../../../asap/labview/geometry/light_decoupling.vi"/>
 			<Item Name="micron_globals.vi" Type="VI" URL="../initialization/micron_globals.vi"/>
 			<Item Name="micron_update.vi" Type="VI" URL="../cancellation/micron_update.vi"/>
-			<Item Name="pessimize_objective.vi" Type="VI" URL="../testing/pessimize_objective.vi"/>
 			<Item Name="probe_point.ctl" Type="VI" URL="../testing/probe_point.ctl"/>
 			<Item Name="safety_loop.vi" Type="VI" URL="../testing/safety_loop.vi"/>
+			<Item Name="sq_controller.vi" Type="VI" URL="../cancellation/sq_controller.vi"/>
 			<Item Name="ui_globals.vi" Type="VI" URL="../testing/ui_globals.vi"/>
 			<Item Name="ui_override.vi" Type="VI" URL="../testing/ui_override.vi"/>
 		</Item>
@@ -526,13 +527,8 @@ InactivityTimeout 60
 		<Item Name="log_logger.vi" Type="VI" URL="../testing/log_logger.vi"/>
 		<Item Name="motion_vars.lvlib" Type="Library" URL="../../../motion/motion_vars.lvlib"/>
 		<Item Name="Micron_rt_vars.lvlib" Type="Library" URL="../Micron_rt_vars.lvlib"/>
-		<Item Name="array_3d_double.ctl" Type="VI" URL="../calibration/array_3d_double.ctl"/>
 		<Item Name="force_control_vars.lvlib" Type="Library" URL="../filtering/force/force_control_vars.lvlib"/>
-		<Item Name="sq_controller.vi" Type="VI" URL="../cancellation/sq_controller.vi"/>
-		<Item Name="lights_swap.vi" Type="VI" URL="../../../lights_swap.vi"/>
-		<Item Name="out_pivot_display.vi" Type="VI" URL="../../../out_pivot_display.vi"/>
-		<Item Name="tip_light_error_test.vi" Type="VI" URL="../calibration/tip_light_error_test.vi"/>
-		<Item Name="manip_status_test.vi" Type="VI" URL="../../../manip_status_test.vi"/>
+		<Item Name="manip_status_loop_maxon.vi" Type="VI" URL="../manipulator/Maxon/manip_status_loop_maxon.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
@@ -1215,6 +1211,10 @@ InactivityTimeout 60
 			<Item Name="decouple_modes.vi" Type="VI" URL="../cancellation/decouple_modes.vi"/>
 			<Item Name="IIR Cascade Filter PtbyPt Vec.vi" Type="VI" URL="../../../utilities/labview/IIR Cascade Filter PtbyPt Vec.vi"/>
 			<Item Name="recouple_modes.vi" Type="VI" URL="../cancellation/recouple_modes.vi"/>
+			<Item Name="array_3d_double.ctl" Type="VI" URL="../calibration/array_3d_double.ctl"/>
+			<Item Name="pessimize_objective.vi" Type="VI" URL="../testing/pessimize_objective.vi"/>
+			<Item Name="light_decoupling.vi" Type="VI" URL="../../../asap/labview/geometry/light_decoupling.vi"/>
+			<Item Name="manip_status_loop.vi" Type="VI" URL="../manipulator/squiggle/Host/manip_status_loop.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Micron" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
