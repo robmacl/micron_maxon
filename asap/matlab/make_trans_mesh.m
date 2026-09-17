@@ -25,8 +25,9 @@ function make_trans_mesh (out_file, x, y, z, spacing, point_toward, rot_from)
 %    make_trans_mesh('psd_cal_10.dat', 10, 10, 1, 6, [0 0 204.2], [0 0 1])
 %    make_trans_mesh('psd_cal.dat', 20, 20, 1, 48/19, [0 0 204.2], [0 0 1])
 
+  
 if (nargin < 6)
-  point_torward = [];
+  point_toward = [];
 end
 
 if (nargin < 7)
